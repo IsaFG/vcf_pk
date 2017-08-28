@@ -3,34 +3,65 @@
 # http://bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/{category}/{subcategory}/{id}/{resource}?{filters}
 # For example, we have this link :
 # "bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/feature/gene/BRCA2,BRCA1,KRAS/info")
+# "bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/genomic/region/1:18149476-18149476/gene"
 # this REST call will get all the INFO of the gene BRCA2,BRCA1,KRAS of human in the latest version.
 
 # Vamos a probar un par de paquetes para leer vcf: vcfR y VariantAnnotation de bioconductor
 # en este script sera VariantAnnotation
 
+##########################################
 ## OPCIONAL, PARA INSTALAR LA LIBRERIA
-source("https://bioconductor.org/biocLite.R")
+source("https://bioconductor.org/biocLite.R") 
 biocLite("VariantAnnotation")
 biocLite("GenomicAlignments")
+biocLite("snpStats")
+##########################################
 
 # cargar la libreria
 library(GenomicAlignments)
 library(VariantAnnotation)
 
-# EJEMPLO SACADO DEL MANUAL
+##################################
+# EJEMPLO SACADO DEL MANUAL DE VARIANT ANNOTATION
 # la funcion system.file no pertenece a este paquete.
 # tan solo se dedica a buscar la verdadera ubicacion del archivo que se usa como ejemplo
 fl <- system.file("extdata", "chr22.vcf.gz", package="VariantAnnotation")
+# fl # esto para ver cual es el link por pantalla
 # Data are parsed into a VCF object with readVcf.
 vcf1 <- readVcf(fl, "hg19")
 vcf1
-fl
 header(vcf1)
-head(rowRanges(vcf1), 3)
+headRowRangeVCF1 <- head(rowRanges(vcf1), 3)
+headRowRangeVCF1
+##################################
 
 # intentando mi vcf
 my_vcf <- "C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\R_2015_01_27_14_48_49_user_XEN-66-Haloplex_316_Nefro_pool24_124_2305.vcf"
 vcf2 <- readVcf(my_vcf, "hg19")
 vcf2
+# info del cabezal del VCF
 header(vcf2)
-head(rowRanges(vcf2), 3)
+
+# objecto GRange con las tres primeras variantes
+headRowRangeVCF2 <- head(rowRanges(vcf2), 3)
+headRowRangeVCF2
+
+# objecto GRange con la primera variante
+head(rowRanges(vcf2), 1)
+
+#intento de extraccion del cromosoma + la posicion:
+# cromosoma :
+seqnames_ex1 <- seqnames(head(rowRanges(vcf2), 1))
+seqnames_ex1
+
+# posicion:
+ranges_ex1 <- ranges(head(rowRanges(vcf2), 1))
+ranges_ex1
+start(ranges_ex1)
+
+# extraer el rango genomico
+granges(headRowRangeVCF2)
+
+# crear una matriz de genotipos
+vcfmat2 <- genotypeToSnpMatrix(vcf2)
+vcfmat2
