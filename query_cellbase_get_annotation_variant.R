@@ -1,7 +1,7 @@
 library(RCurl)
 library(jsonlite)
 
-# guardar el enlace en el objeto query. Para eso se usa la funcion geturl de Rcurl, que descarga URLs
+# Guardar el enlace en el objeto query. Para eso se usa la funcion geturl de Rcurl, que descarga URLs
 # query<-getURL("bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/feature/gene/BRCA2,BRCA1,KRAS/info")
 # this REST call will get all the INFO of the gene BRCA2,BRCA1,KRAS of human in the latest version.
 

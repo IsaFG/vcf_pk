@@ -11,28 +11,20 @@
 
 ##########################################
 ## OPCIONAL, PARA INSTALAR LA LIBRERIA
-source("https://bioconductor.org/biocLite.R") 
+source("https://bioconductor.org/biocLite.R")
 biocLite("VariantAnnotation")
 biocLite("GenomicAlignments")
 biocLite("snpStats")
+install.packages("tibble")
 ##########################################
 
-# cargar la libreria
+# cargar las librerias
 library(GenomicAlignments)
 library(VariantAnnotation)
 
 ##################################
 # EJEMPLO SACADO DEL MANUAL DE VARIANT ANNOTATION
-# la funcion system.file no pertenece a este paquete.
-# tan solo se dedica a buscar la verdadera ubicacion del archivo que se usa como ejemplo
-fl <- system.file("extdata", "chr22.vcf.gz", package="VariantAnnotation")
-# fl # esto para ver cual es el link por pantalla
-# Data are parsed into a VCF object with readVcf.
-vcf1 <- readVcf(fl, "hg19")
-vcf1
-header(vcf1)
-headRowRangeVCF1 <- head(rowRanges(vcf1), 3)
-headRowRangeVCF1
+# Ver en el manual y en el archivo VariantAnnotation_1.R
 ##################################
 
 # intentando mi vcf
@@ -53,15 +45,41 @@ head(rowRanges(vcf2), 1)
 # cromosoma :
 seqnames_ex1 <- seqnames(head(rowRanges(vcf2), 1))
 seqnames_ex1
+# determinamos que clase es
+sapply(seqnames_ex1, class)
+# es un rle object
 
 # posicion:
 ranges_ex1 <- ranges(head(rowRanges(vcf2), 1))
 ranges_ex1
 start(ranges_ex1)
 
-# extraer el rango genomico
-granges(headRowRangeVCF2)
+############# ESTO PUEDE SER UTIL #############
+# extraer el rango genomico (cromosoma + posicion)
+Grangesvcf2 <- granges(headRowRangeVCF2)
+Grangesvcf2
+as.character(seqnames(Grangesvcf2))
+as.character(ranges(Grangesvcf2))
+###############################################
+
+
+# lista de todos los alelos de referencia
+ref(vcf2)[1:5]
+
+# lista de todos los alelos alterados
+alt(vcf2)[1:5]
+
+# vector numerico con las cualidades QUAL
+qual(vcf2)[1:5]
+
+# numero y lista de etiquetas que salen en el campo FORMAT
+geno(vcf2)
+# podemos averiguar la clase de esas etiquetas
+sapply(geno(vcf2), class)
 
 # crear una matriz de genotipos
 vcfmat2 <- genotypeToSnpMatrix(vcf2)
 vcfmat2
+
+sapply(granges(headRowRangeVCF2), class)
+seqnames(granges(headRowRangeVCF2))
