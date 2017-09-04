@@ -6,7 +6,7 @@
 # "bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/genomic/region/1:18149476-18149476/gene"
 # these REST call will get all the INFO of the gene BRCA2,BRCA1,KRAS of human in the latest version.
 
-##########################################
+###########################################
 ## OPTIONAL : TO INSTALL THE LIBRARIES TO BE USE
 source("https://bioconductor.org/biocLite.R")
 biocLite("VariantAnnotation")
@@ -20,6 +20,9 @@ library(GenomicAlignments)
 library(VariantAnnotation)
 
 ############################################
+# DEfine the class
+reading_vcf <- 
+
 # METHOD : EXTRACT THE VCF
 # Extract the VCF to an object type "CollapsedVCF" with VariantAnnotation
 extractVCF <- function(vcfname) {
@@ -72,6 +75,7 @@ vcfDataframe <- get_dataframe(vcfGRanges)
 # print info header
 header(vcf_extracted)
 
+# print the GRange object and the obtained dataframe
 vcfGRanges
 vcfDataframe
 
