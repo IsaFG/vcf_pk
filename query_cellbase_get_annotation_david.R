@@ -8,7 +8,10 @@ library(jsonlite)
 query<-getURL("bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/feature/gene/BRCA2,BRCA1,KRAS/info")
 # this REST call will get all the INFO of the gene BRCA2,BRCA1,KRAS of human in the latest version.
 # esta direccion se puede pegar en el navegador para ver la pinta que tiene
-query
+
+# TEST CON OTRA URL
+# query <-getURL("bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/genomic/region/1:18149476-18149476/gene")
+ query
 
 # almacenamos el contenido json de la url en un objeto
 # este objeto contiene pues toda la informacion de los genes solicitados
