@@ -1,0 +1,16 @@
+{
+    "myObject":
+	{
+        "name":"obi wan kenobi",
+        "weapons":"lightsaber",
+        "specialPowers":"the force"
+    }
+}
+[/code
+
+[code lang="js"]
+This is a JSON object which contains 
+{
+    "Africa":{
+
+}
