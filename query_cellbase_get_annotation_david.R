@@ -11,11 +11,13 @@ query<-getURL("bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/f
 
 # TEST CON OTRA URL
 # query <-getURL("bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/latest/hsapiens/genomic/region/1:18149476-18149476/gene")
- query
+# en esta query tenemos lo que es el JSON. Tipo : Large character
+query # podemos mostrar el JSON en pantalla
 
-# almacenamos el contenido json de la url en un objeto
+# almacenamos el contenido json de la url en un objeto tipo lista
 # este objeto contiene pues toda la informacion de los genes solicitados
 querydf<-fromJSON(query)
+# querydf # esto cuelga R
 
 ## NOTA : warning, error y response estan en la primera linea de la URL
 ## NOTA : el contenido response es todo el resto
@@ -23,11 +25,10 @@ querydf<-fromJSON(query)
 query_warnings<-querydf$warning
 #Get any errors produced by the query
 query_errors<-querydf$error
+
 # conseguir la respuesta a la query
-query_result<-querydf$response
-
 # nos da un query_result de 3 observaciones (los genes) de 9 variables
-
+query_result<-querydf$response
 # query_result #esto cuelga R
 
 # Create a table with the number of responses from each of the queries:

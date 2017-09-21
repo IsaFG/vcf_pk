@@ -44,17 +44,7 @@
 library(RCurl)
 library(jsonlite)
 
-################# METHODS AND FUNCTIONS #############################  # Filter from the result list the output of those queries that produced no result
-queries_with_results_v<- rowSums(num_responses[,c(2,3)])>0
-write.table(queries_with_results_v,"4.queries_with_results_GENE_1.txt",sep="\t",row.names=FALSE)
-# get the results
-retrieved_results_v<-query_results$result[queries_with_results_v]
-# write.table(retrieved_results_v,"3.retrieved_results.txt",sep="\t",row.names=FALSE)
-# get the table
-results_table <-data.frame(retrieved_results_v[[1]]$id,retrieved_results_v[[1]]$name,retrieved_results_v[[1]]$description,retrieved_results_v[[1]]$drugInteractions)
-# TEST PRINT IN TXT
-write.table(results_table,"5.RESTFUL_call_GENE_1.txt",sep="\t",row.names=FALSE)
-return (results_table)
+################# METHODS AND FUNCTIONS ############################# 
 # METHOD 1 : insert crom and range in the URL
 # NOTE : the crom and the range will come from another file,
 # but in this version, they are preconfigurate
@@ -112,7 +102,6 @@ get_num_responses <- function(query_results){
 #   return (results_table)
 # }
 
-
 ################# CALLS TO FUNCTIONS #############################
 # create and obtain the URL
 restfull_URL <- get_RESTURL()
@@ -138,7 +127,6 @@ results_table <-data.frame(retrieved_results_v[[1]]$id,retrieved_results_v[[1]]$
 # TEST PRINT IN TXT
 write.table(results_table,"5.RESTFUL_call_GENE_1.txt",sep="\t",row.names=FALSE)
 # return (results_table)
-
 
 ################# SOME TEST PRINTS #############################
 # TEST PRINT IN TXT
