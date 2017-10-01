@@ -1,0 +1,291 @@
+$`/{version}/meta`
+[1] "get"
+
+$`/{version}/meta/about`
+[1] "get"
+
+$`/{version}/meta/ping`
+[1] "get"
+
+$`/{version}/meta/species`
+[1] "get"
+
+$`/{version}/meta/{category}`
+[1] "get"
+
+$`/{version}/meta/{species}/versions`
+[1] "get"
+
+$`/{version}/{species}`
+[1] "get"
+
+$`/{version}/{species}/clinical`
+[1] "get"
+
+$`/{version}/{species}/clinical/variant/allele_origin_labels`
+[1] "get"
+
+$`/{version}/{species}/clinical/variant/clinsig_labels`
+[1] "get"
+
+$`/{version}/{species}/clinical/variant/consistency_labels`
+[1] "get"
+
+$`/{version}/{species}/clinical/variant/mode_inheritance_labels`
+[1] "get"
+
+$`/{version}/{species}/clinical/variant/search`
+[1] "get"
+
+$`/{version}/{species}/clinical/variant/type`
+[1] "get"
+
+$`/{version}/{species}/feature/clinical`
+[1] "get"
+
+$`/{version}/{species}/feature/clinical/clinvar-significance`
+[1] "get"
+
+$`/{version}/{species}/feature/clinical/search`
+[1] "get"
+
+$`/{version}/{species}/feature/gene`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/biotype`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/count`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/first`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/group`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/list`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/model`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/search`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/clinical`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/info`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/ppi`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/protein`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/snp`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/tfbs`
+[1] "get"
+
+$`/{version}/{species}/feature/gene/{geneId}/transcript`
+[1] "get"
+
+$`/{version}/{species}/feature/id`
+[1] "get"
+
+$`/{version}/{species}/feature/id/dbnames`
+[1] "get"
+
+$`/{version}/{species}/feature/id/model`
+[1] "get"
+
+$`/{version}/{species}/feature/id/{id}/contains`
+[1] "get"
+
+$`/{version}/{species}/feature/id/{id}/gene`
+[1] "get"
+
+$`/{version}/{species}/feature/id/{id}/info`
+[1] "get"
+
+$`/{version}/{species}/feature/id/{id}/starts_with`
+[1] "get"
+
+$`/{version}/{species}/feature/id/{id}/xref`
+[1] "get"
+
+$`/{version}/{species}/feature/protein`
+[1] "get"
+
+$`/{version}/{species}/feature/protein/model`
+[1] "get"
+
+$`/{version}/{species}/feature/protein/search`
+[1] "get"
+
+$`/{version}/{species}/feature/protein/{proteinId}/info`
+[1] "get"
+
+$`/{version}/{species}/feature/protein/{proteinId}/sequence`
+[1] "get"
+
+$`/{version}/{species}/feature/protein/{proteinId}/substitution_scores`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/count`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/first`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/model`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/search`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/{transcriptId}/function_prediction`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/{transcriptId}/gene`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/{transcriptId}/protein`
+[1] "get"
+
+$`/{version}/{species}/feature/transcript/{transcriptId}/sequence`
+[1] "get"
+
+$`/{version}/{species}/feature/variation`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/consequence_type`
+[1] "post"
+
+$`/{version}/{species}/feature/variation/consequence_types`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/count`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/first`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/model`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/search`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/{id}/info`
+[1] "get"
+
+$`/{version}/{species}/feature/variation/{snpId}/consequence_type`
+[1] "get"
+
+$`/{version}/{species}/genomic/chromosome`
+[1] "get"
+
+$`/{version}/{species}/genomic/chromosome/list`
+[1] "get"
+
+$`/{version}/{species}/genomic/chromosome/model`
+[1] "get"
+
+$`/{version}/{species}/genomic/chromosome/search`
+[1] "get"
+
+$`/{version}/{species}/genomic/chromosome/{chromosomeName}/info`
+[1] "get"
+
+$`/{version}/{species}/genomic/region`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/gene`
+[1] "post"
+
+$`/{version}/{species}/genomic/region/model`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/clinical`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/conservation`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/gene`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/regulatory`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/repeat`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/sequence`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/tfbs`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/transcript`
+[1] "get"
+
+$`/{version}/{species}/genomic/region/{chrRegionId}/variation`
+[1] "get"
+
+$`/{version}/{species}/genomic/variant`
+[1] "get"
+
+$`/{version}/{species}/genomic/variant/annotation`
+[1] "post"
+
+$`/{version}/{species}/genomic/variant/model`
+[1] "get"
+
+$`/{version}/{species}/genomic/variant/{variants}/annotation`
+[1] "get"
+
+$`/{version}/{species}/genomic/variant/{variants}/cadd`
+[1] "get"
+
+$`/{version}/{species}/info`
+[1] "get"
+
+$`/{version}/{species}/regulation/tf`
+[1] "get"
+
+$`/{version}/{species}/regulation/tf/featureClass`
+[1] "get"
+
+$`/{version}/{species}/regulation/tf/featureType`
+[1] "get"
+
+$`/{version}/{species}/regulation/tf/search`
+[1] "get"
+
+$`/{version}/{species}/regulation/tf/{tfId}/gene`
+[1] "get"
+
+$`/{version}/{species}/regulation/tf/{tfId}/tfbs`
+[1] "get"
+
+$`/{version}/{species}/regulatory`
+[1] "get"
+
+$`/{version}/{species}/regulatory/featureClass`
+[1] "get"
+
+$`/{version}/{species}/regulatory/featureType`
+[1] "get"
+
+$`/{version}/{species}/regulatory/search`
+[1] "get"
+

@@ -1,0 +1,355 @@
+[[1]]
+[[1]]$name
+[1] "version"
+
+[[1]]$`in`
+[1] "path"
+
+[[1]]$description
+[1] "Possible values: v3, v4"
+
+[[1]]$required
+[1] TRUE
+
+[[1]]$type
+[1] "string"
+
+[[1]]$default
+[1] "v4"
+
+
+[[2]]
+[[2]]$name
+[1] "species"
+
+[[2]]$`in`
+[1] "path"
+
+[[2]]$description
+[1] "Name of the species, e.g.: hsapiens. For a full list of potentially available species ids, please refer to: http://bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/v4/meta/species"
+
+[[2]]$required
+[1] TRUE
+
+[[2]]$type
+[1] "string"
+
+
+[[3]]
+[[3]]$name
+[1] "assembly"
+
+[[3]]$`in`
+[1] "query"
+
+[[3]]$description
+[1] "Set the reference genome assembly, e.g. grch38. For a full list ofpotentially available assemblies, please refer to: http://bioinfo.hpc.cam.ac.uk/cellbase/webservices/rest/v4/meta/species"
+
+[[3]]$required
+[1] FALSE
+
+[[3]]$type
+[1] "string"
+
+
+[[4]]
+[[4]]$name
+[1] "exclude"
+
+[[4]]$`in`
+[1] "query"
+
+[[4]]$description
+[1] "Set which fields are excluded in the response, e.g.: transcripts.exons.  Please note that this option may not be enabled for all web services."
+
+[[4]]$required
+[1] FALSE
+
+[[4]]$type
+[1] "string"
+
+
+[[5]]
+[[5]]$name
+[1] "include"
+
+[[5]]$`in`
+[1] "query"
+
+[[5]]$description
+[1] "Set which fields are included in the response, e.g.: transcripts.id.  Please note that this parameter may not be enabled for all web services."
+
+[[5]]$required
+[1] FALSE
+
+[[5]]$type
+[1] "string"
+
+
+[[6]]
+[[6]]$name
+[1] "limit"
+
+[[6]]$`in`
+[1] "query"
+
+[[6]]$description
+[1] "Max number of results to be returned. No limit applied when -1. Please note that this option may not be available for all web services."
+
+[[6]]$required
+[1] FALSE
+
+[[6]]$type
+[1] "integer"
+
+[[6]]$default
+[1] -1
+
+[[6]]$format
+[1] "int32"
+
+
+[[7]]
+[[7]]$name
+[1] "skip"
+
+[[7]]$`in`
+[1] "query"
+
+[[7]]$description
+[1] "Number of results to be skipped. No skip applied when -1.  Please note that this option may not be available for all web services."
+
+[[7]]$required
+[1] FALSE
+
+[[7]]$type
+[1] "integer"
+
+[[7]]$default
+[1] -1
+
+[[7]]$format
+[1] "int32"
+
+
+[[8]]
+[[8]]$name
+[1] "skipCount"
+
+[[8]]$`in`
+[1] "query"
+
+[[8]]$description
+[1] "Skip counting the total number of results. In other words, will leave numTotalResults in the QueryResult object to -1. This can make queries much faster. Please note that this option may not be available for all web services."
+
+[[8]]$required
+[1] FALSE
+
+[[8]]$type
+[1] "string"
+
+[[8]]$default
+[1] "false"
+
+
+[[9]]
+[[9]]$name
+[1] "count"
+
+[[9]]$`in`
+[1] "query"
+
+[[9]]$description
+[1] "Get a count of the number of results obtained. Deactivated by default.  Please note that this option may not be available for all web services."
+
+[[9]]$required
+[1] FALSE
+
+[[9]]$type
+[1] "string"
+
+[[9]]$default
+[1] "false"
+
+[[9]]$enum
+[1] "false" "true" 
+
+
+[[10]]
+[[10]]$name
+[1] "Output format"
+
+[[10]]$`in`
+[1] "query"
+
+[[10]]$description
+[1] "Output format, Protobuf is not yet implemented"
+
+[[10]]$required
+[1] FALSE
+
+[[10]]$type
+[1] "string"
+
+[[10]]$default
+[1] "json"
+
+[[10]]$enum
+[1] "json"                     "pb (Not implemented yet)"
+
+
+[[11]]
+[[11]]$name
+[1] "variants"
+
+[[11]]$`in`
+[1] "path"
+
+[[11]]$description
+[1] "Comma separated list of variants toannotate, e.g. 19:45411941:T:C,14:38679764:-:GATCTG,1:6635210:G:-,2:114340663:GCTGGGCATCCT:ACTGGGCATCCT,1:816505-825225:<CNV>"
+
+[[11]]$required
+[1] TRUE
+
+[[11]]$type
+[1] "string"
+
+
+[[12]]
+[[12]]$name
+[1] "normalize"
+
+[[12]]$`in`
+[1] "query"
+
+[[12]]$description
+[1] "Boolean to indicate whether input variants shall be normalized or not. Normalization process includes decomposing MNVs"
+
+[[12]]$required
+[1] FALSE
+
+[[12]]$type
+[1] "boolean"
+
+[[12]]$default
+[1] FALSE
+
+[[12]]$enum
+[1] "false" "true" 
+
+
+[[13]]
+[[13]]$name
+[1] "phased"
+
+[[13]]$`in`
+[1] "query"
+
+[[13]]$description
+[1] "Boolean to indicate whether phase should be considered during the annotation process"
+
+[[13]]$required
+[1] FALSE
+
+[[13]]$type
+[1] "boolean"
+
+[[13]]$default
+[1] FALSE
+
+[[13]]$enum
+[1] "false" "true" 
+
+
+[[14]]
+[[14]]$name
+[1] "useCache"
+
+[[14]]$`in`
+[1] "query"
+
+[[14]]$description
+[1] "useCache=true is discouraged unless the server administrator advises so. Boolean to indicate whether cached annotation should be used or not"
+
+[[14]]$required
+[1] FALSE
+
+[[14]]$type
+[1] "boolean"
+
+[[14]]$default
+[1] FALSE
+
+[[14]]$enum
+[1] "false" "true" 
+
+
+[[15]]
+[[15]]$name
+[1] "imprecise"
+
+[[15]]$`in`
+[1] "query"
+
+[[15]]$description
+[1] "Boolean to indicate whether imprecise search must be used or not"
+
+[[15]]$required
+[1] FALSE
+
+[[15]]$type
+[1] "boolean"
+
+[[15]]$default
+[1] TRUE
+
+[[15]]$enum
+[1] "false" "true" 
+
+
+[[16]]
+[[16]]$name
+[1] "svExtraPadding"
+
+[[16]]$`in`
+[1] "query"
+
+[[16]]$description
+[1] "Integer to optionally provide the size of the extra padding to be used when annotating imprecise (or not) structural variants"
+
+[[16]]$required
+[1] FALSE
+
+[[16]]$type
+[1] "integer"
+
+[[16]]$default
+[1] 0
+
+[[16]]$format
+[1] "int32"
+
+
+[[17]]
+[[17]]$name
+[1] "cnvExtraPadding"
+
+[[17]]$`in`
+[1] "query"
+
+[[17]]$description
+[1] "Integer to optionally provide the size of the extra padding to be used when annotating imprecise (or not) CNVs"
+
+[[17]]$required
+[1] FALSE
+
+[[17]]$type
+[1] "integer"
+
+[[17]]$default
+[1] 0
+
+[[17]]$format
+[1] "int32"
+
+

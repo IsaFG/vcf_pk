@@ -1,0 +1,9 @@
+  geneName   ensemblGeneId ensemblTranscriptId strand        biotype
+1    ACTL8 ENSG00000117148     ENST00000375406      + protein_coding
+2     <NA>            <NA>                <NA>   <NA>           <NA>
+  transcriptAnnotationFlags
+1               CCDS, basic
+2                      NULL
+                                          sequenceOntologyTerms
+1 SO:0001630, SO:0001627, splice_region_variant, intron_variant
+2                         SO:0001566, regulatory_region_variant
