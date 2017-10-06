@@ -1,4 +1,4 @@
-############## [INFO] General information of the SCRIPT ############
+############## [INFO] SCRIPT 2 General information ############
 # This script will extract structural information from SWAGGER CELL BASE,
 # in order to obtain categories, link's sructure and parameters fields of the API.
 # With this information, the goal is to create another script
