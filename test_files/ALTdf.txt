@@ -1,0 +1,88 @@
+'data.frame':	5 obs. of  1 variable:
+ $ GRangesdf.ALT:List of 5
+  ..$ :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. ..@ group          : int 1
+  .. .. .. .. ..@ start          : int 1
+  .. .. .. .. ..@ width          : int 1
+  .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. ..@ metadata       : list()
+  .. .. ..@ elementType    : chr "DNAString"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..$ :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. ..@ group          : int 1
+  .. .. .. .. ..@ start          : int 2
+  .. .. .. .. ..@ width          : int 1
+  .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. ..@ metadata       : list()
+  .. .. ..@ elementType    : chr "DNAString"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..$ :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. ..@ group          : int 1
+  .. .. .. .. ..@ start          : int 3
+  .. .. .. .. ..@ width          : int 1
+  .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. ..@ metadata       : list()
+  .. .. ..@ elementType    : chr "DNAString"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..$ :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. ..@ group          : int 1
+  .. .. .. .. ..@ start          : int 4
+  .. .. .. .. ..@ width          : int 1
+  .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. ..@ metadata       : list()
+  .. .. ..@ elementType    : chr "DNAString"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..$ :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. ..@ group          : int 1
+  .. .. .. .. ..@ start          : int 5
+  .. .. .. .. ..@ width          : int 1
+  .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. ..@ metadata       : list()
+  .. .. ..@ elementType    : chr "DNAString"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..- attr(*, "class")= chr "AsIs"

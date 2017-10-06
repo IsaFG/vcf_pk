@@ -1,0 +1,78 @@
+Formal class 'GRanges' [package "GenomicRanges"] with 6 slots
+  ..@ seqnames       :Formal class 'Rle' [package "S4Vectors"] with 4 slots
+  .. .. ..@ values         : Factor w/ 84 levels "chr1","chr10",..: 1
+  .. .. ..@ lengths        : int 5
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..@ ranges         :Formal class 'IRanges' [package "IRanges"] with 6 slots
+  .. .. ..@ start          : int [1:5] 18149476 18149510 18149566 66831322 66831370
+  .. .. ..@ width          : int [1:5] 1 1 1 1 1
+  .. .. ..@ NAMES          : chr [1:5] "chr1:18149476_G/A" "chr1:18149510_G/T" "chr1:18149566_C/A" "chr1:66831322_T/G" ...
+  .. .. ..@ elementType    : chr "integer"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..@ strand         :Formal class 'Rle' [package "S4Vectors"] with 4 slots
+  .. .. ..@ values         : Factor w/ 3 levels "+","-","*": 3
+  .. .. ..@ lengths        : int 5
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..@ elementMetadata:Formal class 'DataFrame' [package "S4Vectors"] with 6 slots
+  .. .. ..@ rownames       : NULL
+  .. .. ..@ nrows          : int 5
+  .. .. ..@ listData       :List of 5
+  .. .. .. ..$ paramRangeID: Factor w/ 0 levels: NA NA NA NA NA
+  .. .. .. ..$ REF         :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. .. .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. .. .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. .. .. .. ..@ group          : int [1:5] 1 1 1 1 1
+  .. .. .. .. .. .. .. ..@ start          : int [1:5] 39 39 36 60 39
+  .. .. .. .. .. .. .. ..@ width          : int [1:5] 1 1 1 1 1
+  .. .. .. .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. .. .. .. ..@ metadata       : list()
+  .. .. .. .. .. ..@ elementType    : chr "DNAString"
+  .. .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. .. ..@ metadata       : list()
+  .. .. .. ..$ ALT         :Formal class 'DNAStringSetList' [package "Biostrings"] with 5 slots
+  .. .. .. .. .. ..@ unlistData     :Formal class 'DNAStringSet' [package "Biostrings"] with 5 slots
+  .. .. .. .. .. .. .. ..@ pool           :Formal class 'SharedRaw_Pool' [package "XVector"] with 2 slots
+  .. .. .. .. .. .. .. .. .. ..@ xp_list                    :List of 1
+  .. .. .. .. .. .. .. .. .. .. ..$ :<externalptr> 
+  .. .. .. .. .. .. .. .. .. ..@ .link_to_cached_object_list:List of 1
+  .. .. .. .. .. .. .. .. .. .. ..$ :<environment: 0x000000000f890da8> 
+  .. .. .. .. .. .. .. ..@ ranges         :Formal class 'GroupedIRanges' [package "XVector"] with 7 slots
+  .. .. .. .. .. .. .. .. .. ..@ group          : int [1:5] 1 1 1 1 1
+  .. .. .. .. .. .. .. .. .. ..@ start          : int [1:5] 1 2 3 4 5
+  .. .. .. .. .. .. .. .. .. ..@ width          : int [1:5] 1 1 1 1 1
+  .. .. .. .. .. .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. .. .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. .. .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. .. .. .. .. .. ..@ metadata       : list()
+  .. .. .. .. .. .. .. ..@ elementType    : chr "DNAString"
+  .. .. .. .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. .. .. .. ..@ metadata       : list()
+  .. .. .. .. .. ..@ partitioning   :Formal class 'PartitioningByEnd' [package "IRanges"] with 5 slots
+  .. .. .. .. .. .. .. ..@ end            : int [1:5] 1 2 3 4 5
+  .. .. .. .. .. .. .. ..@ NAMES          : NULL
+  .. .. .. .. .. .. .. ..@ elementType    : chr "integer"
+  .. .. .. .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. .. .. .. ..@ metadata       : list()
+  .. .. .. .. .. ..@ elementType    : chr "DNAStringSet"
+  .. .. .. .. .. ..@ elementMetadata: NULL
+  .. .. .. .. .. ..@ metadata       : list()
+  .. .. .. ..$ QUAL        : num [1:5] 233 284 155 435 468
+  .. .. .. ..$ FILTER      : chr [1:5] "PASS" "PASS" "PASS" "PASS" ...
+  .. .. ..@ elementType    : chr "ANY"
+  .. .. ..@ elementMetadata: NULL
+  .. .. ..@ metadata       : list()
+  ..@ seqinfo        :Formal class 'Seqinfo' [package "GenomeInfoDb"] with 4 slots
+  .. .. ..@ seqnames   : chr [1:84] "chr1" "chr10" "chr11" "chr11_gl000202_random" ...
+  .. .. ..@ seqlengths : int [1:84] 249250621 135534747 135006516 40103 133851895 115169878 107349540 102531392 90354753 81195210 ...
+  .. .. ..@ is_circular: logi [1:84] NA NA NA NA NA NA ...
+  .. .. ..@ genome     : chr [1:84] "hg19" "hg19" "hg19" "hg19" ...
+  ..@ metadata       : list()

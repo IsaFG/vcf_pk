@@ -1,0 +1,6 @@
+"seqnames"	"start"	"end"	"width"	"strand"	"paramRangeID"	"REF"	"ALT"	"QUAL"	"FILTER"
+"chr1"	18149476	18149476	1	"*"	NA	"G"	<S4 object of class "DNAStringSet">	233.3	"PASS"
+"chr1"	18149510	18149510	1	"*"	NA	"G"	<S4 object of class "DNAStringSet">	284.27	"PASS"
+"chr1"	18149566	18149566	1	"*"	NA	"C"	<S4 object of class "DNAStringSet">	155.28	"PASS"
+"chr1"	66831322	66831322	1	"*"	NA	"T"	<S4 object of class "DNAStringSet">	435.06	"PASS"
+"chr1"	66831370	66831370	1	"*"	NA	"G"	<S4 object of class "DNAStringSet">	468.17	"PASS"

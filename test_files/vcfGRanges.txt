@@ -1,0 +1,17 @@
+GRanges object with 5 ranges and 5 metadata columns:
+                    seqnames               ranges strand | paramRangeID            REF
+                       <Rle>            <IRanges>  <Rle> |     <factor> <DNAStringSet>
+  chr1:18149476_G/A     chr1 [18149476, 18149476]      * |         <NA>              G
+  chr1:18149510_G/T     chr1 [18149510, 18149510]      * |         <NA>              G
+  chr1:18149566_C/A     chr1 [18149566, 18149566]      * |         <NA>              C
+  chr1:66831322_T/G     chr1 [66831322, 66831322]      * |         <NA>              T
+  chr1:66831370_G/A     chr1 [66831370, 66831370]      * |         <NA>              G
+                                   ALT      QUAL      FILTER
+                    <DNAStringSetList> <numeric> <character>
+  chr1:18149476_G/A                  A    233.30        PASS
+  chr1:18149510_G/T                  T    284.27        PASS
+  chr1:18149566_C/A                  A    155.28        PASS
+  chr1:66831322_T/G                  G    435.06        PASS
+  chr1:66831370_G/A                  A    468.17        PASS
+  -------
+  seqinfo: 84 sequences from hg19 genome
