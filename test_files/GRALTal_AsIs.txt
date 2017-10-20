@@ -1,0 +1,25 @@
+[[1]]
+  A DNAStringSet instance of length 1
+    width seq
+[1]     1 A
+
+[[2]]
+  A DNAStringSet instance of length 1
+    width seq
+[1]     1 T
+
+[[3]]
+  A DNAStringSet instance of length 1
+    width seq
+[1]     1 A
+
+[[4]]
+  A DNAStringSet instance of length 1
+    width seq
+[1]     1 G
+
+[[5]]
+  A DNAStringSet instance of length 1
+    width seq
+[1]     1 A
+
