@@ -62,18 +62,17 @@ swagger_JSON <-fromJSON(swagger_URL)
 # But the idea would be that the USER itself would choose the path he wants
 # and then the script will return the availables parameters.
 
-# Idealy, the path chosen by User would be stored in a variable :
-# In this DRAFT, we will use the path "variant annotation" as an example.
-chosen_path <- '/{version}/{species}/genomic/variant/{variants}/annotation'
-
 # Create a list with the paths and theis content:
 paths_JSON <- swagger_JSON$paths
 # paths_JSON # this line is for testing
 
-# Create a list with all the content of the choosen path (try 1)
-# The following code does not work but why ?
+# Create a list with all the content of the chosen path (try 1)
+# The following code does not work, it returns a NULL variable
 chosen_path <-  paths_JSON$chosen_path
-# chosen_path # this line is for testing
+
+# Since the previous code does not work, we will pre-set the path
+# In this DRAFT, we will use the path "variant annotation" as an example.
+chosen_path <- '/{version}/{species}/genomic/variant/{variants}/annotation'
 
 # Create a list with all the content of the choosen path (try 2)
 # This code works but it is limited because the path is pre-chosen

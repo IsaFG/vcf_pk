@@ -40,13 +40,13 @@ library(cellbaseR)
 
 ############# [Ony for GET VARIANT QUERIES] Get the variants table ############
 variant_table <- read.table("test_files\\variants_table.txt", header=TRUE)
-var_number <- nrow(variant_table)
 
 ############# [cellbaseR] Build the GET URL and query CellBase ############
 query_vector <-character()
 URL_vector <- character()
 results_list <- list()
 cb <- CellBaseR()
+var_number <- nrow(variant_table)
 
 for (i in 1:var_number) { 
   var_chrom <- variant_table[i,1]
@@ -60,16 +60,26 @@ for (i in 1:var_number) {
   res2table <- res2[c("chromosome", "start", "reference", "alternate", "id", "displayConsequenceType")]
   if (i==1) {
     getVariant_table <- res2table
-    completeTable1 <- res2
     
+    # testing lines
+    completeTable1 <- res2
+
   } else if (i==2) {
     completeTable2 <- res2
+    getVariant_table <- (rbind(as.matrix(getVariant_table), as.matrix(res2table)))
+    
   } else if (i==3) {
     completeTable3 <- res2
+    getVariant_table <- (rbind(as.matrix(getVariant_table), as.matrix(res2table)))
+    
   } else if (i==4) {
     completeTable4 <- res2
+    getVariant_table <- (rbind(as.matrix(getVariant_table), as.matrix(res2table)))
+    
   } else {
     getVariant_table <- (rbind(as.matrix(getVariant_table), as.matrix(res2table)))
+    
+    # testing line
     completeTable5 <- res2
   }
   
@@ -77,24 +87,24 @@ for (i in 1:var_number) {
 }
 
 ########### Print the results by console ############
-res2
-class(colnames(completeTable1))
 
+########### Testing block ############
+# Podemos comprobar que obtenemos tablas con numeros diferentes
 c1 <- colnames(completeTable1)
 c5 <- colnames(completeTable5)
 
-completeTable1$geneDrugInteraction
+completeTable1$geneDrugInteraction # class : list
+completeTable1$hgvs # class : list
+completeTable1$consequenceTypes # class: list
+completeTable1$consequenceTypes[[1]] # class: data.frame
 
-setdiff(colnames(completeTable1), colnames(completeTable5))
 c1
 c5
-setdiff(c1, c5)
+# La linea siguiente muestra que campos son diferentes entre ambas tablas
 setdiff(c5, c1)
 
-
+# La linea siguiente muestra los campos comunes entre ambas tablas
 intersect(c1,c5)
-outersect(c1,c5)
-
 
 class(res2)
 class(res2table)

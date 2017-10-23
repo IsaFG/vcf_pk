@@ -1,2 +1,0 @@
-"id"	"time"	"dbTime"	"numResults"	"numTotalResults"	"warningMsg"	"errorMsg"	"resultType"	"result"
-"BRCA2"	0	7	1	1	""	""	""	

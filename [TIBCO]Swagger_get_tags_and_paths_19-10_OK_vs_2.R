@@ -28,7 +28,7 @@
 # setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
 
 ########### Load RinR library #############
-library()
+library(RinR)
 
 ########### Determinate R interpreter location ########
 Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")

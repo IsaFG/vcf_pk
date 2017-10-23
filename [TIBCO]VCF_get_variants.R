@@ -37,6 +37,13 @@ vcfDataframe <- REvaluate({
   # Extract the VCF as an object type "CollapsedVCF" (VariantAnnotation package)
   vcf_extracted <- readVcf(my_vcf, "hg19")
   
+  ############# Determinate a sample for testing #########
+  # Get the samples number
+  samples_num <- (header(vcf_extracted))@samples
+  
+  # Get a little sample for testing
+  my_sample <- runif(40, min=0, max=samples_num)
+  
   ############# [CODE] Extract a GRanges object from the VCF ###################
   # REMEMBER : in this testing version of the script, only the first 5 variants will be extracted
   
@@ -79,3 +86,6 @@ vcfDataframe <- REvaluate({
   ,
   data = list(my_vcf = my_vcf)
 )
+
+############# [Rstudio only] Send the dataframe to a txt file ###################
+write.table(vcfDataframe,"test_files\\variants_table.txt",sep="\t",row.names=FALSE)
