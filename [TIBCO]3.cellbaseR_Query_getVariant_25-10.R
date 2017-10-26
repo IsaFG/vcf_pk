@@ -19,10 +19,10 @@
 # IS THAT A GOOD APPROACH?
 
 # The annotated table has sometimes columns with dataframe inside
-# this has been fixed with additional code, but this could slow down the script...
+# this has been fixed with additional code, but it could slow down the script...
 
 # ############# [RStudio] Set Working directory ############
-# Please uncoment the next line changin the working directory by the correct one:
+# Please uncoment the next line changing the working directory by the correct one:
 setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
 
 ########### [RStudio] Get the variants table ############
@@ -34,22 +34,22 @@ library(RinR)
 ########### [TIBCO] Determinate R interpreter location ########
 Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
 
-############# [Code] Build the GET URL and query CellBase (CellBaseR) ############
 ########### [TIBCO] Create the REvaluate object ########
-preVariable <- REvaluate({
-  # Load libraries
+annotatedTable <- REvaluate({
+  ############# [Code] Load libraries ############# 
   library(RCurl)
   library(jsonlite)
   library(cellbaseR)
   library(dplyr)
   library(tidyr)
   
+  ############# [Code] Build the GET URL and query CellBase (CellBaseR) ############
   var_number <- nrow(variant_table)
   cb <- CellBaseR()
   
   # Initialize the annotation table
   annotVariants_table <- data.frame()
-  # Initialize a table to record any problem about dimension
+  # Initialize a table to record any problem about dimensions in the annotated table
   problems <- data.frame(variant=integer(0), column=integer(0), dimension=integer(0), class=character(0)) # testing line
   
   for (i in 1:var_number) { 
@@ -101,14 +101,14 @@ preVariable <- REvaluate({
         # assign the data.frame to a new variable
         annotVariant_sub <- annotVariant
         
-        # Scan the data.frame in order to find the problematic column
+        # Scan the data.frame in order to find the problematic column(s)
         print (paste("Analyzing columns of variant", i)) # testing line
         k = 1
         for (column in annotVariant) {
+          # extract class and dimesion of the problematic column
           the_class <- class(column)
           the_dim <- dim(column)
-          # the_name <- 
-          if (length(the_dim) != 0){
+          if (length(the_dim) != 0){ # only for columns with problem
             print (paste("Column", k, "has a dimensional problem.")) # testing line
             
             # Remove the problematic column, split it and add it again to the dataframe
@@ -137,8 +137,13 @@ data = list(variant_table = variants_table.txt)
 # REvaluator = Rversion,
 # verbose	= TRUE
 )
-getVariantTable <- preVariable
 
 ########### [RStudio] Print the table in a txt file ###########
-# This create problems
+# Gives an error :
+# Error in write.table(annotVariants_table, "test_files\\CB_variants_table.txt",  : 
+# unimplemented type 'list' in 'EncodeElement'
 try(write.table(annotVariants_table,"test_files\\CB_variants_table.txt", append = TRUE, sep="\t",row.names=FALSE))
+
+
+
+
