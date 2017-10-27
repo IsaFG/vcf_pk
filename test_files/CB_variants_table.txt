@@ -1,15 +1,41 @@
 "chromosome"	"start"	"reference"	"alternate"	"id"
-"1"	"18149476"	"G"	"A"	"rs56082318"
-"1"	"18149510"	"G"	"T"	"rs694214"
-"1"	"18149566"	"C"	"A"	"rs2296035"
-"1"	"66831322"	"T"	"G"	"rs7538869"
-"1"	"66831370"	"G"	"A"	"rs783036"
-"chromosome"	"start"	"reference"	"alternate"	"id"	"hgvs"
-1	18149476	G	A	rs56082318	ENST00000375406(ENSG00000117148):c.-24-4G>A
-1	18149510	G	T	rs694214	ENST00000375406(ENSG00000117148):c.18149511G>T
-1	18149566	C	A	rs2296035	ENST00000375406(ENSG00000117148):c.18149567C>A
-1	66831322	T	G	rs7538869	c("ENST00000329654(ENSG00000184588):c.1285-28T>G", "ENST00000341517(ENSG00000184588):c.1285-28T>G", "ENST00000371049(ENSG00000184588):c.1285-28T>G", "ENST00000423207(ENSG00000184588):c.1240-28T>G", "ENST00000371045(ENSG00000184588):c.769-28T>G", "ENST00000480109(ENSG00000184588):c.586-28T>G")
-1	66831370	G	A	rs783036	c("ENST00000329654(ENSG00000184588):c.66832655G>A", "ENST00000341517(ENSG00000184588):c.66832655G>A", "ENST00000371049(ENSG00000184588):c.66832655G>A", "ENST00000423207(ENSG00000184588):c.66832610G>A", "ENST00000371045(ENSG00000184588):c.66832139G>A", "ENST00000480109(ENSG00000184588):c.66831956G>A")
-"chromosome"	"start"	"reference"	"alternate"	"id"	"hgvs"	"displayConsequenceType"	"consequenceTypes"	"populationFrequencies"	"conservation"	"geneExpression"	"geneTraitAssociation"	"geneDrugInteraction"	"functionalScore"	"cytoband"	"traitAssociation"	"clinvar"	"cosmic"
-"1"	18149476	"G"	"A"	"rs56082318"	"chromosome"	"start"	"reference"	"alternate"	"id"	"hgvs"	"displayConsequenceType"	"consequenceTypes"	"populationFrequencies"	"conservation"	"geneExpression"	"geneTraitAssociation"	"geneDrugInteraction"	"functionalScore"	"cytoband"	"traitAssociation"	"clinvar"	"cosmic"
-"1"	18149476	"G"	"A"	"rs56082318"	
+"1"	18149476	"G"	"A"	"rs56082318"
+"1"	18149566	"C"	"A"	"rs2296035"
+"1"	66831370	"G"	"A"	"rs783036"
+"1"	179519880	"T"	"C"	"rs1060775"
+"1"	179520151	"C"	"T"	"rs1410590"
+"1"	179520254	"C"	"G"	"rs1410591"
+"2"	216246080	"A"	"G"	"rs7608342"
+"2"	216253039	"G"	"C"	"rs1250215"
+"2"	216258251	"A"	"G"	"rs1968510"
+"2"	216272900	"T"	"G"	"rs2577301"
+"2"	216300482	"T"	"A"	"rs1250259"
+"2"	227954599	"G"	"A"	"rs2229814"
+"2"	228160006	"G"	"C"	NA
+"3"	49166069	"C"	"T"	"rs9865051"
+"6"	47563608	"A"	"G"	"rs138727736"
+"6"	47594722	"G"	"A"	"rs719856"
+"6"	129722425	"G"	"A"	"rs3749878"
+"7"	129989878	"T"	"C"	"rs7808823"
+"9"	129462076	"G"	"A"	"rs7023938"
+"11"	32417945	"T"	"C"	"rs16754"
+"12"	15750763	"G"	"A"	"rs1981754"
+"14"	74426942	"A"	"C"	"rs10873263"
+"14"	105179043	"G"	"C"	"rs4497619"
+"15"	59428277	"G"	"C"	NA
+"15"	59519808	"T"	"A"	"rs2306782"
+"17"	3553526	"A"	"G"	"rs161350"
+"17"	3553655	"A"	"G"	"rs2047855"
+"17"	3558695	"A"	"G"	"rs457419"
+"17"	3561396	"C"	"T"	"rs161400"
+"17"	3566232	"C"	"T"	"rs7093"
+"17"	73737013	"G"	"C"	NA
+"19"	36342212	"C"	"T"	"rs3814995"
+"19"	39191383	"G"	"C"	"rs2112649"
+"19"	45411941	"T"	"C"	"rs429358"
+"22"	36678118	"C"	"T"	"rs136200"
+"22"	36715871	"A"	"A"	NA
+"22"	36720424	"C"	"T"	"rs5756154"
+"X"	100652957	"G"	"C"	NA
+"X"	107511706	"G"	"A"	"rs1332116"
+"X"	107870501	"G"	"A"	"rs1028404"

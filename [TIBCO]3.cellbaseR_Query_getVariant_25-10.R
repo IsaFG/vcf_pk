@@ -5,7 +5,10 @@
 
 ############## [INFO] Input and Output ############################
 # Inputs : A variant table coming from a VCF file (script VCF_get_variant)
-# Output : annotated table
+# Output : preprocessed annotated table
+
+# IMPORTANT NOTE : the OUTPUT table cannot be send to a txt file neither to a TIBCO table
+# The table needs to be post-processed.
 
 ############# [INFO] Previous requirement (libraries) ###############
 # LIBRARIES from CRAN : RCurl, jsonlite
@@ -26,7 +29,7 @@
 setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
 
 ########### [RStudio] Get the variants table ############
-variant_table <- read.table("test_files\\variants_table.txt", header=TRUE) # for RStudio
+variants_table <- read.table("test_files\\variants_table.txt", header=TRUE) # for RStudio
 
 ############# [TIBCO] Load RinR library ###################
 library(RinR)
@@ -35,7 +38,7 @@ library(RinR)
 Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
 
 ########### [TIBCO] Create the REvaluate object ########
-annotatedTable <- REvaluate({
+annotVariants_table <- REvaluate({
   ############# [Code] Load libraries ############# 
   library(RCurl)
   library(jsonlite)
@@ -44,7 +47,7 @@ annotatedTable <- REvaluate({
   library(tidyr)
   
   ############# [Code] Build the GET URL and query CellBase (CellBaseR) ############
-  var_number <- nrow(variant_table)
+  var_number <- nrow(variants_table)
   cb <- CellBaseR()
   
   # Initialize the annotation table
@@ -55,17 +58,17 @@ annotatedTable <- REvaluate({
   for (i in 1:var_number) { 
     print (paste("Processing variant number:", i)) # this line is for testing
     # extract the chromosome
-    var_chrom <- variant_table[i,1]
+    var_chrom <- variants_table[i,1]
     
     # extract the range
-    var_range <- variant_table[i,2]
+    var_range <- variants_table[i,2]
     
     # extract the ref and alt alleles
     # WARNING: you could have more than one allele in each field
     # so that this formula extract only the first one to do the annotation call
     # IS THAT A GOOD APPROACH ?
-    var_refAl <- substring((variant_table[i,4]), 1, 1)
-    var_altAl <- substring((variant_table[i,5]), 1, 1)
+    var_refAl <- substring((variants_table[i,4]), 1, 1)
+    var_altAl <- substring((variants_table[i,5]), 1, 1)
     
     # Get variant cellbase info with cellbaseR package
     # the call will return as a data.frame
@@ -131,18 +134,24 @@ annotatedTable <- REvaluate({
     }
     # warnings()
   }
+  # annotVariants_table
 },
-data = list(variant_table = variants_table.txt)
+data = list(variants_table = variants_table)
 # ,
 # REvaluator = Rversion,
 # verbose	= TRUE
 )
 
-########### [RStudio] Print the table in a txt file ###########
-# Gives an error :
-# Error in write.table(annotVariants_table, "test_files\\CB_variants_table.txt",  : 
-# unimplemented type 'list' in 'EncodeElement'
-try(write.table(annotVariants_table,"test_files\\CB_variants_table.txt", append = TRUE, sep="\t",row.names=FALSE))
+########### Build a basic table that could be loaded whithout problems ########
+# This table has no nested data.frame neither nested list 
+basicTable <- annotVariants_table[,1:5]
+
+########### [Code] Get the available annotations ############
+availableAnnots <- colnames(annotVariants_table)
+
+########### [RStudio] Print the basic table in a txt file ###########
+# Works only with basic table
+try(write.table(basicTable,"test_files\\CB_variants_table.txt", append = FALSE, sep="\t",row.names=FALSE))
 
 
 
