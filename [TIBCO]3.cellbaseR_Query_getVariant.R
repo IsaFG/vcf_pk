@@ -29,21 +29,8 @@
 # 2: In bind_rows_(x, .id) :
 #   binding character and factor vector, coercing into character vector
 
-# ############# [RStudio] Set Working directory ############
-# Please uncoment the next line changing the working directory by the correct one:
-setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
-
-########### [RStudio] Get the variants table ############
-variants_table <- read.table("test_files\\variants_table.txt", header=TRUE) # for RStudio
-
-############# [TIBCO] Load RinR library ###################
-library(RinR)
-
-########### [TIBCO] Determinate R interpreter location ########
-Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
-
-########### [TIBCO] Create the REvaluate object ########
-annotVariants_table <- REvaluate({
+########### [Code] Main method ########
+getAnnotVariantsTable <- function(variants_table) {
   ############# [Code] Load libraries ############# 
   library(RCurl)
   library(jsonlite)
@@ -133,28 +120,58 @@ annotVariants_table <- REvaluate({
           }
           k = k + 1
         } 
-        # end of testing block 2
+        # Build the table with all the annotation
         annotVariants_table <- bind_rows(annotVariants_table, annotVariant_sub)
-        
       }
     }
     # warnings()
   }
-  # annotVariants_table # line only for TIBCO
-},
-data = list(variants_table = variants_table)
-# ,
-# REvaluator = Rversion,
-# verbose	= TRUE
-)
+  # Change the name of the "id" column to avoid repetition
+  colnames(annotVariants_table)[5] <- "rsID"
+  return(annotVariants_table)
+}
 
-########### Build a basic table that could be loaded whithout problems ########
+########### [Code] Determinate if running in TERR or standard R version #############
+isTERR<-R.Version()
+Rversion<-NULL
+if (!is.null(isTERR[["TERR.version"]])) {
+  ########### [TIBCO] Load RinR library ###################
+  library(RinR)
+  
+  ########### [TIBCO] Determinate R interpreter location ########
+  Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
+  
+  ########### [TIBCO] Create the REvaluate object to execute main method ########
+  annotVariants_table <- REvaluate({
+    annotVariants_table <- getAnnotVariantsTable(variants_table)
+    annotVariants_table
+  }
+  , data = list(getAnnotVariantsTable = getAnnotVariantsTable, variants_table = variants_table)
+  # , REvaluator = Rversion
+  # , verbose	= TRUE
+  )
+  
+  ########### [TIBCO] Comvert the table to a Blob Object ########
+  annotVariantsBlob <- SObjectToBlob(annotVariants_table)
+  
+} else {
+  ########### [RStudio] Set Working directory ############
+  setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
+  
+  ########### [RStudio] Get the variants table ############
+  variants_table <- read.table("test_files\\variants_table.txt", header=TRUE) # for RStudio
+  
+  ########### [RStudio] Execute main method ###########
+  annotVariants_table <- getAnnotVariantsTable(variants_table)
+  
+  ########### [RStudio] Print the basic table in a txt file ###########
+  # Works only with basic table
+  try(write.table(annotVariants_table[,1:5],"test_files\\CB_variants_table.txt", append = FALSE, sep="\t",row.names=FALSE))
+}
+
+########### [Code] Build a basic table that could be loaded whithout problems ########
 # This table has no nested data.frame neither nested list 
 basicTable <- annotVariants_table[,1:5]
 
 ########### [Code] Get the available annotations ############
-availableAnnots <- colnames(annotVariants_table)
-
-########### [RStudio] Print the basic table in a txt file ###########
-# Works only with basic table
-try(write.table(basicTable,"test_files\\CB_variants_table.txt", append = FALSE, sep="\t",row.names=FALSE))
+availableAnnots <- colnames(annotVariants_table[6:length(annotVariants_table)])

@@ -1,4 +1,4 @@
-"chromosome"	"start"	"reference"	"alternate"	"id"
+"chromosome"	"start"	"reference"	"alternate"	"rsID"
 "1"	18149476	"G"	"A"	"rs56082318"
 "1"	18149566	"C"	"A"	"rs2296035"
 "1"	66831370	"G"	"A"	"rs783036"

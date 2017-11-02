@@ -50,7 +50,7 @@ swagger_JSON <-fromJSON(swagger_URL)
 # and then the script will return the availables parameters.
 # The path chosen by User would be stored in a variable.
 
-chosen_path <- SelecedPath
+chosen_path <- SelectedPath
 
 # In this DRAFT, we will use a specific path as an example.
 chosen_path <- '/{version}/{species}/genomic/variant/{variants}/annotation'

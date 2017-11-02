@@ -1,45 +1,51 @@
-############## [INFO] Script [num] General information ############
+########### [INFO] Script [num] General information ############
 
 
-############## [INFO] Input and Output ############################
+########### [INFO] Input and Output ############################
 # Inputs : 
 # Output : 
 
-############# [INFO] Previous requirement (libraries) ###############
+########### [INFO] Previous requirement (libraries) ###############
 
+########### [INFO] Problems ############################
 
-############## [INFO] Problems ############################
-
-
-# ############# [RStudio] Set Working directory ############
-# Please uncoment the next line changing the working directory by the correct one:
-setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
-
-########### [RStudio] Get the input file ############
-
-
-############# [TIBCO] Load RinR library ###################
-library(RinR)
-
-########### [TIBCO] Determinate R interpreter location ########
-Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
-
-########### [TIBCO] Create the REvaluate object ########
-annotatedTable <- REvaluate({
-  ############# [Code] Load libraries ############# 
-
+########### [Code] Main method ########
+mainMethod <- function(input) {
   
-  ############# [Code] Main method ############
+}
 
+########### [Code] Determinate if running in TERR or standard R version #############
+isTERR<-R.Version()
+Rversion<-NULL
+if (!is.null(isTERR[["TERR.version"]])) {
+  ########### [TIBCO] Load RinR library ###################
+  library(RinR)
+  ########### [TIBCO] Determinate R interpreter location ########
+  Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
   
-},
-# data = list(REvaluate_local_var = global_var)
-# ,
-# REvaluator = Rversion,
-# verbose	= TRUE
-)
-
-########### [RStudio] Print the table in a txt file ###########
-
+  ########### [RStudio] Get the input variables ############
+  global_input <- "whatever"
+  
+  ########### [TIBCO] Create the REvaluate object to execute main method ########
+  mainVariable <- REvaluate({
+    mainVariable <- mainMethod(local_input)
+  }
+  , data = list(mainMethod = mainMethod, local_input = global_input)
+  # , REvaluator = Rversion
+  # , verbose	= TRUE
+  )
+  
+} else {
+  ########### [RStudio] Set Working directory ############
+  setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
+  
+  ########### [RStudio] Get the input variables ############
+  global_input <- "whatever"
+  
+  ########### [RStudio] Execute main method ###########
+  mainVariable <- mainMethod(global_input)
+  
+  ########### [RStudio] Print the ouput in a txt file ###########
+}
 
 ########### [TEST block] ###############
