@@ -17,12 +17,17 @@
 # https://bioconductor.org/packages/release/bioc/html/cellbaseR.html
 
 ############## [INFO] Problems ############################
-# Some variants have more than 1 REF or ALT allele
+# Problem 1:  Some variants have more than 1 REF or ALT allele
 # so that this script do the annotation call with the first allele of each field.
-# IS THAT A GOOD APPROACH?
+# I will change that just deleting these variants
 
-# The annotated table has sometimes columns with dataframe inside
+# Problem 2: The annotated table has sometimes columns with dataframe inside
 # this has been fixed with additional code, but it could slow down the script...
+
+# Problem 3 : Some warnings messages :
+# 1: In bind_rows_(x, .id) : Unequal factor levels: coercing to character
+# 2: In bind_rows_(x, .id) :
+#   binding character and factor vector, coercing into character vector
 
 # ############# [RStudio] Set Working directory ############
 # Please uncoment the next line changing the working directory by the correct one:
@@ -108,7 +113,7 @@ annotVariants_table <- REvaluate({
         print (paste("Analyzing columns of variant", i)) # testing line
         k = 1
         for (column in annotVariant) {
-          # extract class and dimesion of the problematic column
+          # extract class and dimension of the problematic column
           the_class <- class(column)
           the_dim <- dim(column)
           if (length(the_dim) != 0){ # only for columns with problem
@@ -130,11 +135,12 @@ annotVariants_table <- REvaluate({
         } 
         # end of testing block 2
         annotVariants_table <- bind_rows(annotVariants_table, annotVariant_sub)
+        
       }
     }
     # warnings()
   }
-  # annotVariants_table
+  # annotVariants_table # line only for TIBCO
 },
 data = list(variants_table = variants_table)
 # ,
@@ -152,7 +158,3 @@ availableAnnots <- colnames(annotVariants_table)
 ########### [RStudio] Print the basic table in a txt file ###########
 # Works only with basic table
 try(write.table(basicTable,"test_files\\CB_variants_table.txt", append = FALSE, sep="\t",row.names=FALSE))
-
-
-
-
