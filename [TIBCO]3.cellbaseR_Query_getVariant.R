@@ -1,5 +1,4 @@
 ############## [INFO] SCRIPT 3 General information ############
-# TIBCO script
 # We provide a table with some variants, then the script
 # will query the RESTfull DB CellBase to retreive information about these variants
 
@@ -24,7 +23,8 @@
 # Problem 2: The annotated table has sometimes columns with dataframe inside
 # this has been fixed with additional code, but it could slow down the script...
 
-# Problem 3 : Some warnings messages :
+# Problem 3 : Some warnings messages when running the entire scripts :
+# "There were 50 or more warnings (use warnings() to see the first 50)
 # 1: In bind_rows_(x, .id) : Unequal factor levels: coercing to character
 # 2: In bind_rows_(x, .id) :
 #   binding character and factor vector, coercing into character vector
