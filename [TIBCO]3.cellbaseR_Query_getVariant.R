@@ -4,7 +4,8 @@
 
 ############## [INFO] Input and Output ############################
 # Inputs : A variant table coming from a VCF file (script VCF_get_variant)
-# Output : preprocessed annotated table
+# Output : a preprocessed annotated table + a table with rs annotation
+# + table with available annotations
 
 # IMPORTANT NOTE : the OUTPUT table cannot be send to a txt file neither to a TIBCO table
 # The table needs to be post-processed.
@@ -164,9 +165,10 @@ if (!is.null(isTERR[["TERR.version"]])) {
   ########### [RStudio] Execute main method ###########
   annotVariants_table <- getAnnotVariantsTable(variants_table)
   
-  ########### [RStudio] Print the basic table in a txt file ###########
+  ########### [RStudio] Print the basic table and available annotations in a txt file ###########
   # Works only with basic table
   try(write.table(annotVariants_table[,1:5],"test_files\\CB_variants_table.txt", append = FALSE, sep="\t",row.names=FALSE))
+  try(write.table(colnames(annotVariants_table[6:length(annotVariants_table)]),"test_files\\available_annotations.txt", append = FALSE, sep="\t",row.names=FALSE))
 }
 
 ########### [Code] Build a basic table that could be loaded whithout problems ########

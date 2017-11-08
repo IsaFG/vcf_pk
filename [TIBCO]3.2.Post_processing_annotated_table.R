@@ -26,7 +26,7 @@
 #   row names were found from a short variable and have been discarded
 
 ########### [Code] Main method ########
-getChosenAnnotTable <- function(chosen_annot, basicTable, annotVariants_table) {
+getChosenAnnotTable <- function(chosen_annot, annotVariants_table) {
   ############# [Code] Load libraries ############# 
   library(RCurl)
   library(jsonlite)
@@ -73,6 +73,9 @@ getChosenAnnotTable <- function(chosen_annot, basicTable, annotVariants_table) {
   
   # Extract, as a single variable, the chosen annotation from the table
   annot_column <- annotVariants_table[,index_annot]
+  
+  # Declare the basic table
+  basicTable <- annotVariants_table[,1:5]
   
   # Declare the dataframe that will contain all the info of the chosen annotation
   chosen_annot_table <- data.frame()
@@ -147,28 +150,36 @@ if (!is.null(isTERR[["TERR.version"]])) {
   # For testing prupose: you can pre-set the annotation "geneDrugInteraction" 
   # chosen_annot <- availableAnnots[12]
   
+  ########### [TIBCO]] [PENDING] Verify if the annotation has not been already loaded ######
+  
+  
+  
   ########### [TIBCO] Create the REvaluate object ########
   AnnotatedTable <- REvaluate({
-    chosen_annot_table <- getChosenAnnotTable(chosen_annot, basicTable, annotVariants_table)
+    chosen_annot_table <- getChosenAnnotTable(chosen_annot, annotVariants_table)
     chosen_annot_table
   },
-  data = list(getChosenAnnotTable = getChosenAnnotTable, annotVariants_table = annotVariants_table, chosen_annot = chosen_annot, basicTable = basicTable)
+  data = list(getChosenAnnotTable = getChosenAnnotTable, annotVariants_table = annotVariants_table, chosen_annot = chosen_annot)
   # ,
   # REvaluator = Rversion,
   # verbose	= TRUE
   )
+  
+  ########### [TIBCO] [PENDING] Save the annotated table as a Blob Object #######
+  # annotationsBlob <- SObjectToBlob(AnnotatedTable)
+  # assign(paste(chosen_annot,"Table",sep=""), annotationsBlob)
   
 } else {
   ########### [RStudio] Set Working directory ############
   setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
   
   ########### [RStudio] Get the input variables ############
-  chosen_annot = availableAnnots[6]
-  # availableAnnots, basicTable, annotVariants_table
+  chosen_annot = availableAnnots[4]
+  # availableAnnots, annotVariants_table
   # They should already be loaded in global environment and come from script 3.cellbaseR_Query_getVariant
   
   ########### [RStudio] Execute main method ###########
-  chosen_annot_table <- getChosenAnnotTable(chosen_annot, basicTable, annotVariants_table)
+  chosen_annot_table <- getChosenAnnotTable(chosen_annot, annotVariants_table)
   
   ########### [RStudio] Print the table in a txt file ###########
   # Works only with basic table
