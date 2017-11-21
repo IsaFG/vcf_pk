@@ -1,0 +1,7 @@
+"retrieved_results_v..1...id"	"retrieved_results_v..1...name"	"retrieved_results_v..1...description"	"geneName"	"drugName"	"source"	"studyType"	"type"
+"ENSG00000139618"	"BRCA2"	"breast cancer 2, early onset [Source:HGNC Symbol;Acc:1101]"	"BRCA2"	"BMN673"	"dgidb"	"ClearityFoundationBiomarkers"	"n/a"
+"ENSG00000139618"	"BRCA2"	"breast cancer 2, early onset [Source:HGNC Symbol;Acc:1101]"	"BRCA2"	"OLAPARIB"	"dgidb"	"ClearityFoundationBiomarkers"	"n/a"
+"ENSG00000139618"	"BRCA2"	"breast cancer 2, early onset [Source:HGNC Symbol;Acc:1101]"	"BRCA2"	"RUCAPARIB"	"dgidb"	"ClearityFoundationBiomarkers"	"n/a"
+"ENSG00000139618"	"BRCA2"	"breast cancer 2, early onset [Source:HGNC Symbol;Acc:1101]"	"BRCA2"	"NIRAPARIB"	"dgidb"	"ClearityFoundationBiomarkers"	"n/a"
+"ENSG00000139618"	"BRCA2"	"breast cancer 2, early onset [Source:HGNC Symbol;Acc:1101]"	"BRCA2"	"E7449"	"dgidb"	"ClearityFoundationBiomarkers"	"n/a"
+"ENSG00000139618"	"BRCA2"	"breast cancer 2, early onset [Source:HGNC Symbol;Acc:1101]"	"BRCA2"	"VELIPARIB"	"dgidb"	"ClearityFoundationBiomarkers"	"n/a"

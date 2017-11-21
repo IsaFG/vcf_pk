@@ -1,0 +1,6 @@
+Reference class 'TabixFile' [package "Rsamtools"] with 4 fields
+ $ .extptr  :<externalptr> 
+ $ path     : chr "C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\test_files\\indexedVCFfiles\\indexedVCF2200fea6ba4"
+ $ index    : chr "C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\test_files\\indexedVCFfiles\\indexedVCF2200fea6ba4.tbi"
+ $ yieldSize: int NA
+ and 14 methods.
