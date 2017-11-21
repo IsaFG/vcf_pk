@@ -1,2 +1,0 @@
-"query"	"numTotalResults"	"numResults"
-"1:18149476-18149476"	1	1

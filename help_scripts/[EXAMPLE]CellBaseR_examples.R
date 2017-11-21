@@ -38,3 +38,8 @@ str(res2, 1)
 cb <- CellBaseR()
 cbParam <- CellBaseParam(feature=c("TP73","TET1"), limit=100)
 res3 <- getClinical(object=cb,param=cbParam)
+
+################ bach ###############
+cb <- CellBaseR()
+res <- getVariant(object=cb, ids="19:45411941:T:C", resource="annotation")
+chr <- 

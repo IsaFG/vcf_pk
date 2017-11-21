@@ -1,2 +1,0 @@
-query	numTotalResults	numResults
-BRCA2	1	1
