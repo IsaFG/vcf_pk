@@ -4,7 +4,7 @@
 
 ############## [INFO] Input and Output ############################
 # Inputs : an instance file for a VCF file and his tabix file
-# -> instance file somes from the script 1.b.index_VCF_file
+# -> instance file comes from the script 1.b.index_VCF_file
 
 # Output : a table with all the variant with their annotations
 # + a table with only the rsid annotation
@@ -117,6 +117,7 @@ if (!is.null(isTERR[["TERR.version"]])) {
   
   ########### [TIBCO] Convert the tables to Blob Objects ########
   preAnnotVCFTableBlob <- SObjectToBlob(preAnnotVCFTable)
+  annotVCFTableBlob <- SObjectToBlob(annotVCFTable)
   
 } else {
   ########### [RStudio] Set Working directory ############
@@ -138,7 +139,7 @@ if (!is.null(isTERR[["TERR.version"]])) {
 
 ########### [Code] Build a basic table that could be loaded whithout problems ########
 # This table has no nested data.frame neither nested list 
-basicTable <- preAnnotVCFTable[,1:5]
+basicTable <- annotVCFTable[,1:5]
 
 ########### [Code] Get the available annotations ############
-availableAnnots <- colnames(preAnnotVCFTable[6:length(preAnnotVCFTable)])
+availableAnnots <- colnames(annotVCFTable[5:length(annotVCFTable)])

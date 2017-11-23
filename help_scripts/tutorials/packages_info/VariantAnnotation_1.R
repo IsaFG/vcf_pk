@@ -18,14 +18,28 @@ library(GenomicAlignments)
 library(VariantAnnotation)
 
 ######### Import the VCF file into R #############
+# EXAMPLE 1:
 # La funcion system.file no pertenece a este paquete.
 # tan solo se dedica a buscar la verdadera ubicacion del archivo que se usa como ejemplo
 fl <- system.file("extdata", "chr22.vcf.gz", package="VariantAnnotation")
 # fl # esto para ver cual es el link por pantalla
 
-# Extract the VCF as an object type "CollapsedVCF" (VariantAnnotation package)
+# EXAMPLE 2 (with the tabix file) 
+file.gz     <- system.file("extdata", "chr7-sub.vcf.gz", 
+                           package="VariantAnnotation")
+
+file.gz.tbi <- system.file("extdata", "chr7-sub.vcf.gz.tbi", 
+                           package="VariantAnnotation")
+
+######### Extract the VCF as an object type "CollapsedVCF" (VariantAnnotation package) #######
 # Data are parsed into a VCF object with readVcf.
+# EXAMPLE 1:
 vcf1 <- readVcf(fl, "hg19")
+# EXAMPLE 2 :
+vcf_chr7 <- readVcf(file.gz, "hg19")
+
+######### Examinate the VCF objects ##################
+samples(header(vcf_chr7))
 
 # Have a look into the VCF object
 vcf1
