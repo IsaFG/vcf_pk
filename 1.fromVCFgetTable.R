@@ -125,5 +125,5 @@ if (!is.null(isTERR[["TERR.version"]])) {
     vcfDataframe <- getvcfDataframe(my_vcf)
     
     ########### [Rstudio] Send the dataframe to a txt file ###################
-    write.table(vcfDataframe,"test_files\\variants_table.txt",sep="\t",row.names=FALSE)
+    write.table(vcfDataframe,"C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\test_files\\variants_table.txt",sep="\t",row.names=FALSE)
   }

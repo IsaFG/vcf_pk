@@ -27,23 +27,17 @@
 #   row names were found from a short variable and have been discarded
 
 ########### [Code] Main method ########
-getChosenAnnotTable <- function(chosen_annot, annotVariants_table) {
+getChosenAnnotTable <- function(chosen_annot, annotVariants_table, loaded_annotations) {
   ############# [Code] Load libraries ############# 
   # library(RCurl)
   library(jsonlite) #
   library(dplyr)
   # library(tidyr)
   
-  ########### [Code] [Method] Verify if the annotation has not been already loaded ######
-  if (is.element(chosen_annot, loaded_annotations) == FALSE) {
-    
-    loaded_annotations <- c(loaded_annotations, chosen_annot)
-  }
-  
   ############# [Code] Method to process cells containing a dataframe #############
   # This function will convert any cell containing a dataframe in readable information
   # cell_to_convert <- annot_cell # For TESTING purpose
-  simplifyDFcell <- function (cell_to_convert) {
+  simplifyDFcell <- function (cell_to_convert, loaded_annotations) {
     # print ("Processing a dataframe") # testing line
     
     # Create a new dataframe from the cell
@@ -144,51 +138,70 @@ getChosenAnnotTable <- function(chosen_annot, annotVariants_table) {
 isTERR<-R.Version()
 Rversion<-NULL
 if (!is.null(isTERR[["TERR.version"]])) {
-  ########### [TIBCO] Load RinR library ###################
-  library(RinR)
-  ########### [TIBCO] Determinate R interpreter location ########
-  Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
-  
-  ############ [TIBCO] Load variables ###############
-  # Load the annotated table, stored in memory as a Blob Object created by script "cellbaseR_Query_getVariant"
-  annotVCFObject <- BlobToSObject(annotVCFTableBlob)
-  annotVariants_table <- annotVCFObject
-  # For testing prupose: you can pre-set the annotation "geneDrugInteraction" 
-  # chosen_annot <- availableAnnots[12]
-  
-  ########### [TIBCO] Create the REvaluate object ########
-  AnnotatedTable <- REvaluate({
-    chosen_annot_table <- getChosenAnnotTable(chosen_annot, annotVariants_table)
-    chosen_annot_table
-  },
-  data = list(getChosenAnnotTable = getChosenAnnotTable, annotVariants_table = annotVCFTable, chosen_annot = chosen_annot)
-  # ,
-  # REvaluator = Rversion,
-  # verbose	= TRUE
-  )
-  
-  ########### [TIBCO] [PENDING] Save the annotated table as a Blob Object #######
-  # annotationsBlob <- SObjectToBlob(AnnotatedTable)
-  # assign(paste(chosen_annot,"Table",sep=""), annotationsBlob)
+
+    ########### [TIBCO] Load RinR library ###################
+    library(RinR)
+    ########### [TIBCO] Determinate R interpreter location ########
+    Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
+    
+    ############ [TIBCO] Load variables ###############
+    # Load the annotated table, stored in memory as a Blob Object created by script "cellbaseR_Query_getVariant"
+    annotVCFObject <- BlobToSObject(annotVCFTableBlob)
+    annotVariants_table <- annotVCFObject
+    # For testing prupose: you can pre-set the annotation "geneDrugInteraction" 
+    # chosen_annot <- availableAnnots[12]
+    
+    ########### [TIBCO] Create the REvaluate object ########
+    AnnotatedTable <- REvaluate({
+      chosen_annot_table <- getChosenAnnotTable(chosen_annot, annotVariants_table, loaded_annotations)
+      chosen_annot_table
+    },
+    data = list(getChosenAnnotTable = getChosenAnnotTable, annotVariants_table = annotVCFTable, chosen_annot = chosen_annot)
+    # ,
+    # REvaluator = Rversion,
+    # verbose	= TRUE
+    )
   
 } else {
   ########### [RStudio] Set Working directory ############
   setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
   
-  ########### [RStudio] Get the input variables ############
-  chosen_annot = availableAnnots[14]
+  ########### [Code] [RStudio] Verify if the annotation has not been already loaded ######
+  # Check if there is already a file with the annotation that have been already loaded
+  loaded_annotation_path <- "C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\test_files\\annotatedTables\\loaded_annotations.txt"
+  if (file.exists(loaded_annotation_path) == FALSE){
+    file.create(loaded_annotation_path)
+  }
+  
+  # Load the vector with all the annotations already loaded
+  loaded_annotations <- scan(loaded_annotation_path, what="character")
+  
+  ########### [RStudio] Choose the annoation ############
+  chosen_annot = availableAnnots[13]
   # availableAnnots, annotVariants_table
   # They should already be loaded in global environment and come from script 3.cellbaseR_Query_getVariant
   
-  ########### [RStudio] Execute main method ###########
-  chosen_annot_table <- getChosenAnnotTable(chosen_annot, annotVCFTable)
-  
-  ########### [RStudio] Print the table in a txt file ###########
-  # Works only with basic table
-  file_path <- paste("test_files\\annotated_table_",chosen_annot, ".txt",sep = "")
-  try(write.table(chosen_annot_table,file_path, append = FALSE, sep="\t",row.names=FALSE))
-}
+  if (is.element(chosen_annot, loaded_annotations) == FALSE) {
 
+    ########### [RStudio] Execute main method ###########
+    chosen_annot_table <- getChosenAnnotTable(chosen_annot, annotVCFTable, loaded_annotations)
+    
+    ########### [RStudio] Save the information ###########
+    # Save the annotated table in a specific variable in global environment
+    assign(chosen_annot, chosen_annot_table)
+    
+    # Save in memory that this annotation has been loaded
+    write(chosen_annot,file=loaded_annotation_path,append=TRUE)
+    
+    # Print the table in a txt file
+    # Works only with basic tables
+    file_path <- paste("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\test_files\\annotatedTables\\annotated_table_",chosen_annot, ".txt",sep = "")
+    try(write.table(chosen_annot_table,file_path, append = FALSE, sep="\t",row.names=FALSE))
+  } else {
+    print(paste("Annotation", chosen_annot, "has already been loaded"))
+  }
+
+}
 ########### [TESTING] Control classes of the chosen annotation table #######
 # Just to be sure this table is suitable for TIBCO
 TEST_classes <- lapply(chosen_annot_table, class)

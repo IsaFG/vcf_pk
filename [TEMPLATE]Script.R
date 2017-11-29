@@ -23,7 +23,7 @@ if (!is.null(isTERR[["TERR.version"]])) {
   ########### [TIBCO] Determinate R interpreter location ########
   Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
   
-  ########### [RStudio] Get the input variables ############
+  ########### [TIBCO] Get the input variables ############
   global_input <- "whatever"
   
   ########### [TIBCO] Create the REvaluate object to execute main method ########
