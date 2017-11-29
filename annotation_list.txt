@@ -1,0 +1,29 @@
+      rsIDTable
+      
+      hgvsTable
+      
+      displayConsequenceTypeTable
+      
+      consequenceTypesTable  
+      
+      popultationFrequenciesTable  
+      
+      conservationTable
+      
+      geneExpressionTable  
+      
+      geneTraitAssociationTable  
+      
+      geneDrugInteractionTable  
+      
+      traitAssociationTable  
+      
+      functionalScoreTable 
+      
+      cytobandTable 
+      
+      repeatTable 
+      
+      clinvarTable 
+      
+      cosmicTable 
