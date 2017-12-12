@@ -1,0 +1,263 @@
+"chromosome"	"start"	"reference"	"alternate"	"rsID"	"trait"	"inheritanceMode"
+"22"	18566288	"C"	"G"	"rs12484657"	"not specified"	NA
+"22"	18566288	"C"	"G"	"rs12484657"	"not specified"	NA
+"22"	18900750	"G"	"A"	"rs372055"	"not provided"	NA
+"22"	18900750	"G"	"A"	"rs372055"	"not provided"	NA
+"22"	18900750	"G"	"A"	"rs372055"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"cardiovascular phenotype"	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"Cardiovascular phenotype"	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	NA	NA
+"22"	19950235	"C"	"T"	"rs4633"	"not specified"	NA
+"22"	19950235	"C"	"T"	"rs4633"	"not specified"	NA
+"22"	19950235	"C"	"T"	"rs4633"	NA	NA
+"22"	19951207	"C"	"G"	"rs4818"	"not specified"	NA
+"22"	19951207	"C"	"G"	"rs4818"	"not specified"	NA
+"22"	19951207	"C"	"G"	"rs4818"	NA	NA
+"22"	19951207	"C"	"G"	"rs4818"	NA	NA
+"22"	19951271	"G"	"A"	"rs4680"	"not specified"	NA
+"22"	19951271	"G"	"A"	"rs4680"	"catechol-o-methyltransferase polymorphism"	NA
+"22"	19951271	"G"	"A"	"rs4680"	"nicotine response - efficacy"	NA
+"22"	19951271	"G"	"A"	"rs4680"	"CATECHOL-O-METHYLTRANSFERASE POLYMORPHISM"	NA
+"22"	19951271	"G"	"A"	"rs4680"	"nicotine response - Efficacy"	NA
+"22"	19951271	"G"	"A"	"rs4680"	"not specified"	NA
+"22"	19951271	"G"	"A"	"rs4680"	NA	NA
+"22"	24891355	"A"	"T"	"rs2070475"	"not provided"	NA
+"22"	24891355	"A"	"T"	"rs2070475"	"not provided"	NA
+"22"	25601196	"C"	"G"	"rs9608378"	"not specified"	NA
+"22"	25601196	"C"	"G"	"rs9608378"	"not specified"	NA
+"22"	25601196	"C"	"G"	"rs9608378"	NA	NA
+"22"	25601196	"C"	"G"	"rs9608378"	NA	NA
+"22"	25601196	"C"	"G"	"rs9608378"	NA	NA
+"22"	25625554	"G"	"A"	"rs4049505"	"not specified"	NA
+"22"	25625554	"G"	"A"	"rs4049505"	"not specified"	NA
+"22"	25627604	"G"	"A"	"rs8140949"	"not specified"	NA
+"22"	25627604	"G"	"A"	"rs8140949"	"not specified"	NA
+"22"	25627604	"G"	"A"	"rs8140949"	NA	NA
+"22"	25627604	"G"	"A"	"rs8140949"	NA	NA
+"22"	25627604	"G"	"A"	"rs8140949"	NA	NA
+"22"	26853905	"C"	"A"	"rs1894704"	"not specified"	NA
+"22"	26853905	"C"	"A"	"rs1894704"	"not specified"	NA
+"22"	26853980	"T"	"C"	"rs1894705"	"not specified"	NA
+"22"	26853980	"T"	"C"	"rs1894705"	"not specified"	NA
+"22"	26854441	"G"	"A"	"rs1894706"	"not specified"	NA
+"22"	26854441	"G"	"A"	"rs1894706"	"not specified"	NA
+"22"	26854441	"G"	"A"	"rs1894706"	NA	NA
+"22"	26854441	"G"	"A"	"rs1894706"	NA	NA
+"22"	26859942	"C"	"T"	"rs5752330"	"not specified"	NA
+"22"	26859942	"C"	"T"	"rs5752330"	"not specified"	NA
+"22"	26860269	"G"	"C"	"rs2014410"	"not specified"	NA
+"22"	26860269	"G"	"C"	"rs2014410"	"not specified"	NA
+"22"	26860269	"G"	"C"	"rs2014410"	NA	NA
+"22"	26860269	"G"	"C"	"rs2014410"	NA	NA
+"22"	26860269	"G"	"C"	"rs2014410"	NA	NA
+"22"	26860269	"G"	"C"	"rs2014410"	NA	NA
+"22"	26861545	"A"	"G"	"rs3213583"	"not specified"	NA
+"22"	26861545	"A"	"G"	"rs3213583"	"not specified"	NA
+"22"	26862153	"C"	"A"	"rs739289"	"not specified"	NA
+"22"	26862153	"C"	"A"	"rs739289"	"not specified"	NA
+"22"	26862212	"T"	"C"	"rs713998"	"not specified"	NA
+"22"	26862212	"T"	"C"	"rs713998"	"not specified"	NA
+"22"	27021425	"A"	"G"	"rs4276"	"not specified"	NA
+"22"	27021425	"A"	"G"	"rs4276"	"not specified"	NA
+"22"	27021457	"T"	"C"	"rs5761637"	"not specified"	NA
+"22"	27021457	"T"	"C"	"rs5761637"	"not specified"	NA
+"22"	29885473	"C"	"T"	"rs5763269"	"not provided"	NA
+"22"	29885473	"C"	"T"	"rs5763269"	"not provided"	NA
+"22"	29885473	"C"	"T"	"rs5763269"	NA	NA
+"22"	29885473	"C"	"T"	"rs5763269"	NA	NA
+"22"	29885473	"C"	"T"	"rs5763269"	NA	NA
+"22"	29885473	"C"	"T"	"rs5763269"	NA	NA
+"22"	29885473	"C"	"T"	"rs5763269"	NA	NA
+"22"	29885473	"C"	"T"	"rs5763269"	NA	NA
+"22"	29886413	"A"	"G"	"rs165625"	"not provided"	NA
+"22"	29886413	"A"	"G"	"rs165625"	"not provided"	NA
+"22"	30038152	"A"	"C"	"rs2530664"	"not specified"	NA
+"22"	30038152	"A"	"C"	"rs2530664"	"not specified"	NA
+"22"	31011610	"G"	"C"	"rs1801198"	"tcn2 polymorphism"	NA
+"22"	31011610	"G"	"C"	"rs1801198"	"TCN2 POLYMORPHISM"	NA
+"22"	31011610	"G"	"C"	"rs1801198"	NA	NA
+"22"	33253280	"T"	"C"	"rs9862"	"not specified"	NA
+"22"	33253280	"T"	"C"	"rs9862"	"not specified"	NA
+"22"	33253280	"T"	"C"	"rs9862"	NA	NA
+"22"	33253280	"T"	"C"	"rs9862"	NA	NA
+"22"	33673125	"C"	"T"	"rs1046166"	"not specified"	NA
+"22"	33673125	"C"	"T"	"rs1046166"	"not specified"	NA
+"22"	34022284	"G"	"A"	"rs86487"	"not specified"	NA
+"22"	34022284	"G"	"A"	"rs86487"	"not specified"	NA
+"22"	34022284	"G"	"A"	"rs86487"	NA	NA
+"22"	34022284	"G"	"A"	"rs86487"	NA	NA
+"22"	34022284	"G"	"A"	"rs86487"	NA	NA
+"22"	36688178	"G"	"A"	"rs76368635"	"not specified"	NA
+"22"	36688178	"G"	"A"	"rs76368635"	"not specified"	NA
+"22"	36690113	"G"	"A"	"rs4821478"	"not specified"	NA
+"22"	36690113	"G"	"A"	"rs4821478"	"not specified"	NA
+"22"	36691607	"A"	"C"	"rs710181"	"not specified"	NA
+"22"	36691607	"A"	"C"	"rs710181"	"not specified"	NA
+"22"	36700175	"A"	"G"	"rs9619601"	"not specified"	NA
+"22"	36700175	"A"	"G"	"rs9619601"	"not specified"	NA
+"22"	36700175	"A"	"G"	"rs9619601"	NA	NA
+"22"	36700175	"A"	"G"	"rs9619601"	NA	NA
+"22"	36700175	"A"	"G"	"rs9619601"	NA	NA
+"22"	36708084	"C"	"T"	"rs2413396"	"not specified"	NA
+"22"	36708084	"C"	"T"	"rs2413396"	"not specified"	NA
+"22"	36710183	"T"	"C"	"rs3752462"	"not specified"	NA
+"22"	36710183	"T"	"C"	"rs3752462"	"not specified"	NA
+"22"	37271882	"T"	"C"	"rs2075939"	"not specified"	NA
+"22"	37271882	"T"	"C"	"rs2075939"	"not specified"	NA
+"22"	37271882	"T"	"C"	"rs2075939"	NA	NA
+"22"	37325833	"C"	"T"	"rs16846"	"not specified"	NA
+"22"	37325833	"C"	"T"	"rs16846"	"not specified"	NA
+"22"	37462936	"A"	"G"	"rs855791"	"not specified"	NA
+"22"	37462936	"A"	"G"	"rs855791"	"not specified"	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	NA	NA
+"22"	37469591	"G"	"A"	"rs4820268"	"not specified"	NA
+"22"	37469591	"G"	"A"	"rs4820268"	"not specified"	NA
+"22"	37469591	"G"	"A"	"rs4820268"	NA	NA
+"22"	37469591	"G"	"A"	"rs4820268"	NA	NA
+"22"	37469591	"G"	"A"	"rs4820268"	NA	NA
+"22"	37471290	"G"	"A"	"rs881144"	"not specified"	NA
+"22"	37471290	"G"	"A"	"rs881144"	"not specified"	NA
+"22"	37471290	"G"	"A"	"rs881144"	NA	NA
+"22"	37471290	"G"	"A"	"rs881144"	NA	NA
+"22"	37471290	"G"	"A"	"rs881144"	NA	NA
+"22"	37471290	"G"	"A"	"rs881144"	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	"not specified"	NA
+"22"	37485724	"T"	"C"	"rs2235324"	"not specified"	NA
+"22"	37485724	"T"	"C"	"rs2235324"	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	NA	NA
+"22"	37499386	"C"	"T"	"rs11704654"	"not specified"	NA
+"22"	37499386	"C"	"T"	"rs11704654"	"not specified"	NA
+"22"	37622815	"A"	"G"	"rs1064498"	"not specified"	NA
+"22"	37622815	"A"	"G"	"rs1064498"	"not specified"	NA
+"22"	37622815	"A"	"G"	"rs1064498"	NA	NA
+"22"	37622815	"A"	"G"	"rs1064498"	NA	NA
+"22"	37637653	"G"	"C"	"rs2239774"	"not specified"	NA
+"22"	37637653	"G"	"C"	"rs2239774"	"not specified"	NA
+"22"	37637653	"G"	"C"	"rs2239774"	NA	NA
+"22"	37637653	"G"	"C"	"rs2239774"	NA	NA
+"22"	38151170	"G"	"A"	"rs11704996"	"not specified"	NA
+"22"	38151170	"G"	"A"	"rs11704996"	"not specified"	NA
+"22"	38369976	"A"	"G"	"rs139884"	"not specified"	NA
+"22"	38369976	"A"	"G"	"rs139884"	"not specified"	NA
+"22"	38369976	"A"	"G"	"rs139884"	NA	NA
+"22"	41537234	"G"	"T"	"rs6002267"	"not specified"	NA
+"22"	41537234	"G"	"T"	"rs6002267"	"not specified"	NA
+"22"	41548008	"A"	"G"	"rs20551"	"not specified"	NA
+"22"	41548008	"A"	"G"	"rs20551"	"not specified"	NA
+"22"	41548008	"A"	"G"	"rs20551"	NA	NA
+"22"	41551039	"T"	"A"	"rs20552"	"not specified"	NA
+"22"	41551039	"T"	"A"	"rs20552"	"not specified"	NA
+"22"	41551039	"T"	"A"	"rs20552"	NA	NA
+"22"	41551039	"T"	"A"	"rs20552"	NA	NA
+"22"	41551039	"T"	"A"	"rs20552"	NA	NA
+"22"	41566595	"C"	"T"	"rs6002271"	"not specified"	NA
+"22"	41566595	"C"	"T"	"rs6002271"	"not specified"	NA
+"22"	41572541	"C"	"T"	"rs73176628"	"not specified"	NA
+"22"	41572541	"C"	"T"	"rs73176628"	"not specified"	NA
+"22"	41903813	"A"	"C"	"rs137831"	"not specified"	NA
+"22"	41903813	"A"	"C"	"rs137831"	"not specified"	NA
+"22"	41911525	"C"	"T"	"rs1799932"	"not specified"	NA
+"22"	41911525	"C"	"T"	"rs1799932"	"not specified"	NA
+"22"	41911525	"C"	"T"	"rs1799932"	NA	NA
+"22"	41911525	"C"	"T"	"rs1799932"	NA	NA
+"22"	41911525	"C"	"T"	"rs1799932"	NA	NA
+"22"	41914593	"C"	"T"	"rs203319"	"not specified"	NA
+"22"	41914593	"C"	"T"	"rs203319"	"not specified"	NA
+"22"	42461918	"G"	"A"	"rs2854827"	"not specified"	NA
+"22"	42461918	"G"	"A"	"rs2854827"	"not specified"	NA
+"22"	42463814	"C"	"T"	"rs133369"	"not specified"	NA
+"22"	42463814	"C"	"T"	"rs133369"	"not specified"	NA
+"22"	42463814	"C"	"T"	"rs133369"	NA	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"antidepressants response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"trimipramine response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"nortriptyline response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"clomipramine response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"desipramine response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"doxepin response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"tamoxifen response - efficacy, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"debrisoquine, poor metabolism of"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"imipramine response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"amitriptyline response - dosage, toxicity/adr"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"Debrisoquine, poor metabolism of"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"doxepin response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"antidepressants response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"trimipramine response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"imipramine response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"clomipramine response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"tamoxifen response - Efficacy, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"amitriptyline response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"nortriptyline response - Dosage, Toxicity/ADR"	NA
+"22"	42524947	"C"	"T"	"rs3892097"	"desipramine response - Dosage, Toxicity/ADR"	NA
+"22"	42526694	"G"	"A"	"rs1065852"	"debrisoquine, poor metabolism of"	NA
+"22"	42526694	"G"	"A"	"rs1065852"	"Debrisoquine, poor metabolism of"	NA
+"22"	42526694	"G"	"A"	"rs1065852"	NA	NA
+"22"	42526694	"G"	"A"	"rs1065852"	NA	NA
+"22"	42526694	"G"	"A"	"rs1065852"	NA	NA
+"22"	42526694	"G"	"A"	"rs1065852"	NA	NA
+"22"	43032742	"C"	"T"	"rs5996200"	"not specified"	NA
+"22"	43032742	"C"	"T"	"rs5996200"	"not specified"	NA
+"22"	50297888	"T"	"C"	"rs3922872"	"not specified"	NA
+"22"	50297888	"T"	"C"	"rs3922872"	"not specified"	NA
+"22"	50297888	"T"	"C"	"rs3922872"	NA	NA
+"22"	50301476	"T"	"C"	"rs8135963"	"not specified"	NA
+"22"	50301476	"T"	"C"	"rs8135963"	"not specified"	NA
+"22"	50301476	"T"	"C"	"rs8135963"	NA	NA
+"22"	50301476	"T"	"C"	"rs8135963"	NA	NA
+"22"	50302850	"A"	"G"	"rs4075331"	"not specified"	NA
+"22"	50302850	"A"	"G"	"rs4075331"	"not specified"	NA
+"22"	50303515	"A"	"C"	"rs9616367"	"not specified"	NA
+"22"	50303515	"A"	"C"	"rs9616367"	"not specified"	NA
+"22"	50303530	"T"	"C"	"rs9616204"	"not specified"	NA
+"22"	50303530	"T"	"C"	"rs9616204"	"not specified"	NA
+"22"	50303533	"C"	"G"	"rs9616368"	"not specified"	NA
+"22"	50303533	"C"	"G"	"rs9616368"	"not specified"	NA
+"22"	50307184	"G"	"T"	"rs11705497"	"not specified"	NA
+"22"	50307184	"G"	"T"	"rs11705497"	"not specified"	NA
+"22"	50512617	"C"	"T"	"rs2038048"	"not specified"	NA
+"22"	50512617	"C"	"T"	"rs2038048"	"not specified"	NA
+"22"	50518723	"A"	"G"	"rs79301"	"not specified"	NA
+"22"	50518723	"A"	"G"	"rs79301"	"not specified"	NA
+"22"	50962208	"T"	"G"	"rs12148"	"not specified"	NA
+"22"	50962208	"T"	"G"	"rs12148"	"not specified"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"not specified"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"not specified"	NA
+"22"	50962782	"C"	"G"	"rs140523"	NA	NA
+"22"	50962782	"C"	"G"	"rs140523"	NA	NA
+"22"	50962782	"C"	"G"	"rs140523"	NA	NA
+"22"	50962782	"C"	"G"	"rs140523"	NA	NA
+"22"	50962782	"C"	"G"	"rs140523"	NA	NA
+"22"	50962782	"C"	"G"	"rs140523"	NA	NA
+"22"	50964236	"G"	"A"	"rs11479"	"not specified"	NA
+"22"	50964236	"G"	"A"	"rs11479"	"not specified"	NA
+"22"	51020668	"C"	"A"	"rs86337"	"not specified"	NA
+"22"	51020668	"C"	"A"	"rs86337"	"not specified"	NA
+"22"	51063987	"G"	"C"	"rs762674"	"not specified"	NA
+"22"	51063987	"G"	"C"	"rs762674"	"not specified"	NA
+"22"	51064039	"G"	"C"	"rs743616"	"metachromatic leukodystrophy"	NA
+"22"	51064039	"G"	"C"	"rs743616"	"not specified"	NA
+"22"	51064039	"G"	"C"	"rs743616"	"not specified"	NA
+"22"	51064039	"G"	"C"	"rs743616"	"Metachromatic leukodystrophy"	"biallelic"

@@ -1,0 +1,1209 @@
+"chromosome"	"start"	"reference"	"alternate"	"rsID"	"mutationId"	"primarySite"	"primaryHistology"	"histologySubtype"	"geneName"	"mutationSomaticStatus"	"sampleSource"	"siteSubtype"	"tumourOrigin"
+"22"	17072483	"A"	"G"	"rs2236639"	"COSM149246"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CCT8L2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	17072483	"A"	"G"	"rs2236639"	"COSM149246"	"prostate"	"carcinoma"	"adenocarcinoma"	"CCT8L2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	17072483	"A"	"G"	"rs2236639"	"COSM149246"	"stomach"	"carcinoma"	"adenocarcinoma"	"CCT8L2"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	17073066	"A"	"G"	"rs5747988"	"COSM3759012"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CCT8L2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	17073066	"A"	"G"	"rs5747988"	"COSM3759012"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CCT8L2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	17566158	"T"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	17600977	"G"	"A"	"rs5994165"	"COSM3759017"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CECR6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	17600977	"G"	"A"	"rs5994165"	"COSM3759017"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CECR6"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	17619292	"C"	"T"	"rs740422"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	17630389	"G"	"C"	"rs1034858"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	17630486	"C"	"A"	"rs1034859"	"COSM4418902"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CECR5_ENST00000155674"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	17630486	"C"	"A"	"rs1034859"	"COSM4418901"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CECR5"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	17690409	"G"	"A"	"rs362129"	"COSM4135116"	"thyroid"	"other"	"neoplasm"	"CECR1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	18111431	"T"	"C"	"rs7751"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18178859	"C"	"T"	"rs2257083"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18226521	"C"	"T"	"rs738094"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18226601	"C"	"G"	"rs201438109"	"COSM116387"	"ovary"	"carcinoma"	"serous carcinoma"	"BID"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	18566288	"C"	"G"	"rs12484657"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18607090	"GGGA"	"G"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18650682	"C"	"T"	"rs3180408"	"COSM149251"	"pancreas"	"carcinoma"	"ductal carcinoma"	"USP18"	"Confirmed somatic variant"	NA	NA	NA
+"22"	18650682	"C"	"T"	"rs3180408"	"COSM149251"	"skin"	"carcinoma"	"basal cell carcinoma"	"USP18"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	18650682	"C"	"T"	"rs3180408"	"COSM149251"	"stomach"	"carcinoma"	"adenocarcinoma"	"USP18"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	18650682	"C"	"T"	"rs3180408"	"COSM149251"	"large intestine"	"carcinoma"	"adenocarcinoma"	"USP18"	"Reported in another cancer sample as somatic"	"surgery - NOS"	NA	"metastasis"
+"22"	18899016	"G"	"A"	"rs428224"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18900669	"A"	"G"	"rs383964"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18900750	"G"	"A"	"rs372055"	"COSM4135137"	"thyroid"	"other"	"neoplasm"	"PRODH"	"Confirmed somatic variant"	NA	NA	NA
+"22"	18901004	"C"	"T"	"rs450046"	"COSM4004837"	"urinary tract"	"carcinoma"	NA	"PRODH"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	18904414	"A"	"G"	"rs455072"	"COSM4135138"	"thyroid"	"other"	"neoplasm"	"PRODH"	"Confirmed somatic variant"	NA	NA	NA
+"22"	18904414	"A"	"G"	"rs455072"	"COSM4135138"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"PRODH"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	18905978	"G"	"A"	"rs16983466"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18908875	"A"	"G"	"rs1808320"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18910284	"AC"	"A"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18910301	"A"	"G"	"rs2008904"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18910307	"G"	"A"	"rs2008903"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18910450	"CA"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18912678	"A"	"G"	"rs4819756"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	18918760	"T"	"C"	"rs67625420"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19026613	"A"	"G"	"rs2072123"	"COSM4135140"	"thyroid"	"other"	"neoplasm"	"DGCR2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19028782	"C"	"T"	"rs73157286"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19036172	"A"	"G"	"rs73157291"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19077049	"C"	"T"	"rs2800960"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19109753	"A"	"G"	"rs11550628"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19109764	"A"	"G"	"rs11550626"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19119545	"C"	"T"	"rs45604134"	"COSM5425332"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TSSK2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	19119545	"C"	"T"	"rs45604134"	"COSM5425332"	"breast"	"carcinoma"	"ductal carcinoma"	"TSSK2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19119686	"C"	"T"	"rs1052756"	"COSM5425333"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TSSK2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	19119686	"C"	"T"	"rs1052756"	"COSM5425333"	"breast"	"carcinoma"	"ductal carcinoma"	"TSSK2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19119751	"C"	"T"	"rs1052763"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19119938	"G"	"A"	"rs1052773"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19122665	"C"	"T"	"rs2240111"	"COSM5425334"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"DGCR14"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	19122665	"C"	"T"	"rs2240111"	"COSM5425334"	"breast"	"carcinoma"	"ductal carcinoma"	"DGCR14"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19126631	"T"	"C"	"rs2298273"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19132061	"C"	"T"	"rs2298274"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19455376	"C"	"T"	"rs5746742"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19459180	"C"	"G"	"rs758816362"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19467652	"T"	"C"	"rs5748232"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19504318	"G"	"A"	"rs2073733"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19707258	"T"	"G"	"rs778802916"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759029"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TBX1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759029"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TBX1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759029"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"TBX1"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759031"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TBX1_ENST00000359500"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759030"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TBX1_ENST00000329705"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759031"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TBX1_ENST00000359500"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759030"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"TBX1_ENST00000329705"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759030"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TBX1_ENST00000329705"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	19750773	"T"	"C"	"rs41298814"	"COSM3759031"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"TBX1_ENST00000359500"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	19776365	"G"	"A"	"rs73148914"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19950164	"A"	"G"	"rs75012854"	"COSM4596424"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"COMT"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	19950164	"A"	"G"	"rs75012854"	"COSM4596424"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"COMT"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19950235	"C"	"T"	"rs4633"	"COSM149252"	"stomach"	"carcinoma"	"adenocarcinoma"	"COMT"	"Variant of unknown origin"	"fresh/frozen - NOS"	NA	NA
+"22"	19951207	"C"	"G"	"rs4818"	"COSM3759038"	"large intestine"	"carcinoma"	"adenocarcinoma"	"COMT"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	19951207	"C"	"G"	"rs4818"	"COSM3759038"	"thyroid"	"other"	"neoplasm"	"COMT"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19951271	"G"	"A"	"rs4680"	"COSM4997949"	"pancreas"	"carcinoma"	"ductal carcinoma"	"COMT"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19956262	"G"	"GC"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19959366	"G"	"A"	"rs165824"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19959473	"C"	"T"	"rs165815"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19959955	"A"	"G"	"rs2073744"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	19969075	"A"	"G"	"rs2073747"	"COSM3759040"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ARVCF"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	19969075	"A"	"G"	"rs2073747"	"COSM3759040"	"thyroid"	"other"	"neoplasm"	"ARVCF"	"Confirmed somatic variant"	NA	NA	NA
+"22"	19969106	"A"	"G"	"rs2240717"	"COSM3759041"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ARVCF"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	19969106	"A"	"G"	"rs2240717"	"COSM3759041"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ARVCF"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	19969106	"A"	"G"	"rs2240717"	"COSM3759041"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"ARVCF"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	20100596	"T"	"C"	"rs1633445"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20103263	"G"	"T"	"rs9605067"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20103264	"C"	"T"	"rs9605068"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20128360	"T"	"G"	"rs778785151"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20307256	"G"	"A"	"rs7235"	"COSM149253"	"large intestine"	"carcinoma"	"adenocarcinoma"	"DGCR6L"	"Reported in another cancer sample as somatic"	"surgery - NOS"	NA	"metastasis"
+"22"	20307256	"G"	"A"	"rs7235"	"COSM149253"	"thyroid"	"other"	"neoplasm"	"DGCR6L"	"Confirmed somatic variant"	NA	NA	NA
+"22"	20307256	"G"	"A"	"rs7235"	"COSM149253"	"stomach"	"carcinoma"	"adenocarcinoma"	"DGCR6L"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	20307256	"G"	"A"	"rs7235"	"COSM149253"	"thymus"	"thymic carcinoma"	"squamous cell carcinoma"	"DGCR6L"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	20779768	"G"	"C"	"rs874101"	"COSM5458095"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCARF2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	20779768	"G"	"C"	"rs874101"	"COSM5458095"	"biliary tract"	"carcinoma"	NA	"SCARF2"	"Confirmed somatic variant"	NA	"bile duct"	"primary"
+"22"	20780091	"C"	"G"	"rs759610"	"COSM3759049"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCARF2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	20783485	"C"	"A"	"rs5997411"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20791821	"G"	"A"	"rs9619753"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20937601	"C"	"T"	"rs165643"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	20939123	"G"	"A"	"rs165835"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21068878	"C"	"T"	"rs2329478"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21073122	"G"	"A"	"rs1807692"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21075537	"A"	"C"	"rs5751800"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21088146	"C"	"G"	"rs3852979"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21107153	"T"	"C"	"rs2329583"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM149258"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SERPIND1_ENST00000215727"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM149258"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SERPIND1_ENST00000215727"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM149258"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SERPIND1_ENST00000215727"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	21141300	"T"	"C"	"rs4675"	"COSM149258"	"stomach"	"carcinoma"	"adenocarcinoma"	"SERPIND1_ENST00000215727"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM3759056"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"SERPIND1"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	21141300	"T"	"C"	"rs4675"	"COSM149258"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SERPIND1_ENST00000215727"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM3759056"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SERPIND1"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	21141300	"T"	"C"	"rs4675"	"COSM3759056"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SERPIND1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM3759056"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SERPIND1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21141300	"T"	"C"	"rs4675"	"COSM149258"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"SERPIND1_ENST00000215727"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	21141300	"T"	"C"	"rs4675"	"COSM3759056"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SERPIND1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21153590	"C"	"T"	"rs165758"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21167605	"G"	"GACA"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21167787	"G"	"A"	"rs165854"	"COSM149259"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PI4KA_ENST00000255882"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	21167787	"G"	"A"	"rs165854"	"COSM149259"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"PI4KA_ENST00000255882"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	21167787	"G"	"A"	"rs165854"	"COSM149259"	"stomach"	"carcinoma"	"adenocarcinoma"	"PI4KA_ENST00000255882"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	21213380	"C"	"T"	"rs1061063"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21213416	"A"	"G"	"rs1061064"	"COSM444738"	"thyroid"	"other"	"neoplasm"	"SNAP29"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21213416	"A"	"G"	"rs1061064"	"COSM444738"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SNAP29"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	21213541	"A"	"G"	"rs772134175"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21327834	"C"	"G"	"rs178265"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21329123	"A"	"G"	"rs733455"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21331043	"A"	"T"	"rs178269"	"COSM4135186"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"AIFM3_ENST00000335375"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	21331043	"A"	"T"	"rs178269"	"COSM4135185"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"AIFM3_ENST00000405089"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	21331043	"A"	"T"	"rs178269"	"COSM4135184"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"AIFM3"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	21331043	"A"	"T"	"rs178269"	"COSM4135184"	"thyroid"	"other"	"neoplasm"	"AIFM3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21331043	"A"	"T"	"rs178269"	"COSM4135186"	"thyroid"	"other"	"neoplasm"	"AIFM3_ENST00000335375"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21331043	"A"	"T"	"rs178269"	"COSM4135185"	"thyroid"	"other"	"neoplasm"	"AIFM3_ENST00000405089"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21331950	"C"	"G"	"rs178276"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21335259	"C"	"A"	"rs178278"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21337266	"G"	"A"	"rs178280"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21337415	"C"	"G"	"rs178281"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21340088	"T"	"C"	"rs178287"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21346485	"T"	"C"	"rs112544"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21348084	"T"	"C"	"rs178291"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21349037	"A"	"G"	"rs178292"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21350936	"G"	"A"	"rs11704198"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21351018	"C"	"T"	"rs143758478"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21354970	"C"	"G"	"rs426938"	"COSM149260"	"prostate"	"carcinoma"	"adenocarcinoma"	"THAP7"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21354970	"C"	"G"	"rs426938"	"COSM149260"	"stomach"	"carcinoma"	"adenocarcinoma"	"THAP7"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	21369676	"G"	"C"	"rs3893495"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21377071	"C"	"T"	"rs9613540"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21377301	"C"	"A"	"rs1548411"	"COSM4135190"	"thyroid"	"other"	"neoplasm"	"P2RXL1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21377301	"C"	"A"	"rs1548411"	"COSM4135189"	"thyroid"	"other"	"neoplasm"	"P2RX6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21383429	"A"	"T"	"rs55700350"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21385985	"C"	"T"	"rs402931"	"COSM4135195"	"thyroid"	"other"	"neoplasm"	"SLC7A4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21800024	"G"	"C"	"rs200094983"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21800042	"T"	"C"	"rs467181"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21800444	"T"	"C"	"rs128477"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	21982892	"C"	"T"	"rs2298428"	"COSM3759062"	"thyroid"	"other"	"neoplasm"	"YDJC"	"Confirmed somatic variant"	NA	NA	NA
+"22"	21982892	"C"	"T"	"rs2298428"	"COSM3759062"	"large intestine"	"carcinoma"	"adenocarcinoma"	"YDJC"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	21982892	"C"	"T"	"rs2298428"	"COSM3759062"	"large intestine"	"carcinoma"	"adenocarcinoma"	"YDJC"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	21982892	"C"	"T"	"rs2298428"	"COSM3759062"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"YDJC"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	21984205	"A"	"G"	"rs710177"	"COSM1565999"	"large intestine"	"carcinoma"	"adenocarcinoma"	"YDJC"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	21984205	"A"	"G"	"rs710177"	"COSM1565999"	"urinary tract"	"carcinoma"	"transitional cell carcinoma"	"YDJC"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"bladder"	NA
+"22"	21984205	"A"	"G"	"rs710177"	"COSM1565999"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"YDJC"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	21984205	"A"	"G"	"rs710177"	"COSM1565999"	"urinary tract"	"carcinoma"	NA	"YDJC"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	21998280	"G"	"A"	"rs73166641"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22049670	"C"	"T"	"rs749938533"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22055394	"A"	"G"	"rs1860"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22287964	"T"	"C"	"rs2027790"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22318354	"T"	"C"	"rs75602167"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22326326	"GC"	"G"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22330082	"T"	"C"	"rs239927"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22599380	"G"	"A"	"rs9619852"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22842206	"T"	"C"	"rs11109"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22842957	"T"	"G"	"rs2236729"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22843118	"C"	"T"	"rs2236730"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22868493	"G"	"T"	"rs361666"	"COSM4002100"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868497	"G"	"C"	"rs361762"	"COSM4002101"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868773	"G"	"A"	"rs361737"	"COSM1179797"	"thyroid"	"other"	"neoplasm"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868773	"G"	"A"	"rs361737"	"COSM1179797"	"prostate"	"adenoma"	NA	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868773	"G"	"A"	"rs361737"	"COSM1179797"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868776	"G"	"A"	"rs362173"	"COSM1179798"	"thyroid"	"other"	"neoplasm"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868776	"G"	"A"	"rs362173"	"COSM1179798"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22868776	"G"	"A"	"rs362173"	"COSM1179798"	"prostate"	"adenoma"	NA	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869123	"T"	"C"	"rs362003"	"COSM4002102"	"thyroid"	"other"	"neoplasm"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869123	"T"	"C"	"rs362003"	"COSM4002102"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869209	"C"	"G"	"rs362124"	"COSM4002103"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869218	"T"	"C"	"rs362132"	"COSM4002104"	"pancreas"	"carcinoma"	"ductal carcinoma"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869218	"T"	"C"	"rs362132"	"COSM4002104"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869538	"A"	"G"	"rs361611"	"COSM4002105"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869545	"T"	"G"	"rs361580"	"COSM4002106"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869548	"T"	"C"	"rs362011"	"COSM4002107"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869649	"G"	"C"	"rs361721"	"COSM4002108"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22869742	"C"	"A"	"rs361959"	"COSM4002109"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ZNF280A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22890492	"G"	"A"	"rs13604"	"COSM3759069"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRAME"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	22890752	"A"	"G"	"rs17497512"	"COSM3759070"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRAME"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	22890792	"T"	"C"	"rs17497547"	"COSM3759071"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRAME"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	22890792	"T"	"C"	"rs17497547"	"COSM3759071"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"PRAME"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	22891081	"G"	"T"	"rs2072049"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22892449	"T"	"C"	"rs41277507"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22893463	"G"	"C"	"rs73158906"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	22899234	"A"	"G"	"rs1129172"	"COSM85675"	"soft tissue"	"haemangioblastoma"	NA	"PRAME"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	22899234	"A"	"G"	"rs1129172"	"COSM85675"	"breast"	"carcinoma"	"ductal carcinoma"	"PRAME"	"Confirmed somatic variant"	NA	NA	NA
+"22"	22899234	"A"	"G"	"rs1129172"	"COSM85675"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRAME"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	22899234	"A"	"G"	"rs1129172"	"COSM85675"	"prostate"	"carcinoma"	"adenocarcinoma"	"PRAME"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	22989256	"A"	"G"	"rs2904923"	"COSM1130493"	"prostate"	"carcinoma"	"adenocarcinoma"	"GGTLC2"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	22989256	"A"	"G"	"rs2904923"	"COSM1130493"	"skin"	"carcinoma"	"basal cell carcinoma"	"GGTLC2"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	23438191	"C"	"T"	"rs1805058"	"COSM1130492"	"prostate"	"carcinoma"	"adenocarcinoma"	"GNAZ"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	23438191	"C"	"T"	"rs1805058"	"COSM1130492"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"GNAZ"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	23438191	"C"	"T"	"rs1805058"	"COSM1130492"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GNAZ"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	23438191	"C"	"T"	"rs1805058"	"COSM1130492"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GNAZ"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	23482460	"A"	"G"	"rs4822360"	"COSM149261"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RTDR1"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	23482460	"A"	"G"	"rs4822360"	"COSM149261"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"RTDR1"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	23482460	"A"	"G"	"rs4822360"	"COSM149261"	"stomach"	"carcinoma"	"adenocarcinoma"	"RTDR1"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	23482483	"G"	"A"	"rs35211242"	"COSM5034171"	"skin"	"carcinoma"	NA	"RTDR1"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	23487533	"C"	"T"	"rs1476441"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23503121	"G"	"A"	"rs5759611"	"COSM4419500"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RAB36"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	23503121	"G"	"A"	"rs5759611"	"COSM4419500"	"breast"	"carcinoma"	"ductal carcinoma"	"RAB36"	"Confirmed somatic variant"	NA	NA	NA
+"22"	23503170	"A"	"G"	"rs5759612"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23503205	"G"	"C"	"rs5759613"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23503651	"C"	"T"	"rs713682"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23503756	"G"	"A"	"rs737818"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM3759074"	"soft tissue"	"haemangioblastoma"	NA	"BCR"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM4156034"	"soft tissue"	"haemangioblastoma"	NA	"BCR_ENST00000398512"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM4156034"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"BCR_ENST00000398512"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM3759074"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BCR"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM3759074"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"BCR"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM4156034"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BCR_ENST00000398512"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM3759074"	"thyroid"	"other"	"neoplasm"	"BCR"	"Confirmed somatic variant"	NA	NA	NA
+"22"	23523630	"C"	"A"	"rs5751602"	"COSM4156034"	"thyroid"	"other"	"neoplasm"	"BCR_ENST00000398512"	"Confirmed somatic variant"	NA	NA	NA
+"22"	23596020	"C"	"G"	"rs757426575"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23615774	"T"	"G"	"rs546554667"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23627369	"A"	"G"	"rs140504"	"COSM3759076"	"breast"	"carcinoma"	"ductal carcinoma"	"BCR"	"Confirmed somatic variant"	NA	NA	NA
+"22"	23627369	"A"	"G"	"rs140504"	"COSM3759076"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BCR"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	23653880	"G"	"A"	"rs180801"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23655084	"C"	"T"	"rs11558697"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23655219	"G"	"A"	"rs180806"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23656148	"T"	"G"	"rs66569843"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23657595	"T"	"C"	"rs115134623"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23657604	"T"	"C"	"rs116411381"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23657664	"C"	"T"	"rs73152683"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23657735	"G"	"A"	"rs180812"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	23915574	"G"	"A"	"rs1064419"	"COSM4997751"	"large intestine"	"carcinoma"	"adenocarcinoma"	"IGLL1"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	23915574	"G"	"A"	"rs1064419"	"COSM4997751"	"pancreas"	"carcinoma"	"ductal carcinoma"	"IGLL1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24034288	"A"	"G"	"rs738786"	"COSM4156036"	"thyroid"	"other"	"neoplasm"	"RGL4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24035970	"C"	"T"	"rs2070446"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24038847	"T"	"C"	"rs1007298"	"COSM1599892"	"urinary tract"	"carcinoma"	"transitional cell carcinoma"	"RGL4"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"bladder"	NA
+"22"	24038847	"T"	"C"	"rs1007298"	"COSM1599892"	"urinary tract"	"carcinoma"	NA	"RGL4"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	24038847	"T"	"C"	"rs1007298"	"COSM1599892"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"RGL4"	"Confirmed somatic variant"	"short-term culture"	"brain"	"primary"
+"22"	24108288	"C"	"G"	"rs140182"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24108412	"G"	"A"	"rs9153"	"COSM3766695"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"CHCHD10"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	24108412	"G"	"A"	"rs9153"	"COSM3766695"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CHCHD10"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	24108412	"G"	"A"	"rs9153"	"COSM3766695"	"thyroid"	"other"	"neoplasm"	"CHCHD10"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24109550	"T"	"C"	"rs131444"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24121378	"C"	"T"	"rs738792"	"COSM1751756"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MMP11"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	24121378	"C"	"T"	"rs738792"	"COSM1751756"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MMP11"	"Confirmed somatic variant"	NA	"rectum"	"primary"
+"22"	24121378	"C"	"T"	"rs738792"	"COSM1751756"	"thyroid"	"other"	"neoplasm"	"MMP11"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24121378	"C"	"T"	"rs738792"	"COSM1751756"	"urinary tract"	"carcinoma"	"transitional cell carcinoma"	"MMP11"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"bladder"	NA
+"22"	24121378	"C"	"T"	"rs738792"	"COSM1751756"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MMP11"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	24121378	"C"	"T"	"rs738792"	"COSM1751756"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MMP11"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	24122499	"G"	"A"	"rs9612427"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24125565	"G"	"A"	"rs2877173"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24226242	"A"	"G"	"rs2070460"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24236819	"T"	"C"	"rs2096525"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24237221	"C"	"G"	"rs2070766"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24325006	"G"	"A"	"rs200925305"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24325024	"C"	"T"	"rs201723657"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24325047	"C"	"G"	"rs149686121"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24377034	"A"	"G"	"rs745745296"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24379402	"T"	"G"	"rs751976520"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24451533	"T"	"G"	"rs201463135"	"COSM4004867"	"urinary tract"	"carcinoma"	NA	"CABIN1"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	24456359	"A"	"G"	"rs56288125"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24459438	"T"	"C"	"rs762273"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24468386	"G"	"A"	"rs17854874"	"COSM3759087"	"breast"	"carcinoma"	"ductal carcinoma"	"CABIN1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24468386	"G"	"A"	"rs17854874"	"COSM3759087"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CABIN1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	24472270	"A"	"G"	"rs2283807"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24480503	"G"	"A"	"rs4820581"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24492061	"T"	"C"	"rs2236622"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24515533	"T"	"G"	"rs200593206"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24564477	"C"	"T"	"rs17854875"	"COSM3759088"	"thyroid"	"other"	"neoplasm"	"CABIN1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24564477	"C"	"T"	"rs17854875"	"COSM3759088"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CABIN1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	24579049	"G"	"A"	"rs62231981"	"COSM1178084"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SUSD2"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	24579049	"G"	"A"	"rs62231981"	"COSM1178084"	"thyroid"	"other"	"neoplasm"	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579049	"G"	"A"	"rs62231981"	"COSM1178084"	"prostate"	"adenoma"	NA	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579049	"G"	"A"	"rs62231981"	"COSM1178084"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	24579049	"G"	"A"	"rs62231981"	"COSM1178084"	"skin"	"carcinoma"	"basal cell carcinoma"	"SUSD2"	"Confirmed somatic variant"	"surgery fresh/frozen"	"leg"	"recurrent"
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SUSD2"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"skin"	"carcinoma"	"basal cell carcinoma"	"SUSD2"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"SUSD2"	"Reported in another cancer sample as somatic"	"cell-line"	"brain"	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"prostate"	"carcinoma"	"adenocarcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"SUSD2"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"recurrent"
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"prostate"	"adenoma"	NA	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"cervix"	"carcinoma"	"squamous cell carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"SUSD2"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	24579157	"G"	"T"	"rs200945728"	"COSM1180264"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"SUSD2"	"Reported in another cancer sample as somatic"	"cell-line"	"brain"	NA
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"cervix"	"carcinoma"	"squamous cell carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SUSD2"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"lung"	"carcinoma"	"squamous cell carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SUSD2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"pancreas"	"carcinoma"	NA	"SUSD2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	24579158	"A"	"C"	"rs201628954"	"COSM1180265"	"prostate"	"adenoma"	NA	"SUSD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24583879	"T"	"C"	"rs2070470"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24584027	"C"	"A"	"rs200827889"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24628928	"G"	"A"	"rs762276"	"COSM3759089"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GGT5"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	24628928	"G"	"A"	"rs762276"	"COSM3759089"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GGT5"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	24717850	"A"	"G"	"rs204710"	"COSM4590569"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SPECC1L"	"Variant of unknown origin"	"cell-line"	"head neck"	NA
+"22"	24730587	"C"	"T"	"rs5760351"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24761467	"G"	"A"	"rs204718"	"COSM4591418"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SPECC1L"	"Variant of unknown origin"	"cell-line"	"head neck"	NA
+"22"	24837301	"T"	"C"	"rs5751876"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24891355	"A"	"T"	"rs2070475"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24944053	"C"	"T"	"rs4822506"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	24964128	"T"	"C"	"rs4597"	"COSM4156058"	"thyroid"	"other"	"neoplasm"	"SNRPD3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24964128	"T"	"C"	"rs4597"	"COSM4156058"	"kidney"	NA	NA	"SNRPD3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24964128	"T"	"C"	"rs4597"	"COSM4156059"	"thyroid"	"other"	"neoplasm"	"SNRPD3_ENST00000402849"	"Confirmed somatic variant"	NA	NA	NA
+"22"	24964128	"T"	"C"	"rs4597"	"COSM4156059"	"kidney"	NA	NA	"SNRPD3_ENST00000402849"	"Confirmed somatic variant"	NA	NA	NA
+"22"	25124095	"C"	"T"	"rs738827"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25124143	"C"	"T"	"rs73152579"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25144912	"C"	"T"	"rs11703684"	"COSM4419130"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"PIWIL3"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	25144912	"C"	"T"	"rs11703684"	"COSM4419130"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"PIWIL3"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	25144912	"C"	"T"	"rs11703684"	"COSM4419130"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"PIWIL3"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	25144912	"C"	"T"	"rs11703684"	"COSM4419130"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"PIWIL3"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	25144912	"C"	"T"	"rs11703684"	"COSM4419130"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"PIWIL3"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	25145453	"C"	"T"	"rs1892723"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25145471	"A"	"G"	"rs1892722"	"COSM3759090"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PIWIL3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	25145471	"A"	"G"	"rs1892722"	"COSM3759090"	"pancreas"	"carcinoma"	"ductal carcinoma"	"PIWIL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	25147324	"A"	"G"	"rs11705460"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25151890	"CA"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25158326	"A"	"G"	"rs5751975"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25597331	"T"	"C"	"rs2269672"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25601196	"C"	"G"	"rs9608378"	"COSM3733888"	"pancreas"	"carcinoma"	"ductal carcinoma"	"CRYBB3"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	25601196	"C"	"G"	"rs9608378"	"COSM3733888"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CRYBB3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	25601196	"C"	"G"	"rs9608378"	"COSM3733888"	"pancreas"	"pancreatic intraepithelial neoplasia (PanIN)"	NA	"CRYBB3"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"hyperplasia adjacent to primary tumour"
+"22"	25625554	"G"	"A"	"rs4049505"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	25627604	"G"	"A"	"rs8140949"	"COSM4002116"	"thyroid"	"other"	"neoplasm"	"CRYBB2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	25627604	"G"	"A"	"rs8140949"	"COSM4002116"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CRYBB2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	25627604	"G"	"A"	"rs8140949"	"COSM4002116"	"biliary tract"	"carcinoma"	NA	"CRYBB2"	"Confirmed somatic variant"	NA	"bile duct"	"primary"
+"22"	25753321	"G"	"A"	"rs9624807"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26688831	"G"	"T"	"rs137203"	"COSM4998268"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SEZ6L"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26701907	"G"	"A"	"rs199950359"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26709766	"T"	"G"	"rs201292047"	"COSM4156093"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"SEZ6L"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26709766	"T"	"G"	"rs201292047"	"COSM4156093"	"thyroid"	"other"	"neoplasm"	"SEZ6L"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156094"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"ASPHD2_ENST00000215906"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156094"	"thyroid"	"other"	"neoplasm"	"ASPHD2_ENST00000215906"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156094"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"acute lymphoblastic leukaemia"	"ASPHD2_ENST00000215906"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156095"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"ASPHD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156095"	"thyroid"	"other"	"neoplasm"	"ASPHD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156095"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"primary central nervous system lymphoma"	"ASPHD2"	"Confirmed somatic variant"	"surgery fresh/frozen"	"central nervous system"	NA
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156095"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"acute lymphoblastic leukaemia"	"ASPHD2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	26829679	"T"	"G"	"rs202240105"	"COSM4156094"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"primary central nervous system lymphoma"	"ASPHD2_ENST00000215906"	"Confirmed somatic variant"	"surgery fresh/frozen"	"central nervous system"	NA
+"22"	26830478	"A"	"G"	"rs3788398"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26853905	"C"	"A"	"rs1894704"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26853980	"T"	"C"	"rs1894705"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26854441	"G"	"A"	"rs1894706"	"COSM4156097"	"thyroid"	"other"	"neoplasm"	"HPS4_ENST00000398141"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26854441	"G"	"A"	"rs1894706"	"COSM4156096"	"thyroid"	"other"	"neoplasm"	"HPS4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26859900	"C"	"G"	"rs774331295"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26859942	"C"	"T"	"rs5752330"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26860269	"G"	"C"	"rs2014410"	"COSM3759101"	"thyroid"	"other"	"neoplasm"	"HPS4_ENST00000398141"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26860269	"G"	"C"	"rs2014410"	"COSM3759100"	"thyroid"	"other"	"neoplasm"	"HPS4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26860269	"G"	"C"	"rs2014410"	"COSM3759101"	"large intestine"	"carcinoma"	"adenocarcinoma"	"HPS4_ENST00000398141"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	26860269	"G"	"C"	"rs2014410"	"COSM3759100"	"large intestine"	"carcinoma"	"adenocarcinoma"	"HPS4"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	26861545	"A"	"G"	"rs3213583"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26862153	"C"	"A"	"rs739289"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26862212	"T"	"C"	"rs713998"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26894985	"C"	"T"	"rs2187956"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26895061	"G"	"A"	"rs2157586"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	26895337	"G"	"A"	"rs1008530"	"COSM4156104"	"thyroid"	"other"	"neoplasm"	"TFIP11"	"Confirmed somatic variant"	NA	NA	NA
+"22"	26937327	"C"	"G"	"rs4822735"	"COSM3759103"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TPST2"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	26937327	"C"	"G"	"rs4822735"	"COSM3759103"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TPST2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	27021425	"A"	"G"	"rs4276"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	27021457	"T"	"C"	"rs5761637"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29140559	"T"	"C"	"rs73170629"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29456733	"T"	"C"	"rs6005977"	"COSM1130467"	"large intestine"	"carcinoma"	"adenocarcinoma"	"C22orf31"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29456733	"T"	"C"	"rs6005977"	"COSM1130467"	"prostate"	"carcinoma"	"adenocarcinoma"	"C22orf31"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	29656389	"G"	"T"	"rs2231398"	"COSM3766703"	"thyroid"	"other"	"neoplasm"	"RHBDD3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29656389	"G"	"T"	"rs2231398"	"COSM3766703"	"breast"	"carcinoma"	"ductal carcinoma"	"RHBDD3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29656389	"G"	"T"	"rs2231398"	"COSM3766703"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"RHBDD3"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	29669693	"T"	"C"	"rs4820804"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162504"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GAS2L1_ENST00000333679"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162503"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GAS2L1"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162504"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GAS2L1_ENST00000333679"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162503"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GAS2L1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162503"	"thyroid"	"other"	"neoplasm"	"GAS2L1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162503"	"pancreas"	"carcinoma"	"ductal carcinoma"	"GAS2L1"	"Confirmed somatic variant"	"cell-line"	NA	"primary"
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162504"	"thyroid"	"other"	"neoplasm"	"GAS2L1_ENST00000333679"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29704125	"C"	"T"	"rs11090564"	"COSM1162504"	"pancreas"	"carcinoma"	"ductal carcinoma"	"GAS2L1_ENST00000333679"	"Confirmed somatic variant"	"cell-line"	NA	"primary"
+"22"	29727866	"C"	"T"	"rs174765"	"COSM3759109"	"large intestine"	"carcinoma"	"adenocarcinoma"	"AP1B1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29727866	"C"	"T"	"rs174765"	"COSM3759110"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"AP1B1_ENST00000415447"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	29727866	"C"	"T"	"rs174765"	"COSM3759109"	"thyroid"	"other"	"neoplasm"	"AP1B1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29727866	"C"	"T"	"rs174765"	"COSM3759109"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"AP1B1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	29727866	"C"	"T"	"rs174765"	"COSM3759110"	"thyroid"	"other"	"neoplasm"	"AP1B1_ENST00000415447"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29727866	"C"	"T"	"rs174765"	"COSM3759110"	"large intestine"	"carcinoma"	"adenocarcinoma"	"AP1B1_ENST00000415447"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29727886	"T"	"C"	"rs2857465"	"COSM4156120"	"thyroid"	"other"	"neoplasm"	"AP1B1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29727886	"T"	"C"	"rs2857465"	"COSM4156121"	"thyroid"	"other"	"neoplasm"	"AP1B1_ENST00000415447"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29752621	"G"	"A"	"rs73156542"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29755888	"T"	"C"	"rs2072051"	"COSM3759112"	"large intestine"	"carcinoma"	"adenocarcinoma"	"AP1B1_ENST00000415447"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29755888	"T"	"C"	"rs2072051"	"COSM3759111"	"large intestine"	"carcinoma"	"adenocarcinoma"	"AP1B1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29837537	"T"	"C"	"rs3804076"	"COSM1415507"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29837537	"T"	"C"	"rs3804076"	"COSM1415507"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RFPL1"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	29837566	"TTCC"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29881884	"G"	"A"	"rs4823040"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29885473	"C"	"T"	"rs5763269"	"COSM3759114"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"NEFH"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"recurrent"
+"22"	29885473	"C"	"T"	"rs5763269"	"COSM3759114"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"NEFH"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	29885473	"C"	"T"	"rs5763269"	"COSM3759114"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"NEFH"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	29885473	"C"	"T"	"rs5763269"	"COSM3759114"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"NEFH"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	29885473	"C"	"T"	"rs5763269"	"COSM3759114"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"NEFH"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	29885473	"C"	"T"	"rs5763269"	"COSM3759114"	"large intestine"	"carcinoma"	"adenocarcinoma"	"NEFH"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29885861	"T"	"C"	"rs165923"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29886413	"A"	"G"	"rs165625"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29904519	"T"	"C"	"rs2283859"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29908072	"C"	"T"	"rs1049534"	"COSM3759115"	"large intestine"	"carcinoma"	"adenocarcinoma"	"THOC5"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	29908072	"C"	"T"	"rs1049534"	"COSM3759115"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"THOC5"	"Confirmed somatic variant"	NA	NA	NA
+"22"	29908154	"G"	"T"	"rs2007668"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29913272	"C"	"T"	"rs737976"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	29924212	"T"	"C"	"rs5763297"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30038152	"A"	"C"	"rs2530664"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30051705	"CT"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30124614	"A"	"T"	"rs140096"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30202774	"G"	"C"	"rs737945"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30384572	"G"	"A"	"rs5763671"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30405151	"T"	"C"	"rs41157"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30409379	"A"	"G"	"rs779183137"	"COSM4002135"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"MTMR3_ENST00000401950"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30409379	"A"	"G"	"rs779183137"	"COSM4002136"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"MTMR3_ENST00000333027"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30415576	"A"	"G"	"rs76842717"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30418161	"A"	"C"	"rs41168"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30688659	"C"	"T"	"rs4823086"	"COSM4156133"	"thyroid"	"other"	"neoplasm"	"TBC1D10A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30689998	"G"	"A"	"rs11089442"	"COSM3759119"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TBC1D10A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30689998	"G"	"A"	"rs11089442"	"COSM3759119"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TBC1D10A"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	30689998	"G"	"A"	"rs11089442"	"COSM3759119"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TBC1D10A"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	30700607	"T"	"G"	"rs4823089"	"COSM5033928"	"skin"	"carcinoma"	NA	"TBC1D10A"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	30730711	"A"	"G"	"rs5749063"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30733111	"C"	"A"	"rs2229807"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30733914	"C"	"A"	"rs2074731"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30736835	"G"	"A"	"rs56015505"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30738161	"C"	"T"	"rs9608885"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30762140	"G"	"A"	"rs740223"	"COSM3759120"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CCDC157_ENST00000405659"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	30762140	"G"	"A"	"rs740223"	"COSM3759120"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CCDC157_ENST00000405659"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30765502	"G"	"A"	"rs5749080"	"COSM4977992"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"CCDC157"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30765502	"G"	"A"	"rs5749080"	"COSM4977991"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"CCDC157_ENST00000405659"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30767729	"A"	"G"	"rs1076298"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30769901	"G"	"C"	"rs4820838"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30769906	"T"	"C"	"rs4820839"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30771458	"T"	"C"	"rs1002189"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30771554	"T"	"G"	"rs2015035"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30772228	"C"	"CTT"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30775675	"G"	"A"	"rs35711436"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30776095	"C"	"T"	"rs5749088"	"COSM4002139"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RNF215"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30776095	"C"	"T"	"rs5749088"	"COSM4002139"	"skin"	"carcinoma"	"basal cell carcinoma"	"RNF215"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	30776095	"C"	"T"	"rs5749088"	"COSM4002139"	"thyroid"	"other"	"neoplasm"	"RNF215"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30782731	"G"	"A"	"rs12171261"	"COSM3759121"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RNF215"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	30782731	"G"	"A"	"rs12171261"	"COSM3759121"	"thyroid"	"other"	"neoplasm"	"RNF215"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30782731	"G"	"A"	"rs12171261"	"COSM3759121"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RNF215"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30823113	"T"	"G"	"rs2072160"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30823196	"T"	"C"	"rs5753130"	"COSM4002140"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"MTFP1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30857373	"A"	"C"	"rs2240345"	"COSM330401"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"plasma cell myeloma"	"SEC14L3"	"Variant of unknown origin"	"blood-bone marrow"	NA	NA
+"22"	30857448	"A"	"G"	"rs5749104"	"COSM4156137"	"thyroid"	"other"	"neoplasm"	"SEC14L3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30857448	"A"	"G"	"rs5749104"	"COSM4156138"	"thyroid"	"other"	"neoplasm"	"SEC14L3_ENST00000415957"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30862400	"T"	"A"	"rs1057995"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30864610	"A"	"G"	"rs4820853"	"COSM4418233"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SEC14L3_ENST00000415957"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30864610	"A"	"G"	"rs4820853"	"COSM4418233"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SEC14L3_ENST00000415957"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	30864610	"A"	"G"	"rs4820853"	"COSM4418232"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SEC14L3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	30864610	"A"	"G"	"rs4820853"	"COSM4418232"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SEC14L3"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	30864692	"G"	"A"	"rs4820854"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30866471	"A"	"G"	"rs35074129"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30953295	"C"	"T"	"rs2267161"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30977353	"T"	"A"	"rs42942"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30980503	"G"	"C"	"rs5997691"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	30987861	"G"	"C"	"rs737953"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31011504	"CAG"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31011557	"T"	"C"	"rs2267163"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31011610	"G"	"C"	"rs1801198"	"COSM4002151"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TCN2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	31013419	"C"	"T"	"rs9621049"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31018975	"T"	"C"	"rs1131603"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31032881	"G"	"A"	"rs8136373"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31032920	"A"	"G"	"rs5997714"	"COSM1415741"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SLC35E4"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	31032920	"A"	"G"	"rs5997714"	"COSM1415741"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SLC35E4"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	31033004	"T"	"G"	"rs138022967"	"COSM4004894"	"urinary tract"	"carcinoma"	NA	"SLC35E4"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	31060029	"G"	"C"	"rs1005887"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31329056	"G"	"C"	"rs2074578"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31335724	"T"	"A"	"rs1005252"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31485000	"AC"	"A"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31491295	"G"	"C"	"rs3205187"	"COSM4416746"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SMTN_ENST00000358743"	"Confirmed somatic variant"	NA	NA	NA
+"22"	31491295	"G"	"C"	"rs3205187"	"COSM4416748"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SMTN_ENST00000404496"	"Confirmed somatic variant"	NA	NA	NA
+"22"	31491295	"G"	"C"	"rs3205187"	"COSM4416747"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SMTN"	"Confirmed somatic variant"	NA	NA	NA
+"22"	31491295	"G"	"C"	"rs3205187"	"COSM4416748"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SMTN_ENST00000404496"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	31491295	"G"	"C"	"rs3205187"	"COSM4416747"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SMTN"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	31491295	"G"	"C"	"rs3205187"	"COSM4416746"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SMTN_ENST00000358743"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	31497054	"A"	"C"	"rs5753459"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31533967	"G"	"A"	"rs2074739"	"COSM3759134"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PLA2G3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	31533967	"G"	"A"	"rs2074739"	"COSM3759133"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PLA2G3_ENST00000215885"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	31535995	"C"	"G"	"rs2074734"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31536133	"A"	"C"	"rs2232176"	"COSM1484160"	"thyroid"	"other"	"neoplasm"	"PLA2G3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	31536133	"A"	"C"	"rs2232176"	"COSM444888"	"thyroid"	"other"	"neoplasm"	"PLA2G3_ENST00000215885"	"Confirmed somatic variant"	NA	NA	NA
+"22"	31536133	"A"	"C"	"rs2232176"	"COSM444888"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PLA2G3_ENST00000215885"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	31536133	"A"	"C"	"rs2232176"	"COSM1484160"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PLA2G3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	31600460	"T"	"C"	"rs2413035"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31663842	"C"	"G"	"rs2228619"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31672752	"A"	"C"	"rs5997933"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31679110	"G"	"C"	"rs2040533"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31685458	"G"	"A"	"rs5753543"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31737436	"G"	"A"	"rs62236170"	"COSM5020761"	"soft tissue"	"haemangioblastoma"	NA	"PATZ1"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	31838085	"G"	"A"	"rs5997988"	"COSM3759138"	"large intestine"	"carcinoma"	"adenocarcinoma"	"EIF4ENIF1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	31854434	"AT"	"A"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	31859637	"T"	"TA"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32017296	"A"	"G"	"rs61249659"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32097775	"T"	"C"	"rs6518754"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32439274	"C"	"T"	"rs33973317"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32554985	"A"	"G"	"rs5998267"	"COSM5426230"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"C22orf42"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32616870	"G"	"A"	"rs73164039"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32621619	"C"	"T"	"rs2294208"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32625210	"C"	"T"	"rs5998322"	"COSM4425870"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"SLC5A4"	"Confirmed somatic variant"	"surgery fresh/frozen"	"lower third"	"primary"
+"22"	32626908	"G"	"A"	"rs2068209"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32756460	"G"	"C"	"rs73166365"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156184"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156185"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RFPL3"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156184"	"skin"	"carcinoma"	"basal cell carcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156185"	"thyroid"	"other"	"neoplasm"	"RFPL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156185"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156184"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156185"	"skin"	"carcinoma"	"basal cell carcinoma"	"RFPL3"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156185"	"pancreas"	"carcinoma"	"ductal carcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156184"	"thyroid"	"other"	"neoplasm"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756684	"C"	"A"	"rs61729165"	"COSM4156184"	"pancreas"	"carcinoma"	"ductal carcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"skin"	"carcinoma"	"basal cell carcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RFPL3"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"skin"	"malignant melanoma"	NA	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	"metastasis"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"thyroid"	"carcinoma"	NA	"RFPL3"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"RFPL3"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"prostate"	"carcinoma"	NA	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"surgery - NOS"	NA	"metastasis"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"thyroid"	"other"	"neoplasm"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"RFPL3_ENST00000249007"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	"rectum"	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"thyroid"	"carcinoma"	NA	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"prostate"	"carcinoma"	"adenocarcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"prostate"	"carcinoma"	NA	"RFPL3"	"Confirmed somatic variant"	"organoid culture"	NA	"metastasis"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"skin"	"carcinoma"	"basal cell carcinoma"	"RFPL3"	"Confirmed somatic variant"	"surgery fresh/frozen"	"leg"	"recurrent"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"thyroid"	"other"	"neoplasm"	"RFPL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"prostate"	"carcinoma"	NA	"RFPL3"	"Confirmed somatic variant"	"surgery - NOS"	NA	"metastasis"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"skin"	"malignant melanoma"	NA	"RFPL3"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	"metastasis"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"skin"	"carcinoma"	"basal cell carcinoma"	"RFPL3"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"ovary"	"carcinoma"	"serous carcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"stomach"	"carcinoma"	"adenocarcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"prostate"	"carcinoma"	"adenocarcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"prostate"	"carcinoma"	NA	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"organoid culture"	NA	"metastasis"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"skin"	"malignant melanoma"	NA	"RFPL3"	"Confirmed somatic variant"	"surgery fresh/frozen"	"foot"	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"skin"	"carcinoma"	"basal cell carcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"surgery fresh/frozen"	"leg"	"recurrent"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"pancreas"	"carcinoma"	"ductal carcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	"rectum"	"primary"
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"central nervous system"	"glioma"	"astrocytoma Grade III"	"RFPL3"	"Reported in another cancer sample as somatic"	"autopsy - NOS"	"brainstem"	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"stomach"	"carcinoma"	"adenocarcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM78412"	"pancreas"	"carcinoma"	"ductal carcinoma"	"RFPL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"central nervous system"	"glioma"	"astrocytoma Grade III"	"RFPL3_ENST00000249007"	"Reported in another cancer sample as somatic"	"autopsy - NOS"	"brainstem"	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	32756703	"C"	"T"	"rs73166367"	"COSM1415947"	"skin"	"malignant melanoma"	NA	"RFPL3_ENST00000249007"	"Confirmed somatic variant"	"surgery fresh/frozen"	"foot"	"primary"
+"22"	32756744	"A"	"G"	"rs2076035"	"COSM4594653"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"RFPL3"	"Variant of unknown origin"	"cell-line"	"head neck"	NA
+"22"	32756744	"A"	"G"	"rs2076035"	"COSM4594652"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"RFPL3_ENST00000249007"	"Variant of unknown origin"	"cell-line"	"head neck"	NA
+"22"	32791003	"A"	"C"	"rs2072818"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32795641	"C"	"T"	"rs5749426"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32804176	"G"	"T"	"rs73168800"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32808078	"G"	"A"	"rs11545749"	"COSM3759151"	"large intestine"	"carcinoma"	"adenocarcinoma"	"C22orf28"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	32808078	"G"	"A"	"rs11545749"	"COSM4785240"	"large intestine"	"carcinoma"	"adenocarcinoma"	"C22orf28_ENST00000451746"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	32810378	"T"	"G"	"rs35856742"	"COSM3759152"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BPIL2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	32810378	"T"	"G"	"rs35856742"	"COSM5829206"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BPIFC"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	32811952	"A"	"G"	"rs5998478"	"COSM5427948"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BPIFC"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32811952	"A"	"G"	"rs5998478"	"COSM444914"	"large intestine"	"carcinoma"	"adenocarcinoma"	"BPIL2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	32811952	"A"	"G"	"rs5998478"	"COSM444914"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"BPIL2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32811952	"A"	"G"	"rs5998478"	"COSM5427948"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"BPIFC"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	32811952	"A"	"G"	"rs5998478"	"COSM444914"	"thyroid"	"other"	"neoplasm"	"BPIL2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	32813176	"CT"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32815398	"G"	"A"	"rs55807703"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	32937740	"T"	"C"	"rs135479"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	33253280	"T"	"C"	"rs9862"	"COSM4002168"	"bone"	"osteosarcoma"	NA	"TIMP3"	"Confirmed somatic variant"	"surgery - NOS"	"femur"	NA
+"22"	33253280	"T"	"C"	"rs9862"	"COSM4002168"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TIMP3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	33673125	"C"	"T"	"rs1046166"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	34022284	"G"	"A"	"rs86487"	"COSM4156187"	"thyroid"	"other"	"neoplasm"	"LARGE"	"Confirmed somatic variant"	NA	NA	NA
+"22"	34022284	"G"	"A"	"rs86487"	"COSM4156187"	"breast"	"carcinoma"	"ductal carcinoma"	"LARGE"	"Confirmed somatic variant"	NA	NA	NA
+"22"	34022284	"G"	"A"	"rs86487"	"COSM4156187"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"LARGE"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	35463162	"A"	"G"	"rs361863"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35463179	"T"	"C"	"rs361668"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35478486	"A"	"C"	"rs2899241"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35478688	"C"	"T"	"rs725267"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35660875	"G"	"T"	"rs1053593"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35679951	"T"	"C"	"rs2272789"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35741820	"G"	"A"	"rs133398"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35742925	"T"	"G"	"rs743810"	"COSM4156190"	"thyroid"	"other"	"neoplasm"	"TOM1_ENST00000436462"	"Confirmed somatic variant"	NA	NA	NA
+"22"	35742925	"T"	"G"	"rs743810"	"COSM1130443"	"prostate"	"carcinoma"	"adenocarcinoma"	"TOM1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	35742925	"T"	"G"	"rs743810"	"COSM1130443"	"thyroid"	"other"	"neoplasm"	"TOM1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	35743124	"G"	"C"	"rs2071745"	"COSM3723924"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"TOM1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	35743124	"G"	"C"	"rs2071745"	"COSM3723925"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"TOM1_ENST00000436462"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	35779223	"T"	"C"	"rs17885925"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35782659	"C"	"T"	"rs17879606"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35799542	"C"	"T"	"rs713618"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	35947585	"C"	"A"	"rs41279993"	"COSM4156191"	"thyroid"	"other"	"neoplasm"	"RASD2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	36006923	"G"	"GC"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36007045	"G"	"A"	"rs7292"	"COSM5445275"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"MB_ENST00000447607"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	36007045	"G"	"A"	"rs7292"	"COSM5445274"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"MB"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	36007075	"C"	"T"	"rs7293"	"COSM1416001"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MB_ENST00000447607"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	36007075	"C"	"T"	"rs7293"	"COSM1416000"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MB"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	36122724	"C"	"A"	"rs73155887"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36122930	"C"	"T"	"rs2076671"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36124860	"C"	"G"	"rs2076673"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36537500	"A"	"T"	"rs132618"	"COSM149285"	"thyroid"	"other"	"neoplasm"	"APOL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	36537500	"A"	"T"	"rs132618"	"COSM4156194"	"thyroid"	"other"	"neoplasm"	"APOL3_ENST00000349314"	"Confirmed somatic variant"	NA	NA	NA
+"22"	36537500	"A"	"T"	"rs132618"	"COSM149285"	"stomach"	"carcinoma"	"adenocarcinoma"	"APOL3"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	36556698	"C"	"T"	"rs45577431"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36556823	"G"	"T"	"rs132653"	"COSM5003856"	"pancreas"	"carcinoma"	"ductal carcinoma"	"APOL3_ENST00000349314"	"Confirmed somatic variant"	NA	NA	NA
+"22"	36556964	"C"	"T"	"rs916334"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36657596	"A"	"G"	"rs713929"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36657628	"T"	"G"	"rs136163"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36657789	"T"	"C"	"rs136164"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36661149	"A"	"G"	"rs136169"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36661152	"G"	"A"	"rs28480494"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36661330	"G"	"A"	"rs2239785"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36661536	"C"	"A"	"rs136174"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36661566	"G"	"A"	"rs136175"	"COSM4156197"	"thyroid"	"other"	"neoplasm"	"APOL1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	36661646	"G"	"A"	"rs136176"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36661842	"G"	"A"	"rs136177"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36688178	"G"	"A"	"rs76368635"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36690113	"G"	"A"	"rs4821478"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36691607	"A"	"C"	"rs710181"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36700175	"A"	"G"	"rs9619601"	"COSM3759163"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MYH9"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	36700175	"A"	"G"	"rs9619601"	"COSM3759163"	"soft tissue"	"haemangioblastoma"	NA	"MYH9"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	36700175	"A"	"G"	"rs9619601"	"COSM3759163"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"MYH9"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	36708084	"C"	"T"	"rs2413396"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36710183	"T"	"C"	"rs3752462"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36872750	"T"	"G"	"rs2281082"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36897261	"C"	"G"	"rs73169665"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36900271	"T"	"C"	"rs2277841"	"COSM4156203"	"thyroid"	"other"	"neoplasm"	"FOXRED2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	36900271	"T"	"C"	"rs2277841"	"COSM4156203"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FOXRED2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	36900806	"A"	"G"	"rs760718"	"COSM4416285"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FOXRED2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	36912724	"C"	"T"	"rs2076083"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36915521	"C"	"T"	"rs777065738"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36919375	"G"	"C"	"rs73169675"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	36962353	"C"	"G"	"rs2267338"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37163329	"C"	"T"	"rs1048012"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37268501	"A"	"G"	"rs2072710"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37271882	"T"	"C"	"rs2075939"	"COSM4156206"	"thyroid"	"other"	"neoplasm"	"NCF4_ENST00000397147"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37319425	"G"	"T"	"rs2072713"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37325833	"C"	"T"	"rs16846"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37328966	"G"	"C"	"rs1534879"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37330082	"T"	"C"	"rs2075937"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37387505	"C"	"A"	"rs9610625"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37420305	"G"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37453452	"C"	"T"	"rs710185"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM3927773"	"breast"	"carcinoma"	"ductal carcinoma"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM3927773"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TMPRSS6_ENST00000381792"	"Reported in another cancer sample as somatic"	"surgery - NOS"	NA	"metastasis"
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"pancreas"	"carcinoma"	"ductal carcinoma"	"TMPRSS6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"breast"	"carcinoma"	"ductal carcinoma"	"TMPRSS6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"prostate"	"carcinoma"	"adenocarcinoma"	"TMPRSS6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TMPRSS6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"stomach"	"carcinoma"	"adenocarcinoma"	"TMPRSS6"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM3927773"	"prostate"	"carcinoma"	"adenocarcinoma"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM3927773"	"pancreas"	"carcinoma"	"ductal carcinoma"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37462936	"A"	"G"	"rs855791"	"COSM3927773"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"acute lymphoblastic leukaemia"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TMPRSS6"	"Reported in another cancer sample as somatic"	"surgery - NOS"	NA	"metastasis"
+"22"	37462936	"A"	"G"	"rs855791"	"COSM3927773"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37462936	"A"	"G"	"rs855791"	"COSM149289"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"acute lymphoblastic leukaemia"	"TMPRSS6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37469591	"G"	"A"	"rs4820268"	"COSM149290"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TMPRSS6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37469591	"G"	"A"	"rs4820268"	"COSM4417124"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37469591	"G"	"A"	"rs4820268"	"COSM149290"	"stomach"	"carcinoma"	"adenocarcinoma"	"TMPRSS6"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	37470604	"G"	"A"	"rs2072860"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37471290	"G"	"A"	"rs881144"	"COSM3759166"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37471290	"G"	"A"	"rs881144"	"COSM3759165"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"TMPRSS6"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37471290	"G"	"A"	"rs881144"	"COSM3759166"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37471290	"G"	"A"	"rs881144"	"COSM3759165"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TMPRSS6"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37485724	"T"	"C"	"rs2235324"	"COSM3766709"	"thyroid"	"other"	"neoplasm"	"TMPRSS6_ENST00000442782"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	"COSM3766709"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"TMPRSS6_ENST00000442782"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37485724	"T"	"C"	"rs2235324"	"COSM3766708"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37485724	"T"	"C"	"rs2235324"	"COSM3766708"	"thyroid"	"other"	"neoplasm"	"TMPRSS6_ENST00000381792"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37485724	"T"	"C"	"rs2235324"	"COSM3766707"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"TMPRSS6"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37485724	"T"	"C"	"rs2235324"	"COSM3766707"	"thyroid"	"other"	"neoplasm"	"TMPRSS6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37491545	"T"	"C"	"rs2743824"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37499386	"C"	"T"	"rs11704654"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37578214	"T"	"C"	"rs916235"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37578579	"C"	"T"	"rs229519"	"COSM149291"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"C1QTNF6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37578579	"C"	"T"	"rs229519"	"COSM149291"	"prostate"	"adenoma"	NA	"C1QTNF6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37578579	"C"	"T"	"rs229519"	"COSM5426365"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"C1QTNF6_ENST00000255836"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37578579	"C"	"T"	"rs229519"	"COSM149291"	"stomach"	"carcinoma"	"adenocarcinoma"	"C1QTNF6"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	37578807	"G"	"A"	"rs229520"	"COSM4156226"	"thyroid"	"other"	"neoplasm"	"C1QTNF6_ENST00000255836"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37581422	"G"	"C"	"rs229526"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37581485	"C"	"A"	"rs229527"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37602583	"G"	"GC"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37603021	"G"	"A"	"rs2071710"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37603051	"C"	"T"	"rs229569"	"COSM4156228"	"thyroid"	"other"	"neoplasm"	"SSTR3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37603275	"T"	"G"	"rs751064098"	"COSM5645722"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"SSTR3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37603390	"C"	"T"	"rs86582"	"COSM3759169"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SSTR3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37622815	"A"	"G"	"rs1064498"	"COSM5427568"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RAC2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	37622815	"A"	"G"	"rs1064498"	"COSM5427568"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"RAC2"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	37622880	"G"	"GT"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37627234	"T"	"C"	"rs9610682"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37627246	"G"	"C"	"rs9610683"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37628993	"T"	"G"	"rs9610684"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37637653	"G"	"C"	"rs2239774"	"COSM3764931"	"central nervous system"	"primitive neuroectodermal tumour-medulloblastoma"	NA	"RAC2"	"Confirmed somatic variant"	NA	"brain"	NA
+"22"	37637653	"G"	"C"	"rs2239774"	"COSM3764931"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RAC2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37678565	"G"	"A"	"rs3213557"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37695256	"T"	"C"	"rs2301435"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37699377	"T"	"C"	"rs2239822"	"COSM3766711"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"CYTH4"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37770066	"G"	"T"	"rs8142615"	"COSM1416128"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ELFN2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37770066	"G"	"T"	"rs8142615"	"COSM1416128"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"ELFN2"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37770357	"A"	"G"	"rs7292751"	"COSM3759171"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ELFN2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37770357	"A"	"G"	"rs7292751"	"COSM3759171"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"ELFN2"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37771158	"G"	"A"	"rs2071857"	"COSM3759172"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"ELFN2"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	37771158	"G"	"A"	"rs2071857"	"COSM3759172"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ELFN2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37902177	"T"	"C"	"rs738304"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	37964299	"C"	"G"	"rs2281098"	"COSM1751860"	"thyroid"	"other"	"neoplasm"	"CDC42EP1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	37964299	"C"	"G"	"rs2281098"	"COSM1751860"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CDC42EP1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	37964299	"C"	"G"	"rs2281098"	"COSM1751860"	"urinary tract"	"carcinoma"	NA	"CDC42EP1"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	37964299	"C"	"G"	"rs2281098"	"COSM1751860"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"CDC42EP1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	37964299	"C"	"G"	"rs2281098"	"COSM1751860"	"urinary tract"	"carcinoma"	"transitional cell carcinoma"	"CDC42EP1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"bladder"	NA
+"22"	37964408	"CCAGCGCCTGCTGCAAACCCCT"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38041015	"C"	"T"	"rs62235996"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38043444	"C"	"A"	"rs3213528"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38061520	"C"	"G"	"rs62236667"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38151100	"TG"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38151170	"G"	"A"	"rs11704996"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38155317	"C"	"G"	"rs5756810"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38204089	"C"	"T"	"rs710187"	"COSM444973"	"thyroid"	"other"	"neoplasm"	"GCAT"	"Confirmed somatic variant"	NA	NA	NA
+"22"	38204089	"C"	"T"	"rs710187"	"COSM444973"	"large intestine"	"carcinoma"	"adenocarcinoma"	"GCAT"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	38205989	"T"	"C"	"rs2285178"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38251686	"T"	"C"	"rs2157472"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38273749	"T"	"C"	"rs9466"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38307909	"T"	"C"	"rs6519091"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38308048	"ATGTG"	"A"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38341134	"T"	"C"	"rs139859"	"COSM3759185"	"large intestine"	"carcinoma"	"adenocarcinoma"	"C22orf23"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	38341134	"T"	"C"	"rs139859"	"COSM3759185"	"thyroid"	"other"	"neoplasm"	"C22orf23"	"Confirmed somatic variant"	NA	NA	NA
+"22"	38369535	"C"	"G"	"rs201297869"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38369976	"A"	"G"	"rs139884"	"COSM4156245"	"thyroid"	"other"	"neoplasm"	"SOX10"	"Confirmed somatic variant"	NA	NA	NA
+"22"	38474696	"A"	"G"	"rs2076371"	"COSM3759186"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SLC16A8"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	38530956	"G"	"A"	"rs2272831"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38535946	"G"	"A"	"rs12329956"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38823136	"T"	"C"	"rs196059"	"COSM3759192"	"large intestine"	"carcinoma"	"adenocarcinoma"	"KCNJ4"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	38823136	"T"	"C"	"rs196059"	"COSM3759192"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"KCNJ4"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	38875549	"C"	"T"	"rs401933"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	38894124	"T"	"G"	"rs200008188"	"COSM4156257"	"thyroid"	"other"	"neoplasm"	"DDX17_ENST00000381633"	"Confirmed somatic variant"	NA	NA	NA
+"22"	38894124	"T"	"G"	"rs200008188"	"COSM4156256"	"thyroid"	"other"	"neoplasm"	"DDX17"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39124008	"C"	"A"	"rs776602615"	"COSM1149465"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"GTPBP1_ENST00000458073"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	39124008	"C"	"A"	"rs776602615"	"COSM726306"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"GTPBP1"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	39124008	"C"	"A"	"rs776602615"	"COSM1149465"	"pancreas"	"carcinoma"	"ductal carcinoma"	"GTPBP1_ENST00000458073"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	39124008	"C"	"A"	"rs776602615"	"COSM726306"	"pancreas"	"carcinoma"	"ductal carcinoma"	"GTPBP1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	39222652	"G"	"A"	"rs5757299"	"COSM5038133"	"skin"	"carcinoma"	NA	"NPTXR"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	39224248	"T"	"C"	"rs5757300"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39355717	"G"	"A"	"rs5750717"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39381826	"A"	"G"	"rs2076109"	"COSM3759193"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3B"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39381826	"A"	"G"	"rs2076109"	"COSM3759193"	"thyroid"	"other"	"neoplasm"	"APOBEC3B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39381999	"T"	"C"	"rs2076111"	"COSM4156275"	"thyroid"	"other"	"neoplasm"	"APOBEC3B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39382079	"C"	"A"	"rs5995649"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39387558	"C"	"T"	"rs1065184"	"COSM3759194"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3B"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39387558	"C"	"T"	"rs1065184"	"COSM3759194"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3B"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39387655	"G"	"T"	"rs34124580"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39414240	"G"	"A"	"rs9306332"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39438922	"T"	"G"	"rs765577221"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39440149	"C"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39441096	"G"	"T"	"rs2020390"	"COSM4156278"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"APOBEC3F"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	39441096	"G"	"T"	"rs2020390"	"COSM4156278"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	NA	"APOBEC3F"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	39441096	"G"	"T"	"rs2020390"	"COSM4156278"	"thyroid"	"other"	"neoplasm"	"APOBEC3F"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39441203	"C"	"T"	"rs4821862"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39445554	"G"	"A"	"rs2076101"	"COSM5000606"	"pancreas"	"carcinoma"	"ductal carcinoma"	"APOBEC3F"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39448711	"C"	"A"	"rs6001402"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39448750	"T"	"C"	"rs5757451"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39496322	"TAAC"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM4416991"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"APOBEC3H_ENST00000421988"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM3759196"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"APOBEC3H"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	39496336	"G"	"T"	"rs139293"	"COSM3759196"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39496336	"G"	"T"	"rs139293"	"COSM4416991"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM3759196"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"APOBEC3H"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM4416991"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"APOBEC3H_ENST00000421988"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	39496336	"G"	"T"	"rs139293"	"COSM4416991"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"APOBEC3H_ENST00000421988"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM3759196"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM4416991"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39496336	"G"	"T"	"rs139293"	"COSM4416991"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"APOBEC3H_ENST00000421988"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"recurrent"
+"22"	39496336	"G"	"T"	"rs139293"	"COSM3759196"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"APOBEC3H"	"Reported in another cancer sample as somatic"	"cell-line"	"striated muscle"	NA
+"22"	39496336	"G"	"T"	"rs139293"	"COSM3759196"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"APOBEC3H"	"Reported in another cancer sample as somatic"	"surgery fresh/frozen"	"striated muscle"	"recurrent"
+"22"	39496412	"G"	"C"	"rs139294"	"COSM3759197"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39496412	"G"	"C"	"rs139294"	"COSM4418648"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39496412	"G"	"C"	"rs139294"	"COSM3759197"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39496412	"G"	"C"	"rs139294"	"COSM4418648"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39497404	"G"	"C"	"rs139297"	"COSM3759198"	"thyroid"	"other"	"neoplasm"	"APOBEC3H"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39497404	"G"	"C"	"rs139297"	"COSM4416793"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39497404	"G"	"C"	"rs139297"	"COSM3759198"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39497404	"G"	"C"	"rs139297"	"COSM3759198"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	39497404	"G"	"C"	"rs139297"	"COSM3759198"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39497404	"G"	"C"	"rs139297"	"COSM4416793"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39497404	"G"	"C"	"rs139297"	"COSM4416793"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	39497452	"A"	"G"	"rs139298"	"COSM3759199"	"thyroid"	"other"	"neoplasm"	"APOBEC3H"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39497452	"A"	"G"	"rs139298"	"COSM4418086"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39497452	"A"	"G"	"rs139298"	"COSM4418086"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39497452	"A"	"G"	"rs139298"	"COSM3759199"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"APOBEC3H"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39497452	"A"	"G"	"rs139298"	"COSM3759199"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39497454	"G"	"C"	"rs139299"	"COSM3759200"	"thyroid"	"other"	"neoplasm"	"APOBEC3H"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39497454	"G"	"C"	"rs139299"	"COSM3759200"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39497454	"G"	"C"	"rs139299"	"COSM5829220"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H_ENST00000421988"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39497509	"A"	"G"	"rs139300"	"COSM4156279"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"APOBEC3H"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	39497509	"A"	"G"	"rs139300"	"COSM4590358"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"APOBEC3H_ENST00000421988"	"Variant of unknown origin"	"cell-line"	"head neck"	NA
+"22"	39497509	"A"	"G"	"rs139300"	"COSM4156279"	"thyroid"	"other"	"neoplasm"	"APOBEC3H"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39498038	"G"	"C"	"rs139302"	"COSM3759201"	"large intestine"	"carcinoma"	"adenocarcinoma"	"APOBEC3H"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39499653	"C"	"T"	"rs139315"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39709605	"G"	"A"	"rs2076124"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39709748	"A"	"G"	"rs73165267"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39709776	"T"	"C"	"rs137620"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39710244	"G"	"A"	"rs137621"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39714490	"C"	"T"	"rs6509"	"COSM3759202"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RPL3"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	39714490	"C"	"T"	"rs6509"	"COSM3759202"	"large intestine"	"carcinoma"	"adenocarcinoma"	"RPL3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	39714490	"C"	"T"	"rs6509"	"COSM3759202"	"thyroid"	"other"	"neoplasm"	"RPL3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	39777822	"C"	"CCAA"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	39908419	"C"	"T"	"rs2232088"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40283427	"A"	"G"	"rs17319801"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40754826	"GTCTC"	"G"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40798227	"T"	"G"	"rs55740286"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40800518	"G"	"A"	"rs760701"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40800544	"C"	"T"	"rs2235318"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40801312	"A"	"G"	"rs12483888"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40803112	"C"	"T"	"rs55844816"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40803186	"G"	"T"	"rs2018393"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40805280	"A"	"G"	"rs201411154"	"COSM3785558"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SGSM3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	40814636	"C"	"T"	"rs4821944"	"COSM4156321"	"thyroid"	"other"	"neoplasm"	"MKL1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	40816841	"G"	"A"	"rs2072857"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	40825814	"G"	"A"	"rs1106673"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41075543	"A"	"G"	"rs133072"	"COSM4156322"	"thyroid"	"other"	"neoplasm"	"MCHR1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41075695	"C"	"T"	"rs133073"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41170063	"T"	"C"	"rs2076674"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41244398	"C"	"G"	"rs138344"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41537234	"G"	"T"	"rs6002267"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41548008	"A"	"G"	"rs20551"	"COSM5009621"	"large intestine"	"carcinoma"	"adenocarcinoma"	"EP300"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	41550954	"C"	"T"	"rs4822011"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41551039	"T"	"A"	"rs20552"	"COSM4767796"	"bone"	"osteosarcoma"	NA	"EP300"	"Confirmed somatic variant"	"surgery - NOS"	"femur"	NA
+"22"	41551039	"T"	"A"	"rs20552"	"COSM4767796"	"large intestine"	"carcinoma"	"adenocarcinoma"	"EP300"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	41551039	"T"	"A"	"rs20552"	"COSM4767796"	"biliary tract"	"carcinoma"	"adenocarcinoma"	"EP300"	"Confirmed somatic variant"	NA	"gallbladder"	NA
+"22"	41566595	"C"	"T"	"rs6002271"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41568480	"T"	"C"	"rs2076577"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41572541	"C"	"T"	"rs73176628"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41574969	"TGTA"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41609859	"T"	"C"	"rs139450"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41610024	"G"	"A"	"rs139451"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41613085	"C"	"G"	"rs776166998"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41613188	"C"	"T"	"rs9611519"	"COSM149302"	"stomach"	"carcinoma"	"adenocarcinoma"	"L3MBTL2"	"Variant of unknown origin"	"fresh/frozen - NOS"	NA	NA
+"22"	41615376	"C"	"T"	"rs2273085"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41617160	"T"	"TG"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41617318	"G"	"C"	"rs139472"	"COSM4002192"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"L3MBTL2_ENST00000449635"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41620825	"C"	"T"	"rs73176644"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41645500	"TG"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41645757	"C"	"G"	"rs71948"	"COSM4002193"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"RANGAP1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41645757	"C"	"G"	"rs71948"	"COSM4002193"	"thyroid"	"other"	"neoplasm"	"RANGAP1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41652733	"G"	"A"	"rs139509"	"COSM5619161"	"breast"	"carcinoma"	"ductal carcinoma"	"RANGAP1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41652846	"G"	"T"	"rs4820435"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41657626	"C"	"T"	"rs2235850"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41726053	"G"	"A"	"rs4822021"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41739370	"T"	"C"	"rs1883828"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41744022	"C"	"G"	"rs761366"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41745355	"A"	"G"	"rs2281331"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41752747	"G"	"A"	"rs12484074"	"COSM4156333"	"thyroid"	"other"	"neoplasm"	"ZC3H7B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41778109	"G"	"A"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41783659	"C"	"T"	"rs11546403"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41833116	"C"	"T"	"rs202641"	"COSM3759220"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TOB2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	41863423	"A"	"G"	"rs202631"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41903813	"A"	"C"	"rs137831"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41911525	"C"	"T"	"rs1799932"	"COSM4002194"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ACO2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	41911525	"C"	"T"	"rs1799932"	"COSM4002194"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ACO2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41911525	"C"	"T"	"rs1799932"	"COSM4002194"	"thyroid"	"other"	"neoplasm"	"ACO2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	41914593	"C"	"T"	"rs203319"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	41919330	"A"	"G"	"rs12484694"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42071121	"T"	"G"	"rs200179892"	"COSM1616502"	"liver"	"carcinoma"	NA	"NHP2L1"	"Variant of unknown origin"	"fresh/frozen - NOS"	NA	"primary"
+"22"	42076381	"C"	"A"	"rs5758405"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42221846	"C"	"T"	"rs41277466"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42276742	"G"	"C"	"rs2228314"	"COSM4002195"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"SREBF2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42276742	"G"	"C"	"rs2228314"	"COSM4002195"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"SREBF2"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	42416056	"A"	"G"	"rs133335"	"COSM3759226"	"large intestine"	"carcinoma"	"adenocarcinoma"	"WBP2NL"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42416056	"A"	"G"	"rs133335"	"COSM3759226"	"skin"	"carcinoma"	"basal cell carcinoma"	"WBP2NL"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	42423110	"G"	"C"	"rs2301521"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42461918	"G"	"A"	"rs2854827"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42463814	"C"	"T"	"rs133369"	"COSM3759227"	"large intestine"	"carcinoma"	"adenocarcinoma"	"NAGA"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42473603	"C"	"T"	"rs133383"	"COSM3759228"	"thyroid"	"other"	"neoplasm"	"FAM109B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42473603	"C"	"T"	"rs133383"	"COSM3759228"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FAM109B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42473603	"C"	"T"	"rs133383"	"COSM3759228"	"large intestine"	"carcinoma"	"adenocarcinoma"	"FAM109B"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42522613	"G"	"C"	"rs1135840"	"COSM1599976"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42522613	"G"	"C"	"rs1135840"	"COSM1599977"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"CYP2D6"	"Confirmed somatic variant"	"surgery - NOS"	"brain"	"primary"
+"22"	42522613	"G"	"C"	"rs1135840"	"COSM1599976"	"pancreas"	"carcinoma"	"ductal carcinoma"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42522613	"G"	"C"	"rs1135840"	"COSM1599977"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CYP2D6"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42522613	"G"	"C"	"rs1135840"	"COSM1599977"	"pancreas"	"carcinoma"	"ductal carcinoma"	"CYP2D6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42522613	"G"	"C"	"rs1135840"	"COSM1599976"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	"surgery - NOS"	"brain"	"primary"
+"22"	42523003	"A"	"G"	"rs4987144"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42523409	"G"	"T"	"rs1985842"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445067"	"soft tissue"	"haemangioblastoma"	NA	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445067"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"CYP2D6_ENST00000360608"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445068"	"thyroid"	"other"	"neoplasm"	"CYP2D6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445067"	"thyroid"	"other"	"neoplasm"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445068"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"CYP2D6"	"Reported in another cancer sample as somatic"	"cell-line"	"head neck"	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445068"	"soft tissue"	"haemangioblastoma"	NA	"CYP2D6"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445068"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"CYP2D6"	"Reported in another cancer sample as somatic"	"cell-line"	"brain"	NA
+"22"	42523528	"C"	"T"	"rs1058172"	"COSM445067"	"central nervous system"	"glioma"	"astrocytoma Grade IV"	"CYP2D6_ENST00000360608"	"Reported in another cancer sample as somatic"	"cell-line"	"brain"	NA
+"22"	42523943	"A"	"G"	"rs16947"	"COSM1130422"	"soft tissue"	"haemangioblastoma"	NA	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	42523943	"A"	"G"	"rs16947"	"COSM1130423"	"soft tissue"	"haemangioblastoma"	NA	"CYP2D6"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	42523943	"A"	"G"	"rs16947"	"COSM1130423"	"prostate"	"carcinoma"	"adenocarcinoma"	"CYP2D6"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	42523943	"A"	"G"	"rs16947"	"COSM1130422"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42523943	"A"	"G"	"rs16947"	"COSM1130422"	"prostate"	"carcinoma"	"adenocarcinoma"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	42523943	"A"	"G"	"rs16947"	"COSM1130423"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CYP2D6"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42524243	"CT"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42524947	"C"	"T"	"rs3892097"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42525798	"G"	"C"	"rs28371705"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42526573	"T"	"G"	"rs1080996"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42526580	"G"	"C"	"rs1080995"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42526694	"G"	"A"	"rs1065852"	"COSM4999521"	"pancreas"	"carcinoma"	"ductal carcinoma"	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42526694	"G"	"A"	"rs1065852"	"COSM4999522"	"soft tissue"	"haemangioblastoma"	NA	"CYP2D6"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	42526694	"G"	"A"	"rs1065852"	"COSM4999521"	"soft tissue"	"haemangioblastoma"	NA	"CYP2D6_ENST00000360608"	"Confirmed somatic variant"	"fixed - NOS"	"blood vessel"	NA
+"22"	42526694	"G"	"A"	"rs1065852"	"COSM4999522"	"pancreas"	"carcinoma"	"ductal carcinoma"	"CYP2D6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42609148	"T"	"C"	"rs5758651"	"COSM4002197"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TCF20"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42783070	"G"	"A"	"rs34963472"	"COSM3759231"	"large intestine"	"carcinoma"	"adenocarcinoma"	"NFAM1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	42783070	"G"	"A"	"rs34963472"	"COSM3759231"	"thyroid"	"other"	"neoplasm"	"NFAM1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42793845	"C"	"T"	"rs35151068"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42793873	"A"	"G"	"rs5996153"	"COSM4156353"	"thyroid"	"other"	"neoplasm"	"NFAM1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	42908870	"T"	"G"	"rs9745"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42908897	"T"	"C"	"rs13504"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42910676	"C"	"T"	"rs4820471"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42910769	"G"	"A"	"rs4822146"	"COSM1130418"	"prostate"	"carcinoma"	"adenocarcinoma"	"RRP7A"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	42912097	"C"	"T"	"rs11553441"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	42969919	"C"	"T"	"rs201448268"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43032742	"C"	"T"	"rs5996200"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43088971	"C"	"T"	"rs9623659"	"COSM3759232"	"large intestine"	"carcinoma"	"adenocarcinoma"	"A4GALT"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43089055	"G"	"C"	"rs6002904"	"COSM3720658"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"A4GALT"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	43089055	"G"	"C"	"rs6002904"	"COSM3720658"	"thyroid"	"other"	"neoplasm"	"A4GALT"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43089849	"T"	"C"	"rs11541159"	"COSM3759233"	"large intestine"	"carcinoma"	"adenocarcinoma"	"A4GALT"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43089849	"T"	"C"	"rs11541159"	"COSM3759233"	"pancreas"	"carcinoma"	"ductal carcinoma"	"A4GALT"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43195147	"A"	"G"	"rs1128013"	"COSM3759234"	"thyroid"	"other"	"neoplasm"	"ARFGAP3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43195147	"A"	"G"	"rs1128013"	"COSM3759234"	"breast"	"carcinoma"	"ductal carcinoma"	"ARFGAP3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43195147	"A"	"G"	"rs1128013"	"COSM3759234"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ARFGAP3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43206950	"A"	"C"	"rs1018448"	"COSM5003030"	"pancreas"	"carcinoma"	"ductal carcinoma"	"ARFGAP3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43218463	"C"	"T"	"rs5758957"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43442609	"C"	"G"	"rs73179029"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43447891	"C"	"T"	"rs9607998"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43524487	"CCT"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43525176	"C"	"T"	"rs909666"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43529029	"C"	"T"	"rs7402"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43529314	"G"	"C"	"rs13815"	"COSM3759241"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MCAT"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43529517	"C"	"T"	"rs2066910"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43539120	"G"	"C"	"rs77536207"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43558926	"A"	"G"	"rs6971"	"COSM445087"	"thyroid"	"other"	"neoplasm"	"TSPO"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43564963	"C"	"G"	"rs138931"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43572308	"T"	"TG"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43572354	"C"	"T"	"rs11704935"	"COSM4156362"	"thyroid"	"other"	"neoplasm"	"TTLL12"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43575616	"G"	"A"	"rs4822261"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43575774	"A"	"C"	"rs138945"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43576880	"C"	"A"	"rs11090144"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43576904	"G"	"A"	"rs2071723"	"COSM445089"	"large intestine"	"carcinoma"	"adenocarcinoma"	"TTLL12"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43576904	"G"	"A"	"rs2071723"	"COSM445089"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TTLL12"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	43579049	"T"	"C"	"rs13058467"	"COSM4156364"	"thyroid"	"other"	"neoplasm"	"TTLL12"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43579049	"T"	"C"	"rs13058467"	"COSM4156364"	"pancreas"	"carcinoma"	"ductal carcinoma"	"TTLL12"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43599991	"C"	"T"	"rs13056939"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43606143	"C"	"T"	"rs5759217"	"COSM4156366"	"thyroid"	"other"	"neoplasm"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43610106	"C"	"T"	"rs34893532"	"COSM4156367"	"thyroid"	"other"	"neoplasm"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43610207	"A"	"G"	"rs138993"	"COSM445091"	"thyroid"	"other"	"neoplasm"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43610207	"A"	"G"	"rs138993"	"COSM445091"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43610207	"A"	"G"	"rs138993"	"COSM445091"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCUBE1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43618632	"CG"	"C"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43619062	"C"	"G"	"rs2071726"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43619200	"G"	"A"	"rs6003114"	"COSM5432007"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	43623353	"G"	"A"	"rs129414"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43623395	"C"	"G"	"rs129415"	"COSM3759243"	"urinary tract"	"carcinoma"	NA	"SCUBE1"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	43623395	"C"	"G"	"rs129415"	"COSM3759243"	"pancreas"	"carcinoma"	"ductal carcinoma"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43623395	"C"	"G"	"rs129415"	"COSM3759243"	"thyroid"	"other"	"neoplasm"	"SCUBE1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43623395	"C"	"G"	"rs129415"	"COSM3759243"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCUBE1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	43625225	"G"	"T"	"rs34045808"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43658684	"A"	"G"	"rs781001749"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43936219	"C"	"T"	"rs61995890"	"COSM4997932"	"pancreas"	"carcinoma"	"ductal carcinoma"	"EFCAB6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	43976396	"G"	"A"	"rs9614382"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	43986134	"T"	"C"	"rs45466597"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44022578	"C"	"A"	"rs110618"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44068193	"G"	"A"	"rs77136801"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44074076	"G"	"GA"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44079680	"G"	"A"	"rs137794"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44083327	"GT"	"G"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44112845	"C"	"T"	"rs5764234"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44229492	"G"	"C"	"rs138069"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44282276	"A"	"G"	"rs739231"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44282307	"G"	"A"	"rs739232"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44285428	"G"	"A"	"rs62226145"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44285667	"G"	"A"	"rs713864"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44285765	"A"	"G"	"rs2017461"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44287062	"A"	"G"	"rs2071884"	"COSM445094"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"PNPLA5"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	44287062	"A"	"G"	"rs2071884"	"COSM445094"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PNPLA5"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	44322922	"T"	"G"	"rs2076213"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44322970	"G"	"T"	"rs2076212"	"COSM3759246"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PNPLA3"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	44322970	"G"	"T"	"rs2076212"	"COSM3759246"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"PNPLA3"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	44324676	"A"	"G"	"rs139051"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44342116	"A"	"G"	"rs2294918"	"COSM4156373"	"pancreas"	"carcinoma"	"ductal carcinoma"	"PNPLA3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	44342116	"A"	"G"	"rs2294918"	"COSM4156373"	"thyroid"	"other"	"neoplasm"	"PNPLA3"	"Confirmed somatic variant"	NA	NA	NA
+"22"	44364594	"C"	"T"	"rs5764434"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44368204	"A"	"G"	"rs3177036"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44368728	"A"	"ATT"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44372069	"G"	"A"	"rs2073084"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44372632	"C"	"T"	"rs14315"	"COSM149311"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SAMM50"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	44372632	"C"	"T"	"rs14315"	"COSM149311"	"stomach"	"carcinoma"	"adenocarcinoma"	"SAMM50"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	44379822	"T"	"C"	"rs10452"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44379838	"A"	"G"	"rs8418"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44489868	"T"	"C"	"rs1983609"	"COSM4004956"	"urinary tract"	"carcinoma"	NA	"PARVB_ENST00000338758"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	44489868	"T"	"C"	"rs1983609"	"COSM4004957"	"urinary tract"	"carcinoma"	NA	"PARVB"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	44489896	"T"	"C"	"rs738479"	"COSM4156375"	"thyroid"	"other"	"neoplasm"	"PARVB"	"Confirmed somatic variant"	NA	NA	NA
+"22"	44489896	"T"	"C"	"rs738479"	"COSM4156374"	"thyroid"	"other"	"neoplasm"	"PARVB_ENST00000338758"	"Confirmed somatic variant"	NA	NA	NA
+"22"	44559715	"GA"	"G"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44585003	"C"	"G"	"rs200993379"	"COSM3842839"	"breast"	"carcinoma"	NA	"PARVG"	"Confirmed somatic variant"	NA	NA	NA
+"22"	44585003	"C"	"G"	"rs200993379"	"COSM3842839"	"breast"	"carcinoma"	NA	"PARVG"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	44586522	"C"	"T"	"rs2272942"	"COSM3759247"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PARVG"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	44594476	"T"	"C"	"rs139151"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44594584	"C"	"G"	"rs139152"	"COSM3759248"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PARVG"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	44602172	"T"	"C"	"rs3842785"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	44602229	"A"	"C"	"rs139186"	"COSM3722941"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"PARVG"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	44602229	"A"	"C"	"rs139186"	"COSM3722941"	"thyroid"	"other"	"neoplasm"	"PARVG"	"Confirmed somatic variant"	NA	NA	NA
+"22"	44602229	"A"	"C"	"rs139186"	"COSM3722941"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"PARVG"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45128232	"T"	"C"	"rs8141631"	"COSM4156376"	"thyroid"	"other"	"neoplasm"	"PRR5_ENST00000403581"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45128232	"T"	"C"	"rs8141631"	"COSM4156377"	"thyroid"	"other"	"neoplasm"	"PRR5"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45128232	"T"	"C"	"rs8141631"	"COSM4156378"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRR5_ENST00000432186"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	45128232	"T"	"C"	"rs8141631"	"COSM4156377"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRR5"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	45128232	"T"	"C"	"rs8141631"	"COSM4156378"	"thyroid"	"other"	"neoplasm"	"PRR5_ENST00000432186"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45128232	"T"	"C"	"rs8141631"	"COSM4156376"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRR5_ENST00000403581"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	45128288	"G"	"C"	"rs5764979"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45218223	"C"	"T"	"rs136662"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45221423	"A"	"T"	"rs3209476"	"COSM3766720"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"ARHGAP8"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	45221423	"A"	"T"	"rs3209476"	"COSM3766721"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"PRR5-ARHGAP8"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	45255580	"G"	"C"	"rs7510897"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45255630	"T"	"C"	"rs61756769"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45255637	"G"	"C"	"rs6007344"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45255644	"G"	"T"	"rs78823624"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45255688	"C"	"T"	"rs73176189"	"COSM1416755"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PRR5-ARHGAP8"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	45255688	"C"	"T"	"rs73176189"	"COSM1416754"	"large intestine"	"carcinoma"	"adenocarcinoma"	"ARHGAP8"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	45258333	"C"	"G"	"rs9614957"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45258495	"A"	"G"	"rs8777"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45279003	"G"	"A"	"rs78473374"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45309653	"C"	"T"	"rs3213527"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45683246	"C"	"T"	"rs2673088"	"COSM4156382"	"thyroid"	"other"	"neoplasm"	"UPK3A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45683304	"G"	"C"	"rs1057353"	"COSM4004958"	"urinary tract"	"carcinoma"	NA	"UPK3A"	"Confirmed somatic variant"	NA	"bladder"	NA
+"22"	45683304	"G"	"C"	"rs1057353"	"COSM4004958"	"thyroid"	"other"	"neoplasm"	"UPK3A"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45728596	"G"	"A"	"rs73169241"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45923827	"A"	"G"	"rs136730"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45927112	"A"	"G"	"rs2239844"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45927220	"C"	"G"	"rs6006768"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45931262	"C"	"T"	"rs2071938"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45937061	"G"	"A"	"rs136756"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002204"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"FBLN1_ENST00000348697"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002202"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FBLN1_ENST00000262722"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002204"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FBLN1_ENST00000348697"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002201"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"FBLN1"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002202"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"FBLN1_ENST00000262722"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002201"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FBLN1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002203"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"FBLN1_ENST00000442170"	"Confirmed somatic variant"	NA	NA	NA
+"22"	45937149	"C"	"T"	"rs9682"	"COSM4002203"	"haematopoietic and lymphoid tissue"	"lymphoid neoplasm"	"diffuse large B cell lymphoma"	"FBLN1_ENST00000442170"	"Confirmed somatic variant"	"surgery-fixed"	NA	"recurrent"
+"22"	45946329	"T"	"C"	"rs775871554"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46643023	"A"	"C"	"rs55641018"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46644168	"A"	"G"	"rs9627281"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46644177	"G"	"A"	"rs61748935"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46652737	"G"	"A"	"rs6008362"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46652929	"G"	"A"	"rs6008365"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46652959	"A"	"G"	"rs4508712"	"COSM4002205"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"PKDREJ"	"Confirmed somatic variant"	NA	NA	NA
+"22"	46654323	"G"	"A"	"rs6007740"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46655925	"T"	"C"	"rs73177053"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46655948	"T"	"C"	"rs6008384"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46656246	"T"	"G"	"rs7291444"	"COSM4999170"	"pancreas"	"carcinoma"	"ductal carcinoma"	"PKDREJ"	"Confirmed somatic variant"	NA	NA	NA
+"22"	46656479	"A"	"G"	"rs6519993"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46656511	"A"	"G"	"rs9627324"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46656607	"G"	"A"	"rs8143066"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46656805	"G"	"A"	"rs6519994"	"COSM1416853"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PKDREJ"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	46657261	"A"	"G"	"rs6007747"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46657798	"A"	"G"	"rs6007748"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46719054	"T"	"C"	"rs8135305"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46722400	"T"	"C"	"rs140054"	"COSM3766725"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"GTSE1_ENST00000454366"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	46722400	"T"	"C"	"rs140054"	"COSM3766726"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"GTSE1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	46724558	"T"	"C"	"rs140053"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46762360	"G"	"A"	"rs56325154"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46765181	"G"	"GTCAGGTCGCCGAC"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46773124	"T"	"C"	"rs73177077"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	46929692	"A"	"G"	"rs4823561"	"COSM3766728"	"bone"	"osteosarcoma"	NA	"CELSR1"	"Confirmed somatic variant"	"surgery - NOS"	"femur"	NA
+"22"	46929692	"A"	"G"	"rs4823561"	"COSM3766728"	"thyroid"	"other"	"neoplasm"	"CELSR1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	46929692	"A"	"G"	"rs4823561"	"COSM3766728"	"liver"	"carcinoma"	"hepatocellular carcinoma"	"CELSR1"	"Confirmed somatic variant"	"fresh/frozen - NOS"	NA	"primary"
+"22"	46931077	"G"	"C"	"rs4823850"	"COSM3759278"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CELSR1"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	46931077	"G"	"C"	"rs4823850"	"COSM3759278"	"thyroid"	"other"	"neoplasm"	"CELSR1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	46931793	"G"	"C"	"rs1009154"	"COSM3759279"	"thyroid"	"other"	"neoplasm"	"CELSR1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	46931793	"G"	"C"	"rs1009154"	"COSM3759279"	"large intestine"	"carcinoma"	"adenocarcinoma"	"CELSR1"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	46931838	"G"	"A"	"rs1009155"	"COSM4156395"	"thyroid"	"other"	"neoplasm"	"CELSR1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	47058992	"T"	"C"	"rs2542040"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47064665	"C"	"T"	"rs9616088"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47064837	"A"	"C"	"rs2076711"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47068929	"TG"	"T"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47070571	"C"	"G"	"rs765462301"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47095409	"C"	"G"	"rs6007953"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47116905	"G"	"A"	"rs12166204"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	47274638	"C"	"T"	"rs131869"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50277835	"T"	"C"	"rs910796"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50277883	"A"	"G"	"rs910797"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50278438	"A"	"G"	"rs910798"	"COSM4156405"	"thyroid"	"other"	"neoplasm"	"ZBED4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50278568	"A"	"G"	"rs910799"	"COSM4156406"	"thyroid"	"other"	"neoplasm"	"ZBED4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50278642	"C"	"T"	"rs910800"	"COSM4156407"	"thyroid"	"other"	"neoplasm"	"ZBED4"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50280136	"T"	"C"	"rs5770755"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50297888	"T"	"C"	"rs3922872"	"COSM4999944"	"pancreas"	"carcinoma"	"ductal carcinoma"	"ALG12"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50301476	"T"	"C"	"rs8135963"	"COSM445148"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ALG12"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50301476	"T"	"C"	"rs8135963"	"COSM445148"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"ALG12"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50302849	"C"	"G"	"rs373571170"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50302850	"A"	"G"	"rs4075331"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50303515	"A"	"C"	"rs9616367"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50303530	"T"	"C"	"rs9616204"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50303533	"C"	"G"	"rs9616368"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50307184	"G"	"T"	"rs11705497"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50312869	"T"	"C"	"rs28562884"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50312979	"C"	"T"	"rs9616382"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50313358	"G"	"C"	"rs8137331"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50313359	"G"	"A"	"rs9616208"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50313438	"T"	"C"	"rs9616388"	"COSM149317"	"stomach"	"carcinoma"	"adenocarcinoma"	"CRELD2"	"Variant of unknown origin"	"fresh/frozen - NOS"	NA	NA
+"22"	50319079	"T"	"G"	"rs11545762"	"COSM4415064"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CRELD2_ENST00000404488"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50319079	"T"	"G"	"rs11545762"	"COSM149318"	"stomach"	"carcinoma"	"adenocarcinoma"	"CRELD2"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	50319079	"T"	"G"	"rs11545762"	"COSM149318"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CRELD2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50319170	"A"	"G"	"rs386518927"	"COSM149319"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CRELD2"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50319170	"A"	"G"	"rs386518927"	"COSM149319"	"stomach"	"carcinoma"	"adenocarcinoma"	"CRELD2"	"Reported in another cancer sample as somatic"	"fresh/frozen - NOS"	NA	NA
+"22"	50319170	"A"	"G"	"rs386518927"	"COSM4415734"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"CRELD2_ENST00000404488"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50356302	"C"	"T"	"rs28691713"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50356555	"T"	"C"	"rs4078443"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50356693	"T"	"C"	"rs4077129"	"COSM445150"	"thyroid"	"other"	"neoplasm"	"PIM3_ENST00000360612"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50436446	"C"	"G"	"rs771172910"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50439194	"C"	"T"	"rs9617090"	"COSM3759283"	"large intestine"	"carcinoma"	"adenocarcinoma"	"IL17REL"	"Confirmed somatic variant"	NA	NA	"primary"
+"22"	50439194	"C"	"T"	"rs9617090"	"COSM3759283"	"large intestine"	"carcinoma"	"adenocarcinoma"	"IL17REL"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50439626	"G"	"A"	"rs9617098"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50506874	"C"	"G"	"rs200163312"	"COSM5631926"	"oesophagus"	"carcinoma"	"squamous cell carcinoma"	"MLC1"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50512617	"C"	"T"	"rs2038048"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50518723	"A"	"G"	"rs79301"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50547247	"A"	"G"	"rs138217"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50555619	"C"	"T"	"rs138222"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50588131	"C"	"T"	"rs138271"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749774"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PANX2_ENST00000395842"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749774"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PANX2_ENST00000395842"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749775"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PANX2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749774"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PANX2_ENST00000395842"	"Confirmed somatic variant"	NA	"rectum"	"primary"
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749775"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PANX2"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749775"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PANX2"	"Confirmed somatic variant"	NA	"rectum"	"primary"
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749774"	"thyroid"	"other"	"neoplasm"	"PANX2_ENST00000395842"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50616656	"T"	"C"	"rs7286904"	"COSM3749775"	"thyroid"	"other"	"neoplasm"	"PANX2"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50635627	"C"	"T"	"rs5771095"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50657010	"C"	"G"	"rs4838864"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50657112	"C"	"T"	"rs11912397"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50658053	"A"	"G"	"rs6537642"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50658424	"T"	"C"	"rs11703226"	"COSM4156444"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TUBGCP6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50658424	"T"	"C"	"rs11703226"	"COSM4156444"	"pancreas"	"carcinoma"	"acinar carcinoma"	"TUBGCP6"	"Confirmed somatic variant"	"surgery fresh/frozen"	NA	NA
+"22"	50658424	"T"	"C"	"rs11703226"	"COSM4156444"	"thyroid"	"other"	"neoplasm"	"TUBGCP6"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50664612	"A"	"G"	"rs4838865"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50682446	"T"	"C"	"rs73187278"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50682865	"G"	"A"	"rs5771270"	"COSM445163"	"haematopoietic and lymphoid tissue"	"haematopoietic neoplasm"	"acute myeloid leukaemia"	"TUBGCP6"	"Confirmed somatic variant"	"blood-bone marrow"	NA	"primary"
+"22"	50684296	"T"	"C"	"rs13058062"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50684312	"G"	"A"	"rs5771271"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50686547	"C"	"G"	"rs756632012"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50688348	"A"	"G"	"rs1555048"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50694297	"A"	"G"	"rs1129880"	"COSM3759291"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MAPK12"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50694297	"A"	"G"	"rs1129880"	"COSM3759292"	"large intestine"	"carcinoma"	"adenocarcinoma"	"MAPK12_ENST00000438835"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50696662	"C"	"T"	"rs73187284"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50704661	"T"	"C"	"rs2076139"	"COSM1751941"	"biliary tract"	"carcinoma"	"adenocarcinoma"	"MAPK11"	"Confirmed somatic variant"	NA	"gallbladder"	NA
+"22"	50704661	"T"	"C"	"rs2076139"	"COSM1751941"	"urinary tract"	"carcinoma"	"transitional cell carcinoma"	"MAPK11"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"bladder"	NA
+"22"	50705059	"A"	"G"	"rs742185"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50705466	"A"	"G"	"rs760748"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50854554	"G"	"T"	"rs765743536"	"COSM1751945"	"urinary tract"	"carcinoma"	"transitional cell carcinoma"	"PPP6R2"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"bladder"	NA
+"22"	50874893	"C"	"T"	"rs13054572"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50876077	"T"	"C"	"rs9306550"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50876235	"T"	"C"	"rs5770779"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50876357	"C"	"G"	"rs5770890"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50877166	"G"	"C"	"rs4824131"	"COSM3759298"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PPP6R2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50877166	"G"	"C"	"rs4824131"	"COSM3759299"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PPP6R2_ENST00000216061"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50878196	"G"	"A"	"rs13057311"	"COSM3759301"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PPP6R2_ENST00000216061"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50878196	"G"	"A"	"rs13057311"	"COSM3759300"	"large intestine"	"carcinoma"	"adenocarcinoma"	"PPP6R2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50882590	"G"	"A"	"rs6010031"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50925771	"G"	"A"	"rs2232879"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50927442	"C"	"A"	"rs62239484"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50927956	"C"	"T"	"rs41280565"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50960682	"C"	"T"	"rs140524"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50961169	"A"	"G"	"rs131813"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50961854	"T"	"C"	"rs2782"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50962208	"T"	"G"	"rs12148"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50962782	"C"	"G"	"rs140523"	"COSM445183"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCO2_ENST00000543927"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"COSM1484348"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SCO2"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"COSM445183"	"upper aerodigestive tract"	"carcinoma"	"squamous cell carcinoma"	"SCO2_ENST00000543927"	"Confirmed somatic variant"	"fresh/frozen - NOS"	"mouth"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"COSM445183"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCO2_ENST00000543927"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"COSM1484348"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCO2"	"Confirmed somatic variant"	NA	"colon"	NA
+"22"	50962782	"C"	"G"	"rs140523"	"COSM1484348"	"large intestine"	"carcinoma"	"adenocarcinoma"	"SCO2"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	50964153	"T"	"C"	"rs131805"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50964236	"G"	"A"	"rs11479"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50966914	"T"	"C"	"rs470119"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	50988062	"G"	"T"	"rs140519"	"COSM3759310"	"breast"	"carcinoma"	"ductal carcinoma"	"KLHDC7B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	50988062	"G"	"T"	"rs140519"	"COSM3759310"	"large intestine"	"carcinoma"	"adenocarcinoma"	"KLHDC7B"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	50988062	"G"	"T"	"rs140519"	"COSM3759309"	"large intestine"	"carcinoma"	"adenocarcinoma"	"KLHDC7B_ENST00000395676"	"Confirmed somatic variant"	NA	"caecum"	NA
+"22"	50988062	"G"	"T"	"rs140519"	"COSM3759309"	"breast"	"carcinoma"	"ductal carcinoma"	"KLHDC7B_ENST00000395676"	"Confirmed somatic variant"	NA	NA	NA
+"22"	51007997	"A"	"G"	"rs748039764"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51008850	"A"	"G"	"rs2073605"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51009953	"C"	"T"	"rs470117"	"COSM4985733"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"CPT1B"	"Variant of unknown origin"	"surgery fresh/frozen"	"striated muscle"	"metastasis"
+"22"	51009953	"C"	"T"	"rs470117"	"COSM4985733"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"CPT1B"	"Variant of unknown origin"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	51009953	"C"	"T"	"rs470117"	"COSM4985733"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"CPT1B"	"Variant of unknown origin"	"surgery fresh/frozen"	"striated muscle"	"primary"
+"22"	51009953	"C"	"T"	"rs470117"	"COSM4985733"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"CPT1B"	"Variant of unknown origin"	"surgery fresh/frozen"	"striated muscle"	"recurrent"
+"22"	51009953	"C"	"T"	"rs470117"	"COSM4985733"	"soft tissue"	"rhabdomyosarcoma"	"alveolar"	"CPT1B"	"Variant of unknown origin"	"cell-line"	"striated muscle"	NA
+"22"	51009953	"C"	"T"	"rs470117"	"COSM4985733"	"soft tissue"	"rhabdomyosarcoma"	"embryonal"	"CPT1B"	"Variant of unknown origin"	"cell-line"	"striated muscle"	NA
+"22"	51011376	"G"	"C"	"rs8142477"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51011933	"T"	"C"	"rs115743514"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51011936	"T"	"C"	"rs131760"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51011937	"A"	"G"	"rs117323981"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51013072	"G"	"A"	"rs1557503"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51015481	"G"	"A"	"rs131759"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51015838	"T"	"C"	"rs3213445"	"COSM5618046"	"breast"	"carcinoma"	"ductal carcinoma"	"CPT1B"	"Confirmed somatic variant"	NA	NA	NA
+"22"	51017713	"G"	"A"	"rs762677"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51018579	"A"	"G"	"rs140514"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51020668	"C"	"A"	"rs86337"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51063987	"G"	"C"	"rs762674"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51064039	"G"	"C"	"rs743616"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51064141	"G"	"A"	"rs762673"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51065524	"C"	"A"	"rs6151413"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51178090	"G"	"A"	"rs2285395"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51182485	"A"	"G"	"rs6009961"	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51208005	"GTC"	"G"	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+"22"	51215185	"C"	"T"	"rs185382477"	NA	NA	NA	NA	NA	NA	NA	NA	NA

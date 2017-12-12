@@ -1,0 +1,133 @@
+[1] " + Looping chromosome with following class:"
+  chromosome
+1  character
+[1] "Second level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping start with following class:"
+    start
+1 integer
+[1] "Second level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping reference with following class:"
+  reference
+1 character
+[1] "Second level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping alternate with following class:"
+  alternate
+1 character
+[1] "Second level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping rsID with following class:"
+       rsID
+1 character
+[1] "Second level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping hgvs with following class:"
+  hgvs
+1 list
+[1] " + + Looping SECOND level class LIST"
+[1] "Third level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping displayConsequenceType with following class:"
+  displayConsequenceType
+1              character
+[1] "Second level is OK"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping consequenceTypes with following class:"
+  consequenceTypes
+1             list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping populationFrequencies with following class:"
+  populationFrequencies
+1                  list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping conservation with following class:"
+  conservation
+1         list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping geneExpression with following class:"
+  geneExpression
+1           list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping geneTraitAssociation with following class:"
+  geneTraitAssociation
+1                 list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping geneDrugInteraction with following class:"
+  geneDrugInteraction
+1                list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping traitAssociation with following class:"
+  traitAssociation
+1             list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "---> + + + + DATAFRAME : Need more loops in level 4"
+[1] "---> + + + + DATAFRAME : Need more loops in level 4"
+[1] "---> + + + + DATAFRAME : Need more loops in level 4"
+[1] "---> + + + + DATAFRAME : Need more loops in level 4"
+[1] "---> + + + + DATAFRAME : Need more loops in level 4"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping functionalScore with following class:"
+  functionalScore
+1            list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping cytoband with following class:"
+  cytoband
+1     list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping repeat. with following class:"
+  repeat.
+1    list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping Third level class LIST"
+[1] "---> + + + + DATAFRAME : Need more loops in level 4"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping clinvar with following class:"
+  clinvar
+1    list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] " + Looping cosmic with following class:"
+  cosmic
+1   list
+[1] " + + Looping SECOND level class LIST"
+[1] " + + + Looping third level class DATAFRAME"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+[1] "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"

@@ -1,0 +1,16 @@
+22_17566158_T_C
+
+list(
+geneName = c("AC006946.17", "IL17RA", "IL17RA", "IL17RA", NA, NA),
+ensemblGeneId = c("ENSG00000273442", "ENSG00000177663", "ENSG00000177663", "ENSG00000177663", NA, NA),
+ensemblTranscriptId = c("ENST00000609791", "ENST00000477874", "ENST00000319363", "ENST00000459971", NA, NA),
+strand = c("+", "+", "+", "+", NA, NA),
+biotype = c("lincRNA", "processed_transcript", "protein_coding", "retained_intron", NA, NA), transcriptAnnotationFlags = list("basic", NULL, c("CCDS", "basic"), NULL, NULL, NULL), 
+
+sequenceOntologyTerms = 
+list(list(accession = "SO:0001632", name = "downstream_variant"),
+list(accession = c("SO:0001619", "SO:0001627"), name = c("non_coding_transcript_variant", "intron_variant")),
+list(accession = "SO:0001627", name = "intron_variant"),
+list(accession = c("SO:0001619", "SO:0001627"), name = c("non_coding_transcript_variant", "intron_variant")),
+list(accession = "SO:0001566", name = "regulatory_region_variant"),
+list(accession = "SO:0001782", name = "TF_binding_site_variant")))
