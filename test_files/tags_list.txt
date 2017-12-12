@@ -1,5 +1,0 @@
- [1] "Transcript"            "Variation"             "Regulation"           
- [4] "TFBS"                  "Protein"               "Region"               
- [7] "Clinical (Deprecated)" "Gene"                  "Meta"                 
-[10] "Xref"                  "Species"               "Genome Sequence"      
-[13] "Variant"               "Clinical"             

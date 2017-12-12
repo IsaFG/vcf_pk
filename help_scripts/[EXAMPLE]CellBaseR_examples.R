@@ -5,9 +5,9 @@
 setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
 
 ############# [FACULTATIVE] Install libraries ###################
-source("https://bioconductor.org/biocLite.R")
-## try http:// if https:// URLs are not supported
-biocLite("cellbaseR")
+# source("https://bioconductor.org/biocLite.R")
+# ## try http:// if https:// URLs are not supported
+# biocLite("cellbaseR")
 
 ############# [CODE] Load libraries ###################
 library(cellbaseR)
@@ -42,4 +42,19 @@ res3 <- getClinical(object=cb,param=cbParam)
 ################ bach ###############
 cb <- CellBaseR()
 res <- getVariant(object=cb, ids="19:45411941:T:C", resource="annotation")
-chr <- 
+
+
+###### getCellBaseResourceHelp #######
+cb <- CellBaseR()
+# Get help about what resources are available to the getGene method
+getCellBaseResourceHelp(cb, subcategory="gene")
+# Get help about what resources are available to the getRegion method
+getCellBaseResourceHelp(cb, subcategory="region")
+# Get help about what resources are available to the getXref method
+getCellBaseResourceHelp(cb, subcategory="id")
+
+getCellBaseResourceHelp(cb, subcategory="variant")
+getCellBaseResourceHelp(cb, subcategory="clinical")
+
+res <- getMeta(object=cb, resource="species")
+res[1,]
