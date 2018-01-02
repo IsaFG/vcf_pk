@@ -130,6 +130,10 @@ getSpecAnnotTable <- function(specific_annot, annotVariants_table) {
     # print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")# testing line
   }
   print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")# testing line
+  
+  # Eliminate possible duplicate rows in table
+  specific_annot_table <- unique(specific_annot_table)
+  
   return(specific_annot_table)
 }
 
