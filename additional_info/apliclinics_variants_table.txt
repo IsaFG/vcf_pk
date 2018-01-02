@@ -1,0 +1,616 @@
+1. Select Insert > Data Function...
+	Source function: Vcf Loader.
+		Type: Integromics Python DataFunction Executor.
+		Input parameters:
+			input_vcf:
+				Type: Value.
+				Description:
+					Path to input VCF file
+				Required.
+				Allowed data types:
+					String
+			annotator_config:
+				Type: Value.
+				Description:
+					The VariantAnnotator JSON configuration
+				Required.
+				Allowed data types:
+					String
+			vcfloader_config:
+				Type: Value.
+				Description:
+					The VcfLoader JSON configuration
+				Required.
+				Allowed data types:
+					String
+			input_bam:
+				Type: Value.
+				Description:
+					Path to input BAM file
+				Optional.
+				Allowed data types:
+					String
+			run_coverage_analysis:
+				Type: Value.
+				Description:
+					Flag that indicates to run the coverage analysis over the BAM file or not.
+				Optional.
+				Allowed data types:
+					Boolean
+			input_bed:
+				Type: Value.
+				Description:
+					Path to input BED file
+				Optional.
+				Allowed data types:
+					String
+			gap_coverage_threshold:
+				Type: Value.
+				Description:
+					Coverage gap threshold
+				Optional.
+				Allowed data types:
+					Integer
+		Output parameters:
+			variants:
+				Type: Table.
+				Description:
+					Output variants table
+			igv_files:
+				Type: Value.
+				Description:
+					Property to set files to be loaded into IGV
+			coverage_gene_summary:
+				Type: Table.
+				Description:
+					Coverage gene summary table
+			coverage_gaps:
+				Type: Table.
+				Description:
+					Coverage gaps table
+			sequenced_region:
+				Type: Table.
+				Description:
+					Sequenced region table
+			coverage_distribution:
+				Type: Table.
+				Description:
+					Coverage distribution table
+		Caching is enabled.
+		Settings:
+			PythonPath: C:\Users\GonzalDX\AppData\Local\TIBCO\Spotfire\6.0.0\Modules\ApliClinics.Tool_1.1.8518.4655\Python;C:\Users\GonzalDX\AppData\Local\TIBCO\Spotfire\6.0.0\Modules\ApliClinics.Tool_1.1.8518.4655\Third Party\Python\x64.
+			Script: '''
+ApliClinics back-end data function orchestrates the execution of the coverage analysis, variant annotation and VCF loader modules.
+
+Inputs:
+* input_vcf [string]: absolute path to the input VCF
+* annotator_config [string]: annotator JSON configuration
+* vcfloader_config [string]: VCF loader JSON configuration
+* input_bam [string]: absolute path to the input BAM
+* run_coverage_analysis [boolean]: flag to indicate if coverage analysis should be computed
+* input_bed [string]: absolute parg to the BED file
+* gap_coverage_threshold [integer]: low coverage threshold that indicates the value that determines a coverage gap
+
+Outputs:
+* variants [DataTable]: the main output variants table
+* igv_files [string]: the list of files to be loaded in IGV genome browser
+* coverage_gene_summary [DataTable]: the gene coverage metrics table
+* coverage_gaps [DataTable]: the coverage gaps per gene table
+* sequenced_region [DataTable]: the sequenced region table (equivalente to the input BED)
+* coverage_distribution [DataTable]: depth of coverage frequency distribution table
+
+pablo.riesgo@integromics.com
+
+'''
+
+import loader.vcf2tab.GenericVcfLoader as vcfLoader
+import annotator.Annotator as annotator
+import coverage_analysis.avg_coverage_per_gene as avg_coverage_per_gene
+import coverage_analysis.parallelization as parallelization
+import pandas as pd
+import numpy as np
+import json
+import os, os.path
+import ctypes  # An included library with Python install.
+from multiprocessing import Process, Pipe
+import time
+import sys
+import pysam
+import tempfile
+
+# Spotfire tables structure. All table columns and types are defined here so this model never changes.
+# Annotations are added on execution time from the VCF loader configuration
+variants_columns = {"Sample": "String",
+"Chr":"String",
+"Start":"Integer",
+"End":"Integer",
+"Ref":"String",
+"Alt":"String"
+}
+coverage_gene_summary_columns = {"Gene":"String",
+"Total coverage":"Real",
+"Average coverage":"Real",
+"Coverage minimum":"Integer",
+"Coverage maximum":"Integer",
+"Granular Q1":"Real",
+"Granular median":"Real",
+"Granular Q3":"Real",
+"% above 1":"Real",
+"% above 5":"Real",
+"% above 10":"Real",
+"% above threshold":"Real", 
+"Sample":"String"
+}
+coverage_gaps_columns = {"Chromosome":"String",
+"Start":"Integer",
+"End":"Integer",
+"Gene":"String",
+"Sample":"String"
+}
+sequenced_region_columns = {"Chromosome":"String",
+"Start":"Integer",
+"End":"Integer",
+"Gene":"String",
+"Sample":"String"
+}
+coverage_distribution_columns = {"Depth":"Integer",
+"Abundance":"Integer",
+"Sample":"String"
+}
+
+# Method to create an empty data frame following a defined structure.
+def create_empty_data_frame (columns_dict):
+	data_frame = pd.DataFrame(columns=columns_dict.keys())
+	data_frame = set_column_types(data_frame, columns_dict)
+	return data_frame
+
+# Method to set the correct column types in a given data frame.
+def set_column_types (data_frame, columns_dict):
+	for key, value in columns_dict.iteritems():
+		if value == "Real":
+			data_frame[key] =  data_frame[key].astype(float)
+		elif value == "Integer":
+			data_frame[key] =  data_frame[key].astype(int)
+		elif value == "Boolean":
+			data_frame[key] =  data_frame[key].astype(bool)
+		elif value == "String" and key == "Sample":
+			data_frame[key] =  data_frame[key].astype(str)
+	return data_frame
+	
+# Method to delete a temporary file
+def delete_temp_file(temp_file):
+	try:
+		os.remove(temp_file)
+	except:
+		ctypes.windll.user32.MessageBoxA(0, str(e), "Temporary file could not be deleted. Please delete it manually: " + temp_file, 0)
+
+
+# adds the annotations and their types to the Spotfire table structure
+values = json.loads(vcfloader_config).values()
+for value in values:
+	variants_columns[value['columnName']] = value['type']
+	
+# Checks empty VCF input and creates empty table for that case with the correct header and type
+if input_vcf is None or input_vcf == "" or str(input_vcf) == "nan":
+	variants = create_empty_data_frame(variants_columns)
+	coverage_gene_summary = create_empty_data_frame(coverage_gene_summary_columns)
+	coverage_gaps = create_empty_data_frame(coverage_gaps_columns)
+	sequenced_region = create_empty_data_frame(sequenced_region_columns)
+	coverage_distribution = create_empty_data_frame(coverage_distribution_columns)
+	# TODO: setting this property to a comma is due to an existing bug in the PythonExecutor that converts an empty string to an empty numeric value
+	igv_files = ","
+	# show warning when empty input
+	ctypes.windll.user32.MessageBoxA(0, "Empty or no VCF. Loading empty table.", "No VCF", 0)
+	
+# Non empty VCF input
+else:
+	start = time.time()
+	# Sets the property with the appropriate paths for the IGV integration
+	igv_files_list = []
+	if input_bam is not None and input_bam != "" and str(input_bam) != "nan":
+		if not os.path.isfile(input_bam + ".bai") and not os.path.isfile(input_bam[:-4] + ".bai"):
+			# show warning when no index
+			ctypes.windll.user32.MessageBoxA(0, "The selected BAM does not have a BAI index, you won't be able to run the coverage analysis or load it into IGV.", "No BAI index", 0)
+			# TODO: create index. Currently it fails due to pysam windows compilation
+			#pysam.index(input_bam)
+			run_coverage_analysis = False
+		else:
+			igv_files_list.append(input_bam)
+		
+		if input_bed is None or input_bed == "" or str(input_bed) == "nan":
+			if run_coverage_analysis:
+				ctypes.windll.user32.MessageBoxA(0, "Coverage analysis will not run as no BED was provided", "No BED file", 0)
+			run_coverage_analysis = False
+	else:
+		if run_coverage_analysis:
+			ctypes.windll.user32.MessageBoxA(0, "Coverage analysis will not run as no BAM was provided", "No BAM file", 0)
+		run_coverage_analysis = False
+	 
+	if not os.path.isfile(input_vcf + ".idx") and not os.path.isfile(input_vcf + ".tbi"):
+		# show warning when no index
+		pass
+		#ctypes.windll.user32.MessageBoxA(0, "The selected VCF does not have a IDX index, you won't be able to load it into IGV.", "No IDX index", 0)
+	else:
+		igv_files_list.append(input_vcf)
+	igv_files = str(",".join(igv_files_list))
+	
+	# TODO: setting this property to a comma is due to an existing bug in the PythonExecutor that converts an empty string to an empty numeric value
+	if igv_files =="":
+		igv_files = ","
+	
+	# Coverage analysis module call
+	if run_coverage_analysis:
+		# calls the coverage analysis as an independent thread
+		parent_conn, child_conn = Pipe()
+		process = Process(target=parallelization.run_coverage_analysis, args=(child_conn, input_bed, gap_coverage_threshold, input_bam))
+		process.start()
+	
+	# Annotator module call
+	try:
+		#annotated_vcf = "./annotated.vcf"
+		fileTemp = tempfile.NamedTemporaryFile(delete = False)
+		fileTemp.close()
+		annotated_vcf = fileTemp.name
+
+		annotator.main(["-i", input_vcf, 
+			  "-o", annotated_vcf, 
+			  "-d", annotator_config])
+	except Exception, e:
+		ctypes.windll.user32.MessageBoxA(0, str(e), "Error at annotation", 0)
+		sys.exit("Error at annotation")
+
+	# VCF loader module call
+	try:
+		#output_tab = "./output.tab"
+		fileTemp = tempfile.NamedTemporaryFile(delete = False)
+		fileTemp.close()
+		output_tab = fileTemp.name
+		vcfLoader.main(["-i", annotated_vcf,
+						"-o", output_tab,
+						"-d", vcfloader_config])
+	except Exception, e:
+		ctypes.windll.user32.MessageBoxA(0, str(e), "Error converting VCF to table", 0)
+		sys.exit("Error converting VCF to table")
+
+	# reads the variant annotation output in the output variable that will move into the table
+	try:
+		variants = pd.read_csv(output_tab, sep="\\t", header=0)
+		variants = set_column_types(variants, variants_columns)
+	except Exception, e:
+		ctypes.windll.user32.MessageBoxA(0, str(e), "Error loading variants table into Spotfire", 0)
+		sys.exit("Error loading variants table into Spotfire")
+	
+	# Only tries to read data from coverage analysis if it has been run
+	if run_coverage_analysis:
+		# synchronize with coverage analysis thread
+		try:
+			(coverage_gene_summary_file, coverage_gaps_file, sequenced_region_file, coverage_distribution_file) = parent_conn.recv()
+			process.join()
+		except Exception, e:
+			# the error must have been notified from the coverage analysis thread
+			ctypes.windll.user32.MessageBoxA(0, str(e), "Unexpected error synchronizing with coverage analysis", 0)
+			sys.exit("Unexpected error synchronizing with coverage analysis")
+	
+		# reads the coverage analysis output in the output variable that will move into the table
+		try:
+			coverage_gene_summary = pd.read_csv(coverage_gene_summary_file, sep="\\t", header=0)
+			coverage_gene_summary = set_column_types(coverage_gene_summary, coverage_gene_summary_columns)
+		except Exception, e:
+			ctypes.windll.user32.MessageBoxA(0, str(e), "Error loading coverage summary table into Spotfire", 0)
+			sys.exit("Error loading coverage summary table into Spotfire")
+		try:
+			coverage_gaps = pd.read_csv(coverage_gaps_file, sep="\\t", header=0)
+			coverage_gaps = set_column_types(coverage_gaps, coverage_gaps_columns)
+		except Exception, e:
+			ctypes.windll.user32.MessageBoxA(0, str(e), "Error loading coverage gaps table into Spotfire", 0)
+			sys.exit("Error loading coverage gaps table into Spotfire")
+		try:
+			sequenced_region = pd.read_csv(sequenced_region_file, sep="\\t", header=0)
+			sequenced_region = set_column_types(sequenced_region, sequenced_region_columns)
+		except Exception, e:
+			ctypes.windll.user32.MessageBoxA(0, str(e), "Error loading sequenced region table into Spotfire", 0)
+			sys.exit("Error loading sequenced region table into Spotfire")
+		try:
+			coverage_distribution = pd.read_csv(coverage_distribution_file, sep="\\t", header=0)
+			coverage_distribution = set_column_types(coverage_distribution, coverage_distribution_columns)
+		except Exception, e:
+			ctypes.windll.user32.MessageBoxA(0, str(e), "Error loading coverage distribution table into Spotfire", 0)
+			sys.exit("Error loading coverage distribution table into Spotfire")
+		
+		# Deletes coverage analysis temporary files
+		delete_temp_file(coverage_gene_summary_file)
+		delete_temp_file(coverage_gaps_file)
+		delete_temp_file(sequenced_region_file)
+		delete_temp_file(coverage_distribution_file)
+	
+	# create coverage analysis empty tables with the correct headers and types when coverage analysis did not run
+	else:
+		coverage_gene_summary = create_empty_data_frame(coverage_gene_summary_columns)
+		coverage_gaps = create_empty_data_frame(coverage_gaps_columns)
+		sequenced_region = create_empty_data_frame(sequenced_region_columns)
+		coverage_distribution = create_empty_data_frame(coverage_distribution_columns)
+	
+	
+	# delete the temporary files
+	delete_temp_file(annotated_vcf)
+	delete_temp_file(output_tab)
+	
+	end = time.time()
+	
+	# Final confirmation message
+	ctypes.windll.user32.MessageBoxA(0, str(len(variants.index)) + " variants were loaded in " + str(end-start) + "secs.", "Data loaded", 0).
+	Manual update.
+	Inputs:
+		annotator_config:
+			Input expression: 'DocumentProperty("annotator.config")'.
+		input_bed:
+			Input expression: 'DocumentProperty("input.bed")'.
+		run_coverage_analysis:
+			Input expression: 'DocumentProperty("run.coverage.analysis")'.
+		input_vcf:
+			Input expression: 'DocumentProperty("input.vcf")'.
+		gap_coverage_threshold:
+			Input expression: 'DocumentProperty("gap.coverage.threshold")'.
+		vcfloader_config:
+			Input expression: 'DocumentProperty("vcfloader.config")'.
+		input_bam:
+			Input expression: 'DocumentProperty("input.bam")'.
+	Outputs:
+		coverage_distribution:
+			Replace data for table 'coverage_distribution'.
+		variants:
+			Replace data for table 'variants'.
+		coverage_gene_summary:
+			Replace data for table 'coverage_analysis_gene_summary'.
+		sequenced_region:
+			Replace data for table 'sequenced_region'.
+		coverage_gaps:
+			Replace data for table 'coverage_analysis_gaps'.
+		igv_files:
+			Updating document property 'Integromics.apiclinic.files'.
+2. Insert > Calculated Column...
+	Name: score_effect
+	Expression: case  
+when [Effect]~="minus_1_frameshift_variant" then 1.0 
+when [Effect]~="minus_2_frameshift_variant" then 1.0 
+when [Effect]~="plus_1_frameshift_variant" then 1.0 
+when [Effect]~="plus_2_frameshift_variant" then 1.0 
+when [Effect]~="inframe_codon_gain" then 0.4 
+when [Effect]~="inframe_codon_loss" then 0.4 
+when [Effect]~="splice_region_variant" then 0.4 
+when [Effect]~="splice_acceptor_variant" then 0.4 
+when [Effect]~="splice_donor_variant" then 0.4 
+when [Effect]~="splice_donor_5th_base_variant" then 0.4 
+when [Effect]~="stop_gained" then 1.0 
+when [Effect]~="stop_lost" then 1.0 
+when [Effect]~="initiator_codon_change" then 1.0 
+when [Effect]~="conservative_missense_codon" then 0.6 
+when [Effect]~="nonconservative_missense_codon" then 0.8
+else 0.0
+end
+3. Insert > Calculated Column...
+	Name: Rank
+	Expression: case  when ([score_effect] * 0.3) + ([score_AF] * 0.2) + ([score_CADD] * 0.3) + ([max_conservation] * 0.2) is not null then (
+ [score_effect] * 0.3) + ([score_AF] * 0.2) + (Real([score_CADD]) * 0.3) + ([max_conservation] * 0.2)
+else 0.0
+end
+4. Insert > Calculated Column...
+	Name: max_AF
+	Expression: case  when Max(Real([1000g AF]),Real([ESP65000 AF])) is not null then 
+        Max(Real([1000g AF]),Real([ESP65000 AF]))
+else 0.0
+end
+5. Insert > Calculated Column...
+	Name: score_AF
+	Expression: case  
+when [max_AF] is null then 1 
+when [max_AF]<=0.01 then 1 
+when [max_AF]<=0.1 then 0.8 
+when [max_AF]>0.1 then 0
+else 1.0
+end
+6. Insert > Calculated Column...
+	Name: max_conservation
+	Expression: case  when Max(Real([GERP]),Real([PhyloP 46way primate]),Real([Phast 46way primate])) is not null then 
+        Max(Real([GERP]),Real([PhyloP 46way primate]),Real([Phast 46way primate]))
+else 0.0
+end
+7. Insert > Calculated Column...
+	Name: is_snp
+	Expression: case  
+when Len([Ref])>1 then 0 
+when Len([Alt])>1 then 0
+else 1
+end
+8. Insert > Calculated Column...
+	Name: is_indel
+	Expression: case  
+when [is_snp]=1 then 0 
+when [is_snp]=0 then 1
+else 0
+end
+9. Insert > Calculated Column...
+	Name: is_splice_site
+	Expression: case  
+when [Effect]="splice_region_variant" then 1 
+when [Effect]="splice_acceptor_variant" then 1 
+when [Effect]="splice_donor_5th_base_variant" then 1 
+when [Effect]="splice_donor_variant" then 1
+else 0
+end
+10. Insert > Calculated Column...
+	Name: is_missense
+	Expression: case  
+when [Effect]="conservative_missense_codon" then 1 
+when [Effect]="nonconservative_missense_codon" then 1
+else 0
+end
+11. Insert > Calculated Column...
+	Name: is_nonsense
+	Expression: case  
+when [Effect]="stop_gained" then 1 
+when [Effect]="stop_lost" then 1 
+when [Effect]="initiator_codon_change" then 1
+else 0
+end
+12. Insert > Calculated Column...
+	Name: is_frameshift
+	Expression: case  
+when [Effect]="minus_1_frameshift_variant" then 1 
+when [Effect]="minus_2_frameshift_variant" then 1 
+when [Effect]="plus_1_frameshift_variant" then 1 
+when [Effect]="plus_2_frameshift_variant" then 1
+else 0
+end
+13. Insert > Calculated Column...
+	Name: indel_length
+	Expression: case  
+when ([Alt]="-") or ([Alt]="") then -len([Ref]) 
+when len([Ref])>1 then (-len([Ref])) + 1 
+when ([Ref]="-") or ([Ref]="") then len([Alt]) 
+when len([Alt])>1 then len([Alt]) - 1
+else 0
+end
+14. Insert > Calculated Column...
+	Name: is_exonic
+	Expression: case  
+when [Effect]="stop_gained" then 1 
+when [Effect]="stop_lost" then 1 
+when [Effect]="initiator_codon_change" then 1 
+when [Effect]="conservative_missense_codon" then 1 
+when [Effect]="nonconservative_missense_codon" then 1 
+when [Effect]="synonymous_codon" then 1 
+when ([Effect]="splice_region_variant") and ([HGVS aa change]!="") then 1 
+when [Effect]="minus_1_frameshift_variant" then 1 
+when [Effect]="minus_2_frameshift_variant" then 1 
+when [Effect]="plus_1_frameshift_variant" then 1 
+when [Effect]="plus_2_frameshift_variant" then 1 
+when [Effect]="inframe_codon_gain" then 1 
+when [Effect]="inframe_codon_loss" then 1
+else 0
+end
+15. Insert > Calculated Column...
+	Name: is_transition
+	Expression: case  
+when ([Ref]~="A") and ([Alt]~="G") then 1 
+when ([Ref]~="G") and ([Alt]~="A") then 1 
+when ([Ref]~="C") and ([Alt]~="T") then 1 
+when ([Ref]~="T") and ([Alt]~="C") then 1
+else 0
+end
+16. Insert > Calculated Column...
+	Name: is_transversion
+	Expression: case  
+when ([Ref]~="A") and ([Alt]~="C") then 1 
+when ([Ref]~="A") and ([Alt]~="T") then 1 
+when ([Ref]~="G") and ([Alt]~="C") then 1 
+when ([Ref]~="G") and ([Alt]~="T") then 1 
+when ([Ref]~="C") and ([Alt]~="A") then 1 
+when ([Ref]~="C") and ([Alt]~="G") then 1 
+when ([Ref]~="T") and ([Alt]~="A") then 1 
+when ([Ref]~="T") and ([Alt]~="G") then 1
+else 0
+end
+17. Insert > Calculated Column...
+	Name: is_novel
+	Expression: case  
+when ([dbSNP] is Null) or ([dbSNP]="") then 1
+else 0
+end
+18. Insert > Calculated Column...
+	Name: is_het
+	Expression: case  when [Zygosity]="heterozygous" then 1
+else 0
+end
+19. Insert > Calculated Column...
+	Name: is_hom
+	Expression: case  when [Zygosity]="homozygous" then 1
+else 0
+end
+20. Insert > Calculated Column...
+	Name: freq_classification
+	Expression: case  
+when ([dbSNP] is Null) or ([dbSNP]="") then "novel" 
+when ([max_AF] is not null) and ([max_AF]<0.01) then "rare" 
+when ([max_AF] is not null) and ([max_AF]>=0.01) and ([max_AF]<=0.05) then "low frequency" 
+when ([max_AF] is not null) and ([max_AF]>0.05) then "common"
+else "other"
+end
+21. Insert > Calculated Column...
+	Name: indel_type
+	Expression: case  
+when [indel_length]>0 then "insertion" 
+when [indel_length]<0 then "deletion"
+else ""
+end
+22. Insert > Calculated Column...
+	Name: is_insertion
+	Expression: case  
+when ([indel_length]>0) and ([is_indel]=1) then 1
+else 0
+end
+23. Insert > Calculated Column...
+	Name: is_deletion
+	Expression: case  
+when ([indel_length]<0) and ([is_indel]=1) then 1
+else 0
+end
+24. Insert > Calculated Column...
+	Name: Position
+	Expression: Concatenate([Chr],":",[Start])
+25. Insert > Calculated Column...
+	Name: unique_id
+	Expression: Concatenate([Sample],"-",[Chr],"-",[Start],"-",[Ref],"-",[Alt])
+26. Insert > Calculated Column...
+	Name: SuperEffect
+	Expression: case  
+
+when [Effect]="3_prime_UTR_variant" then "Non coding" 
+when [Effect]="5_prime_UTR_variant" then "Non coding" 
+when [Effect]="intron_variant" then "Non coding" 
+when [Effect]="intergenic_variant" then "Non coding" 
+when [Effect]="regulatory_region_variant" then "Non coding" 
+when [Effect]="nc_transcript_variant" then "Non coding" 
+when [Effect]="upstream_gene_variant" then "Non coding" 
+when [Effect]="downstream_gene_variant" then "Non coding" 
+
+when [Effect]="synonymous_codon" then "Coding synonymous" 
+
+when [Effect]="splice_region_variant" then "Splicing" 
+when [Effect]="splice_acceptor_variant" then "Splicing" 
+when [Effect]="splice_donor_5th_base_variant" then "Splicing" 
+when [Effect]="splice_donor_variant" then "Splicing" 
+
+when [Effect]="minus_1_frameshift_variant" then "Coding modifier" 
+when [Effect]="minus_2_frameshift_variant" then "Coding modifier" 
+when [Effect]="plus_1_frameshift_variant" then "Coding modifier" 
+when [Effect]="plus_2_frameshift_variant" then "Coding modifier" 
+when [Effect]="inframe_codon_gain" then "Coding modifier" 
+when [Effect]="inframe_codon_loss" then "Coding modifier" 
+when [Effect]="inframe_variant" then "Coding modifier" 
+when [Effect]="frameshift_variant" then "Coding modifier" 
+when [Effect]="stop_gained" then "Coding modifier" 
+when [Effect]="stop_lost" then "Coding modifier" 
+when [Effect]="initiator_codon_change" then "Coding modifier" 
+when [Effect]="nonsynonymous_variant" then "Coding modifier" 
+when [Effect]="conservative_missense_codon" then "Coding modifier" 
+when [Effect]="nonconservative_missense_codon" then "Coding modifier" 
+when [Effect]="MNV" then "Coding modifier" 
+when [Effect]="corrupt_reference" then "Coding modifier"
+
+else "Non coding"
+end
+27. Insert > Hierarchy Column...
+	Name: Effect hierarchy
+	Add columns:
+		SuperEffect
+		Effect
+28. Insert > Calculated Column...
+	Name: Relative Coverage Percentage
+	Expression: Integer(RXReplace([Relative Coverage],"/.*","","")) / Integer(RXReplace([Relative Coverage],".*/","",""))
+29. Insert > Calculated Column...
+	Name: score_CADD
+	Expression: case  when [CADD] is not null then 
+        [CADD]
+else 0.0
+end

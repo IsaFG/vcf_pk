@@ -1,0 +1,2 @@
+Count([geneName]) as [# variants], 
+Count([is_indel]) as [# indels]

@@ -1,0 +1,23 @@
+1. Select File > Add Data Tables...
+    Source: Data loaded from file
+    Type: Text
+    Location: D:\src\variant_annotator\resources\disease_association\refseq\refseq.GRCh37.genes.txt
+    Last reload: Unknown
+2. Select Insert > Columns...
+    Source: Data table from current analysis
+    Data table: coverage_analysis_gene_summary
+    Update behavior: Manual
+    Last reload: Unknown
+    Matching behavior: Tries to match the specified columns when data is loaded.
+    Matched columns: Gene name – Gene
+    Ignored columns: (None)
+    Join method: Left outer join
+    Treat empty values as equal: No
+3. Edit > Data Table Properties > Relations
+    Added relation: [variants].[Gene name] – [genes].[Gene name]
+    Added relation: [refseq CDS].[gene_name] – [genes].[Gene name]
+    Added relation: [refseq exons].[gene_name] – [genes].[Gene name]
+    Added relation: [refseq introns].[gene_name] – [genes].[Gene name]
+    Added relation: [coverage_analysis_gaps].[Gene] – [genes].[Gene name]
+    Added relation: [genes].[Gene name] – [clinvar_20140902].[Gene]
+    Added relation: [genes].[Gene name] – [clinvar_20140902_pathogenic].[Gene]

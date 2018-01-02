@@ -1,0 +1,37 @@
+case  
+
+when [SO_effect]="3_prime_UTR_variant" then "Non coding" 
+when [SO_effect]="5_prime_UTR_variant" then "Non coding" 
+when [SO_effect]="intron_variant" then "Non coding" 
+when [SO_effect]="intergenic_variant" then "Non coding" 
+when [SO_effect]="regulatory_region_variant" then "Non coding" 
+when [SO_effect]="nc_transcript_variant" then "Non coding" 
+when [SO_effect]="upstream_gene_variant" then "Non coding" 
+when [SO_effect]="downstream_gene_variant" then "Non coding" 
+
+when [SO_effect]="synonymous_codon" then "Coding synonymous" 
+
+when [SO_effect]="splice_region_variant" then "Splicing" 
+when [SO_effect]="splice_acceptor_variant" then "Splicing" 
+when [SO_effect]="splice_donor_5th_base_variant" then "Splicing" 
+when [SO_effect]="splice_donor_variant" then "Splicing" 
+
+when [SO_effect]="minus_1_frameshift_variant" then "Coding modifier" 
+when [SO_effect]="minus_2_frameshift_variant" then "Coding modifier" 
+when [SO_effect]="plus_1_frameshift_variant" then "Coding modifier" 
+when [SO_effect]="plus_2_frameshift_variant" then "Coding modifier" 
+when [SO_effect]="inframe_codon_gain" then "Coding modifier" 
+when [SO_effect]="inframe_codon_loss" then "Coding modifier" 
+when [SO_effect]="inframe_variant" then "Coding modifier" 
+when [SO_effect]="frameshift_variant" then "Coding modifier" 
+when [SO_effect]="stop_gained" then "Coding modifier" 
+when [SO_effect]="stop_lost" then "Coding modifier" 
+when [SO_effect]="initiator_codon_change" then "Coding modifier" 
+when [SO_effect]="nonsynonymous_variant" then "Coding modifier" 
+when [SO_effect]="conservative_missense_codon" then "Coding modifier" 
+when [SO_effect]="nonconservative_missense_codon" then "Coding modifier" 
+when [SO_effect]="MNV" then "Coding modifier" 
+when [SO_effect]="corrupt_reference" then "Coding modifier"
+
+else "Non coding"
+end

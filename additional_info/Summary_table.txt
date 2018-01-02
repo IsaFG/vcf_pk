@@ -1,0 +1,7 @@
+Sum(is_snp)
+Sum(is_missense)
+Sum(is_nonsense)
+Sum(is_indel)
+Sum(is_frameshifts)
+Avg(Average coverage)
+Avg(% above threshold)
