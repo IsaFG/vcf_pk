@@ -1,9 +1,8 @@
-############## [INFO] SCRIPT 0 General information ############
-# Create an R script capable of reading in a vcf formatted file
-# and extracting a list of variants.
+############## [INFO] SCRIPT 1 General information ############
+# Read in a vcf formatted file and extract a list of variants.
 
 ############## [INFO] Input and Output ############################
-# INPUT : a VCF file. 
+# INPUT : a VCF file (not indexed)
 # OUTPUT : a list of variants. The list will be stored as a dataframe. For each variant,
 # the dataframe  will contain the chromosome, the range,
 # the reference allele, the alterate allele
@@ -15,6 +14,13 @@
 # biocLite("GenomicAlignments")
 # biocLite("snpStats")
 # # install.packages("tibble") # could come with VariantAnnotation package ?
+
+# Working directory :
+# Please uncoment the next line changing the working directory by the correct one:
+# working_dir <- "C:\\..."
+
+# R version : please uncoment the next line indicating the location of your current R version:
+# r_version <- "C:/Program Files/R/R-3.4.1"
 
 ########### [INFO] PROBLEMS ########
 # Warning message:
@@ -95,12 +101,12 @@ if (!is.null(isTERR[["TERR.version"]])) {
   library(RinR)
   
   ########### [TIBCO] Determinate R interpreter location ########
-  Rversion <- makeREvaluator("R", RHome = "C:/Program Files/R/R-3.4.1")
+  Rversion <- makeREvaluator("R", RHome = r_version)
   
   ########### [TIBCO] Determinate path of the VCF ##############
   # Ask user to introduce the path to the VCF
   # PENDING CODE OR TIBCO FUNCTION
-  my_vcf <- "C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\samples\\NA12878.chr.22.vcf"
+  my_vcf <- "samples\\NA12878.chr.22.vcf"
   
   ########### [TIBCO] Create the REvaluate object ########
   vcfDataframe <- REvaluate({
@@ -115,15 +121,15 @@ if (!is.null(isTERR[["TERR.version"]])) {
     
     # ############# [RStudio] Set Working directory ############
     # Please uncoment the next line changin the working directory by the correct one:
-    setwd("C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk")
+    setwd(working_dir)
     
     ########### [RStudio] Determinate path of the VCF ##############
     # Please edit the following code line to put the correct path to your VCF
-    my_vcf <- "C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\samples\\NA12878.chr.22.vcf"
+    my_vcf <- "samples\\NA12878.chr.22.vcf"
     
     ########### [RStudio] Get the dataframe ########################
     vcfDataframe <- getvcfDataframe(my_vcf)
     
     ########### [Rstudio] Send the dataframe to a txt file ###################
-    write.table(vcfDataframe,"C:\\Users\\FollonIn\\Documents\\GitHub\\vcf_pk\\test_files\\variants_table.txt",sep="\t",row.names=FALSE)
+    write.table(vcfDataframe,"test_files\\variants_table.txt",sep="\t",row.names=FALSE)
   }
