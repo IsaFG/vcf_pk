@@ -1,6 +1,6 @@
 Reference class 'TabixFile' [package "Rsamtools"] with 4 fields
  $ .extptr  :<externalptr> 
- $ path     : chr "test_files\\indexedVCFfiles\\indexedVCF.2a7827f12c4b"
- $ index    : chr "test_files\\indexedVCFfiles\\indexedVCF.2a7827f12c4b.tbi"
+ $ path     : chr "test_files\\indexedVCFfiles\\indexedVCF.2c8c79ab2681"
+ $ index    : chr "test_files\\indexedVCFfiles\\indexedVCF.2c8c79ab2681.tbi"
  $ yieldSize: int NA
  and 14 methods.

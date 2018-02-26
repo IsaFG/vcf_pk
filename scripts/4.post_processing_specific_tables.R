@@ -149,7 +149,7 @@ if (!is.null(isTERR[["TERR.version"]])) {
   assign(table_name, subAnnotation_df)
   # Print the table in a txt file
   # Works only with basic tables
-  file_path <- paste("test_files\\annotatedTables\\annotated_table_",annotation,subAnnotation, ".txt",sep = "")
+  file_path <- paste("output_files\\annotatedTables\\annotated_table_",annotation,subAnnotation, ".txt",sep = "")
   try(write.table(subAnnotation_df,file_path, append = FALSE, sep="\t",row.names=FALSE))
 
 }

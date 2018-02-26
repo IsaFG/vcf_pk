@@ -195,6 +195,13 @@ if (!is.null(isTERR[["TERR.version"]])) {
 } else {
   ########### [RStudio] Set Working directory ############
   setwd(working_dir)
+  
+  # Check if the directory for output files exists, and create it if needed
+  if (file.exists(file.path(working_dir, "output_files/annotatedTables"))){
+    # do nothing
+  } else {
+    dir.create(file.path(working_dir, "output_files/annotatedTables"))
+  }
 
   ########### [RStudio] Execute main method ###########
   tablesList <- getTablesList(availableAnnots, annotVCFTable)
@@ -207,7 +214,7 @@ if (!is.null(isTERR[["TERR.version"]])) {
     assign(table_name, table_extracted)
     # Print the table in a txt file
     # Works only with basic tables
-    file_path <- paste("test_files\\annotatedTables\\annotated_table_",availableAnnots[i], ".txt",sep = "")
+    file_path <- paste("output_files\\annotatedTables\\annotated_table_",availableAnnots[i], ".txt",sep = "")
     try(write.table(table_extracted,file_path, append = FALSE, sep="\t",row.names=FALSE))
   }
 }

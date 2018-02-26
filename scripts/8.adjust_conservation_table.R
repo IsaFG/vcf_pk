@@ -1,4 +1,4 @@
-########### [INFO] Script 9 General information ############
+########### [INFO] Script 8 General information ############
 # This script will adjust the conservation scores table
 # to unify data in order to have one row per variant
 

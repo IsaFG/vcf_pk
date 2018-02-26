@@ -52,6 +52,6 @@ if (!is.null(isTERR[["TERR.version"]])) {
   caddScoresTable <- adjustcaddScoresTable(functionalScoreTable)
   
   ########### [RStudio] Print the ouput in a txt file ###########
-  try(write.table(caddScoresTable,"test_files\\annotatedTables\\annotated_table_caddScores.txt", append = FALSE, sep="\t",row.names=FALSE))
+  try(write.table(caddScoresTable,"output_files\\annotatedTables\\annotated_table_caddScores.txt", append = FALSE, sep="\t",row.names=FALSE))
   print ("Done!")
 }

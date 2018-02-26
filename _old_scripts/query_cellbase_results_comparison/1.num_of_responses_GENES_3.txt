@@ -1,4 +1,0 @@
-"query"	"numTotalResults"	"numResults"
-"BRCA2"	1	1
-"BRCA1"	1	1
-"KRAS"	1	1
